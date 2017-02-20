@@ -14,11 +14,11 @@ set_post_thumbnail_size( 480, 200, array( 'center', 'center') );
 add_theme_support( 'custom-background' );
 
 // add menu order to posts
-function diemnsion_posts_order() {
+function dimension_posts_order() {
     add_post_type_support( 'post', 'page-attributes' );
 }
 
-add_action( 'admin_init', 'diemnsion_posts_order' );
+add_action( 'admin_init', 'dimension_posts_order' );
 
 
 // enqueue the scripts'n styles... do it right!

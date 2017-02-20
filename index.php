@@ -98,7 +98,7 @@
 						/* Restore original Post Data */
 						wp_reset_postdata();
 					} else {
-						echo '<!-- Main --><div id="main"><p>To add your links, create some new posts! Hello World does not count ;-)</p></div>';
+						echo '<!-- Main --><div id="main-none"><p>To add your links, create some new posts! Hello World does not count ;-)</p></div>';
 					}
 					?>
 								
