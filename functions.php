@@ -191,12 +191,17 @@ function dimension_build_meta_box( $post ){
 <?php
 }
 
-function dimension_save_meta_boxes_data( $post_id ){
-	// got nonce?
-	if ( !isset( $_POST['dimension_meta_box_nonce'] ) || !wp_verify_nonce( $_POST['dimension_meta_box_nonce'], basename( __FILE__ ) ) ) return;
+function dimension_save_meta_boxes_data( $post_id ) {
 
-	// no autosave calls
-	if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) return;
+    // Checks save status
+    $is_autosave = wp_is_post_autosave( $post_id );
+    $is_revision = wp_is_post_revision( $post_id );
+    
+    // got nonce?    
+    $is_valid_nonce = ( isset( $_POST[ 'dimension_meta_box_nonce' ] ) && wp_verify_nonce( $_POST[ 'dimension_meta_box_nonce' ], basename( __FILE__ ) ) ) ? 'true' : 'false';
+ 
+    // Exits if faux save status 
+    if ( $is_autosave || $is_revision || !$is_valid_nonce ) return;
 	
 	// editors only
 	if ( ! current_user_can( 'edit_post', $post_id ) ) return;
@@ -211,7 +216,6 @@ function dimension_save_meta_boxes_data( $post_id ){
 		update_post_meta( $post_id, '_link_fa_icon', sanitize_text_field( $_POST['link_fa_icon'] ) );
 	}
 	
-
 }
 
 add_action( 'save_post', 'dimension_save_meta_boxes_data', 10, 2 );
