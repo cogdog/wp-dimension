@@ -10,8 +10,18 @@
 add_theme_support( 'post-thumbnails' ); 
 set_post_thumbnail_size( 480, 200, array( 'center', 'center') );
 
-// give us custom backgrounds
-add_theme_support( 'custom-background' );
+// give us custom headers (that we will sneakily use as background
+
+$defaults = array(
+	'default-image'          => '',
+	'width'                  => 1568,
+	'height'                 => 1024,
+	'uploads'                => true,
+	'random-default'         => false,
+	'header-text'            => false,
+);
+
+add_theme_support( 'custom-header', $defaults );
 
 // add menu order to posts
 function dimension_posts_order() {
@@ -143,10 +153,10 @@ function dimension_register_theme_customizer( $wp_customize ) {
 
 function dimension_footer_text() {
 	 if ( get_theme_mod( 'footer_text_block') != "" ) {
-	 	echo get_theme_mod( 'footer_text_block');
-	 } else {
-	 	echo 'web work: <a href="http://cog.dog">cog.dog</a> &bull; theme: <a href="https://html5up.net">Dimension by HTML5 UP</a>';
-	 }	
+	 	echo get_theme_mod( 'footer_text_block') . ' &bull; ';
+	 }	else {
+	 	echo '';
+	 }
 }
 
 function dimension_quote_text() {

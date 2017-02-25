@@ -25,16 +25,20 @@ Under `Site Identity` edit to define the headline elements (leave blank to remov
 
 ![](images/customizer-name.jpg "Customizer Name")
 
-### Set Background. So cool!
-Under `Background Image` upload an image (bigger than 1024px wide is best) to place a background image
+### It says Set Headers but it's really Set Background. So sneaky!
+Under `Header Image` upload an image (recommended size 1568 x 1024 px or bigger) to place a background image
 
-![](images/customizer-background.jpg "Background Image")
+![](images/customizer-header.jpg "Header Image")
+
+The reason we use Header image controller, is you can upload more than one image, and use the option to randomize each time.
 
 
 ### Front Quote and Footer
 Under `Dimension Front Text` edit fields to add an optional quote (appears below tagline) and custom footer text
 
 ![](images/customizer-front-text.jpg "Front Text")
+
+Any Footer text added will be placed before the current credits line at the bottom.
 
 ### Front Icon
 Under `Dimension Logo` upload your own image. Amazing!
