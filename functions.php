@@ -6,6 +6,14 @@
    mods by and blame go to http://cog.dog
 */
 
+
+// better title support https://make.wordpress.org/core/2014/10/29/title-tags-in-4-1/
+function dimension_slug_setup() {
+   add_theme_support( 'title-tag' );
+}
+
+add_action( 'after_setup_theme', 'dimension_slug_setup' );
+
 // give us thumbnails and righteous sizes
 add_theme_support( 'post-thumbnails' ); 
 set_post_thumbnail_size( 480, 200, array( 'center', 'center') );
