@@ -10,7 +10,7 @@ The box links below open content overlays (each is a Wordpress post) with option
 
 ## Examples
 
-* Original version created for http://marianafun.es/me
+* Original version created for http://marianafun.es/
 * http://about.digis.im/
 
 ## Installing
