@@ -13,6 +13,7 @@ The box links below open content overlays (each is a Wordpress post) with option
 * Original version created for http://marianafun.es/
 * http://about.digis.im/
 
+
 ## Installing
 
 Downloading this repo as zip can be used to upload as a theme to any hosted Wordpress site. No luck on Wordpress.com, get a real web hosting package.
@@ -64,8 +65,11 @@ You can optional generate the link for the featured image and a bottom button to
 The `Font Awesome Icon Button` can be changed to anything available from [Font Awesome](http://fontawesome.io/icons/). Wild, eh?
 
 
-## Caveat Emptor
-This is a first release! Updates shall be done! Some things on my list:
+## Features / History
 
-* Display and show menu order in the posts view of the Wordpress Editor
+* v1.1 (May 20, 2017) Added shortcodes for link buttons, display and show  order in the posts view of  Wordpress Editor
+* v1.0 (Feb 19, 2017) First release http://cogdogblog.com/2017/02/new-dimension/
+
+### Requests
+
 * *you tell me* Fork and edit to suggest features or [toss them into the Issues bin](https://github.com/cogdog/wp-dimension/issues)

@@ -39,6 +39,75 @@ function dimension_posts_order() {
 add_action( 'admin_init', 'dimension_posts_order' );
 
 
+// add post order to posts
+function dimension_columns_show_columns($name) {
+    global $post;
+
+    switch ($name) {
+        case 'order':
+            $views = $post->menu_order;
+            echo $views;
+            break;
+    }
+}
+
+add_action('manage_posts_custom_column',  'dimension_columns_show_columns');
+
+/* Sort posts in posts view by menu_order in ascending or descending order. */
+
+// h/t http://wordpress.stackexchange.com/questions/66455/how-to-change-order-of-posts-in-admin
+function custom_post_order($query){
+    /* 
+        Set post types.
+        _builtin => true returns WordPress default post types. 
+        _builtin => false returns custom registered post types. 
+    */
+    $post_types = get_post_types(array('_builtin' => true), 'names');
+    /* The current post type. */
+    $post_type = $query->get('post_type');
+    /* Check post types. */
+    if(in_array($post_type, $post_types)){
+        /* Post Column: e.g. title */
+        if($query->get('orderby') == ''){
+            $query->set('orderby', 'menu_order');
+        }
+        /* Post Order: ASC / DESC */
+        if($query->get('order') == ''){
+            $query->set('order', 'ASC');
+        }
+    }
+}
+
+if (is_admin()){
+    add_action('pre_get_posts', 'custom_post_order');
+}
+
+// organize the admin view; removed date / category, insert slide order columns
+// h/t http://stackoverflow.com/questions/27602116/how-to-add-order-column-in-page-admin-wordpress
+
+
+add_filter('manage_posts_columns', 'dimension_columns');
+
+function dimension_columns($columns) {
+
+	$dimension_columns = array(); 
+
+	foreach( $columns as $key => $value) { 
+		
+		if ( $key != 'date' and $key != 'categories' ) $dimension_columns[$key] = $value; 
+		if ( $key== 'title' ) { 
+			$dimension_columns['order'] = ' Box Order';
+		} 
+	}
+	
+    return $dimension_columns;
+}
+
+
+
+
+
+
 // enqueue the scripts'n styles... do it right!
 
 function dimension_scripts() {
@@ -240,4 +309,22 @@ add_action( 'save_post', 'dimension_save_meta_boxes_data', 10, 2 );
 
 
 
+/* --- shortcodes --------------------------------------------------------------------- */
+
+
+// generate a numbered list of slides
+add_shortcode("linkbutton", "dimension_button");  
+
+function dimension_button( $atts ) {  
+ 	
+ 	// use the theme styles to insert a link button. 
+ 	extract( shortcode_atts( array( "url" => "#", "text" => "Go", "special" => "", "icon" => ""), $atts ) );  
+
+	$button_class = 'button';
+	if ( !empty( $special ) ) $button_class .= ' special';
+	if ( !empty( $icon ) ) $button_class .= ' icon ' . $icon;
+	
+	return ('<p class="align-center"><a href="' . $url . '" class="' . $button_class . '">' . $text . '</a></p>');
+
+}
 ?>
