@@ -8,6 +8,11 @@ The box links below open content overlays (each is a Wordpress post) with option
 
 ![Sample Page](images/sample-page.jpg "Sample Page")
 
+Now you can also create standalone WordPress pages in case you have more info than you want to show in a front box, so it can link internally to a full page
+
+
+![Static Page](images/dimension-page.jpg "Static Page")
+
 ## Examples
 
 * Original version created for http://marianafun.es/
@@ -67,6 +72,7 @@ The `Font Awesome Icon Button` can be changed to anything available from [Font A
 
 ## Features / History
 
+* v1.2 (Jun 19, 2017)  Added a page template to create longer content pieces
 * v1.1 (May 20, 2017) Added shortcodes for link buttons, display and show  order in the posts view of  Wordpress Editor
 * v1.0 (Feb 19, 2017) First release http://cogdogblog.com/2017/02/new-dimension/
 

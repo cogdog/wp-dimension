@@ -1436,7 +1436,7 @@
 
 /* Main */
 
-	#main {
+	#main, #pagemain {
 		-moz-flex-grow: 1;
 		-webkit-flex-grow: 1;
 		-ms-flex-grow: 1;
@@ -1465,6 +1465,7 @@
 		max-width: 100%;
 		z-index: 3;
 	}
+	
 
 		#main article {
 			-moz-transform: translateY(0.25rem);
@@ -1483,14 +1484,31 @@
 			border-radius: 4px;
 			opacity: 0;
 		}
+		
+		 #pagemain #staticpage {
+			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
+			position: relative;
+			width: 60rem;
+			max-width: 100%;
+			background-color: rgba(27, 31, 34, 0.85);
+			border-radius: 4px;
+			opacity: 0;
+		 
+		 }
 
-			#main article.active {
+
+		#staticpage .image.main img.wp-post-image {
+			height: auto;
+		}
+
+			#main article.active,  #pagemain #staticpage {
 				-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
 				transform: translateY(0);
 				opacity: 1;
 			}
+
 
 			#main article .close {
 				display: block;
@@ -1534,7 +1552,7 @@
 
 		@media screen and (max-width: 736px) {
 
-			#main article {
+			#main article,  #pagemain #staticpage {
 				padding: 3.5rem 2rem 0.5rem 2rem ;
 			}
 
@@ -1550,7 +1568,7 @@
 
 		@media screen and (max-width: 480px) {
 
-			#main article {
+			#main article, #pagemain #staticpage {
 				padding: 3rem 1.5rem 0.5rem 1.5rem ;
 			}
 

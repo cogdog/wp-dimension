@@ -8,28 +8,31 @@
 
 
 // better title support https://make.wordpress.org/core/2014/10/29/title-tags-in-4-1/
-function dimension_slug_setup() {
+function dimension_setup() {
    add_theme_support( 'title-tag' );
-}
-
-add_action( 'after_setup_theme', 'dimension_slug_setup' );
-
-// give us thumbnails and righteous sizes
-add_theme_support( 'post-thumbnails' ); 
-set_post_thumbnail_size( 480, 200, array( 'center', 'center') );
-
-// give us custom headers (that we will sneakily use as background
-
-$defaults = array(
-	'default-image'          => '',
-	'width'                  => 1568,
-	'height'                 => 1024,
-	'uploads'                => true,
-	'random-default'         => false,
-	'header-text'            => false,
-);
+   
+   // give us thumbnails and righteous sizes
+	add_theme_support( 'post-thumbnails' ); 
+	set_post_thumbnail_size( 480, 200, true );
+	add_image_size( 'page-thumb', 960, 400, true );
+	
+	// give us custom headers (that we will sneakily use as background
+	$defaults = array(
+		'default-image'          => '',
+		'width'                  => 1568,
+		'height'                 => 1024,
+		'uploads'                => true,
+		'random-default'         => false,
+		'header-text'            => false,
+	);
 
 add_theme_support( 'custom-header', $defaults );
+
+}
+
+add_action( 'after_setup_theme', 'dimension_setup' );
+
+
 
 // add menu order to posts
 function dimension_posts_order() {
