@@ -22,7 +22,12 @@ Now you can also create standalone WordPress pages in case you have more info th
 
 ## Installing
 
-Downloading this repo as zip can be used to upload as a theme to any hosted Wordpress site. No luck on Wordpress.com, get a real web hosting package.
+Install these theme on any self hosted Wordpress site. No luck on Wordpress.com, get a real web hosting package.
+
+You should download a ZIP file of this GitHub Repo (that's via the green **Clone or Download*" button above as a file `wp-dimension-master.zip`). 
+
+The zip can be uploaded directly to your site via Add Themes in the Wordpress dashboard. Of you run into size upload limits or just prefer going old school like me, unzip the package and ftp the entire folder into your `wp-content/themes` directory.
+
 
 ## Customizing with the Customizer
 
