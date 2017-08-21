@@ -16,6 +16,7 @@ Now you can also create standalone WordPress pages in case you have more info th
 ## Examples
 
 * Original version created for http://marianafun.es/
+* Nurse Killam http://nursekillam.com/
 * http://about.digis.im/
 * SPLOT demo site http://splot.ca/domains2017/
 
