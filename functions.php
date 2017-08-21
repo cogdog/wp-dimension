@@ -26,12 +26,18 @@ function dimension_setup() {
 		'header-text'            => false,
 	);
 
-add_theme_support( 'custom-header', $defaults );
+	add_theme_support( 'custom-header', $defaults );
 
 }
 
 add_action( 'after_setup_theme', 'dimension_setup' );
 
+
+add_action( 'init', 'dimension_register_my_menu' );
+
+function dimension_register_my_menu() {
+	register_nav_menu( 'dimension-social', __( 'Social Media' ) );
+}
 
 
 // add menu order to posts
@@ -107,10 +113,6 @@ function dimension_columns($columns) {
 }
 
 
-
-
-
-
 // enqueue the scripts'n styles... do it right!
 
 function dimension_scripts() {
@@ -137,8 +139,6 @@ function dimension_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'dimension_scripts' );
-
-
 
 
 /*** Customizer settings to allow editing of a front quote, customizing the footer, and ivon ***/
@@ -247,17 +247,25 @@ function dimension_quote_text() {
 
 /* post meta boxes 
 	https://codex.wordpress.org/Plugin_API/Action_Reference/add_meta_boxes
+	
+	One is for the optional short name for buttons, the second for building yjr
 */
 
-function dimension_add_meta_boxes( $post ){
-	add_meta_box( 'dimension_meta_box', __( 'Link Info', 'dimension' ), 'dimension_build_meta_box', 'post', 'normal', 'high' );
+function dimension_add_meta_boxes( $post ) {
+
+	add_meta_box( 'dimension_meta_box', __( 'Extra Dimension Stuff', 'dimension' ), 'dimension_build_meta_box', 'post', 'normal', 'high' );
 }
+
 add_action( 'add_meta_boxes', 'dimension_add_meta_boxes' );
 
 function dimension_build_meta_box( $post ){
 	
 	wp_nonce_field( basename( __FILE__ ), 'dimension_meta_box_nonce' );
-	
+
+
+	// retrieve the _dimension_link current value
+	$button_label = get_post_meta( $post->ID, '_button_label', true );
+		
 	// retrieve the _dimension_link current value
 	$current_link = get_post_meta( $post->ID, '_dimension_link', true );
 	
@@ -266,8 +274,15 @@ function dimension_build_meta_box( $post ){
 	if ( empty( $current_link_icon ) ) $current_link_icon = 'fa-share';
 	
 	?>
+	
 			<p>
-			<label for="dimension_link" style="font-weight:bold">Destination URL</label><br />
+			<label for="button_label" style="font-weight:bold">Front Box Label</label><br />
+			This is the short name to fit in the box links on the front of the site, if empty it will use the post title.<br />
+			<input type="text" name="button_label" value="<?php echo $button_label; ?>" style="width:100%" />
+			</p>	
+	
+			<p>
+			<label for="dimension_link" style="font-weight:bold">Go Button Destination URL</label><br />
 			<input type="text" name="dimension_link" value="<?php echo $current_link; ?>" style="width:100%" />
 			</p>
 			
@@ -295,6 +310,11 @@ function dimension_save_meta_boxes_data( $post_id ) {
 	
 	// editors only
 	if ( ! current_user_can( 'edit_post', $post_id ) ) return;
+
+	// update button label
+	if ( isset( $_REQUEST['button_label'] ) ) {
+		update_post_meta( $post_id, '_button_label', sanitize_text_field( $_POST['button_label'] ) );
+	}
 	
 	// update link meta data
 	if ( isset( $_REQUEST['dimension_link'] ) ) {
@@ -309,7 +329,6 @@ function dimension_save_meta_boxes_data( $post_id ) {
 }
 
 add_action( 'save_post', 'dimension_save_meta_boxes_data', 10, 2 );
-
 
 
 /* --- shortcodes --------------------------------------------------------------------- */

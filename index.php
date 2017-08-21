@@ -24,6 +24,13 @@
 							<!-- begin front quote (if used) -->
 							<?php dimension_quote_text()?>
 							<!-- end front quote -->
+							
+							<?php 
+								if (  function_exists( 'customizer_social_icons_autoload' ) AND has_nav_menu( 'dimension-social' ) ) {
+									wp_nav_menu( array( 'theme_location' => 'dimension-social', 'menu_class' => 'dsocial' ) );
+								}
+								
+							?>
 						</div>
 					</div>
 					
@@ -48,8 +55,18 @@
 					
 						echo '<nav><ul>';
 						while ( $the_query->have_posts() ) {
+						
+							
 							$the_query->the_post();
-							echo '<li><a href="#' . sanitize_title( get_the_title() ) . '">' . get_the_title() . '</a></li>';
+							
+							$button_label =  get_post_meta( get_the_ID(), '_button_label', true );
+							
+							if ( !empty( $button_label ) ) {
+								echo '<li><a href="#' . sanitize_title( $button_label ) . '">' . $button_label . '</a></li>';	
+							} else {
+							
+								echo '<li><a href="#' . sanitize_title( get_the_title() ) . '">' . get_the_title() . '</a></li>';
+							}
 						}
 						
 						echo '</ul></nav></header>';
@@ -64,10 +81,17 @@
 						
 							while ( $the_query->have_posts() ) {
 								$the_query->the_post();
-								echo '<article id="' . sanitize_title( get_the_title() ) . '"><h2 class="major">' . get_the_title() . '</h2>';
-							
+								
+								$button_label =  get_post_meta( get_the_ID(), '_button_label', true );
 								$the_link = get_post_meta( get_the_ID(), '_dimension_link', true );
 								$fa_icon = get_post_meta( get_the_ID(), '_link_fa_icon', true );
+								
+								
+								if ( !empty( $button_label ) ) {
+									echo '<article id="' . sanitize_title( $button_label ) . '"><h2 class="major">' . get_the_title() . '</h2>';		
+								} else {
+									echo '<article id="' . sanitize_title( get_the_title() ) . '"><h2 class="major">' . get_the_title() . '</h2>';
+								}
 								
 								if ( has_post_thumbnail() ) {
 							
@@ -88,6 +112,8 @@
 									echo '<p class="align-center"><a href="' . $the_link . '" class="button icon ' . $fa_icon . '">Go</a></p>';
 								}
 							
+							
+								edit_post_link('Edit This', '<p class="edit-this"><span class="fa fa-pencil-square-o" aria-hidden="true"></span> ', '</p>');
 								echo '</article>';
 							} // while
 							
