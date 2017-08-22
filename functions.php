@@ -265,7 +265,10 @@ function dimension_build_meta_box( $post ){
 
 	// retrieve the _dimension_link current value
 	$button_label = get_post_meta( $post->ID, '_button_label', true );
-		
+
+	// retrieve the _dimension_link current value
+	$go_button_name = get_post_meta( $post->ID, '_go_button_name', true );
+
 	// retrieve the _dimension_link current value
 	$current_link = get_post_meta( $post->ID, '_dimension_link', true );
 	
@@ -280,14 +283,19 @@ function dimension_build_meta_box( $post ){
 			This is the short name to fit in the box links on the front of the site, if empty it will use the post title.<br />
 			<input type="text" name="button_label" value="<?php echo $button_label; ?>" style="width:100%" />
 			</p>	
-	
+
+
+			<p>
+			<label for="go_button_name" style="font-weight:bold">Go Button Label</label><br />
+			<input type="text" name="go_button_name" value="<?php echo $go_button_name; ?>" style="width:100%" />
+			</p>
+				
 			<p>
 			<label for="dimension_link" style="font-weight:bold">Go Button Destination URL</label><br />
 			<input type="text" name="dimension_link" value="<?php echo $current_link; ?>" style="width:100%" />
 			</p>
 			
 			<p>
-
 			<label for="link_fa_icon"  style="font-weight:bold">Font Awesome Button Icon</label><br />
 			Use a <a href="http://fontawesome.io/icons/" target="_blank">Font Awesome icon</a> on the link button, enter class name e.g. <em>fa-car</em> or <em>fa-share</em><br />
 			<input type="text" name="link_fa_icon" value="<?php echo $current_link_icon; ?>" /> 
@@ -311,11 +319,16 @@ function dimension_save_meta_boxes_data( $post_id ) {
 	// editors only
 	if ( ! current_user_can( 'edit_post', $post_id ) ) return;
 
-	// update button label
+	// update page name label
 	if ( isset( $_REQUEST['button_label'] ) ) {
 		update_post_meta( $post_id, '_button_label', sanitize_text_field( $_POST['button_label'] ) );
 	}
-	
+
+	// update go button label
+	if ( isset( $_REQUEST['go_button_name'] ) ) {
+		update_post_meta( $post_id, '_go_button_name', sanitize_text_field( $_POST['go_button_name'] ) );
+	}
+		
 	// update link meta data
 	if ( isset( $_REQUEST['dimension_link'] ) ) {
 		update_post_meta( $post_id, '_dimension_link', sanitize_text_field( $_POST['dimension_link'] ) );

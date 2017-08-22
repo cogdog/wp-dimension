@@ -33,7 +33,7 @@ The zip can be uploaded directly to your site via Add Themes in the Wordpress da
 
 If you have ftp/sftp access to your site (or this can be done in a cpanel file manager), simply upload the new theme files to the `wp-content/themes` directory that includes the older version theme. 
 
-For those that lack direct file upload access or maybe that idea sends shivers down the spine, upload and activate the [Easy Theme and Plugin Upgrades](https://wordpress.org/plugins/easy-theme-and-plugin-upgrades/) plugin -- this will allow you to upload a newer version of a theme as a ZIP archive.
+For those that lack direct file upload access or maybe that idea sends shivers down the spine, upload and activate the [Easy Theme and Plugin Upgrades](https://wordpress.org/plugins/easy-theme-and-plugin-upgrades/) plugin -- this will allow you to upload a newer version of a theme as a ZIP archive, the same way you add a theme by uploading.
 
 
 ## Customizing with the Customizer
@@ -93,13 +93,17 @@ A featured image os optional, but will appear on the content overlay. The order 
 
 ![](images/post-side-edits.jpg "Sidebar edits")
 
-Look for a few more settings in  **Extra Dimension Stuff** box below the post content. The text entered in `Front Button Label` will be what is used to diplay the link in the box on the front page. If left blank, the theme will use the text of the post title.
 
-You can also enter the optional link for the featured image and a bottom button to go to a designated URL. 
+## Extra "Stuff" on Posts
 
-![](images/extra-dimension-stuff.jpg "Links Info")
+Look for a few more settings in  **Extra Dimension Stuff** box below the post content. The text entered in `Front Button Label` will be what is used to diplay the link in the box on the front page. If left blank, the theme will use the text of the post title. The label allows you to use a longer title when the box opens up.
 
-Enter under `Go Button Destintion URL` the web address the bottom button should link to. The `Font Awesome Icon Button` can be changed to anything available from [Font Awesome](http://fontawesome.io/icons/). Wild, eh?
+You can also enter and optional link applied to the featured image and a bottom button to go to a designated URL. 
+
+![](images/extra-dimension-stuff.jpg "Extra Stuff for posts")
+
+Enter under `Go Button Destintion URL` the web address the bottom button should link to. You can edit the label on the button as well (if left blank it will be `Go`) The `Font Awesome Icon Button` can be changed to anything available from [Font Awesome](http://fontawesome.io/icons/). 
+
 
 ## Note on Featured images
 
