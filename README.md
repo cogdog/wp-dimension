@@ -123,7 +123,7 @@ The featured images displayed for each post will be scaled down to fit a size wi
 
 ## Features / History
 
-* v1.3 (Aug 21, 2017)  Integration of Social Media Icons for the WordPress Customizer plugin to provide a front page display of icons / links for social media sites, new post meta data field option to store an optional short name for the button display, CSS updates for 'aligncenter, alignleft, alignright classes, edit links added to post display.
+* v1.3 (Aug 21, 2017)  Integration of Social Media Icons for the WordPress Customizer plugin to provide a front page display of icons / links for social media sites, new post meta data field option to store an optional short name for the button display, another field to customize the link button label, CSS updates for `aligncenter`, `alignleft`, `alignright classes`, edit links added to post display.
 * v1.2 (Jun 19, 2017)  Added a page template to create longer content pieces
 * v1.1 (May 20, 2017) Added shortcodes for link buttons, display and show  order in the posts view of  Wordpress Editor
 * v1.0 (Feb 19, 2017) First release http://cogdogblog.com/2017/02/new-dimension/
