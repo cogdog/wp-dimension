@@ -108,8 +108,12 @@
 							
 								the_content();	
 							
+								// add the button if we have a URL destination
 								if ( !empty( $the_link ) ) {
-									echo '<p class="align-center"><a href="' . $the_link . '" class="button icon ' . $fa_icon . '">Go</a></p>';
+								
+									$go_button_name = ( !empty( get_post_meta( get_the_ID(), '_go_button_name', true ) ) ) ? get_post_meta( get_the_ID(), '_go_button_name', true ) : 'Go';
+									
+									echo '<p class="align-center"><a href="' . $the_link . '" class="button icon ' . $fa_icon . '">' . $go_button_name .  '</a></p>';
 								}
 							
 							
