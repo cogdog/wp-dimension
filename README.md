@@ -23,13 +23,25 @@ Now you can also create standalone WordPress pages in case you have more info th
 * SPLOT demo site http://splot.ca/domains2017/
 
 
-## Installing
+## Installing from Scratch
 
-Install these theme on any self hosted Wordpress site. No luck on Wordpress.com, get a real web hosting package.
+Install this theme on any self hosted Wordpress site. No luck on Wordpress.com, get a real web hosting package.
 
 You should download a ZIP file of this GitHub Repo (that's via the green **Clone or Download*" button above as a file `wp-dimension-master.zip`). 
 
 The zip can be uploaded directly to your site via Add Themes in the Wordpress dashboard. Of you run into size upload limits or just prefer going old school like me, unzip the package and ftp the entire folder into your `wp-content/themes` directory.
+
+
+## Installing from The Instant Mix
+
+As a new approach for using my themes, I have set up this one as a prebuilt package that includes the theme, initial settings, plugins, and demo content. All you need to be able to do is to install a fresh Wordpress site into the location/domain you want your site.
+
+First [download the Instant Site package file](https://github.com/cogdog/instant-splot/raw/master/noodles/dimension-wpress.zip) and expand the file to reveal the single `*.wpress` file.
+
+Then follow the [Instant SPLOT directions for Using a Packaged Kit](https://github.com/cogdog/instant-splot#got-hosting-use-a-packaged-kit) to import into your new site.
+
+Reference the directions below for customizing (but you have all the plugins it needs already installed). 
+
 
 ## Updating the Theme
 
