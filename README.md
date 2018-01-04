@@ -110,9 +110,9 @@ For example, these are the class names to render the icon for typical social med
 
 With the Font Awesome icons, you can add any site you wish to be represented on the front page and pick the icon you prefer.
 
-**Save** your menu and check out the spiffy icons in the footer.
+**Save** your menu and check out the spiffy icons up front.
 
-![](images/font-awesome-icons.jpg "")
+![](images/front-icons.jpg "")
 
 ## Buttons! On the Bottom!
 
