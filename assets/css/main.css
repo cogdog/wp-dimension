@@ -1653,6 +1653,8 @@ a.post-edit-link {
     border: none;
 }
 
+
+
 ul.dsocial {
     list-style: none;
 }
@@ -1661,11 +1663,25 @@ span.social-network-name {
     display: none;
 }
 
-.menu-social {
-    display: inline;
+ul.dsocial {
+		cursor: default;
+	}
+
+ul.dsocial li {
+	display: inline-block;
+	font-size: 2.5em;
 }
 
-li.menu-social a {
+ul.dsocial li:first-child {
+	margin-left: 0;
+}
+
+.dsocial a {
     border: none;
 }
+
+.fontawesome-text {
+	display:none;
+}
+
 
