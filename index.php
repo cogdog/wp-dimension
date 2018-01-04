@@ -26,7 +26,7 @@
 							<!-- end front quote -->
 							
 							<?php 
-								if (  function_exists( 'customizer_social_icons_autoload' ) AND has_nav_menu( 'dimension-social' ) ) {
+								if (  has_nav_menu( 'dimension-social' ) ) {
 									wp_nav_menu( array( 'theme_location' => 'dimension-social', 'menu_class' => 'dsocial' ) );
 								}
 								
