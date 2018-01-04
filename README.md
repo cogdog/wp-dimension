@@ -81,21 +81,38 @@ Under `Dimension Logo` upload your own image. Amazing!
 
 ### Social Media Icons
 
-To have a customized set of icon links, install and activate the [Customizer Social Icons](https://wordpress.org/plugins/customizer-social-icons/) plugin. This allows you to create a menu of links to social media sites.
+> **NOTE** Previous versions of this theme recommended the [Customizer Social Icons](https://wordpress.org/plugins/customizer-social-icons/) plugin but it conflicts with the current version of Wordpress and make the Customizer unusable. If you have this plugin, Deactivate it and delete it.  You will not lose your menus, just follow the instructions below to modify your menu to work with a different plugin.
 
-Open the Customizer, and look under Menus to add a new menu. Under **Display Location** check the box for `Social Media`. Now when you look at the menus, open the entry for this new menu and click **+ Add Items**
+To have a customized set of icon links on the front of the site, install and activate the [Font Awesome 4 Menus](https://wordpress.org/plugins/font-awesome-4-menus/) plugin. This allows you to add an icon to any menu item.
 
-![](images/social-media-icons-menu.jpg "Social Media Icons")
+From the Wordpress Dashboard look under **Appearances** for **Menus**. Click **create a new menu**  name it whatever you like -- `social` is  a good choice. Under  **Menu Settings** next to **Display Location** check the box for `Social Media`. 
 
-Open the menu under `Social Media Icons` - it will be added as  a new menu item on the list. Open up the new item, and the link to your own address in a particular site:
+To add a social media (or any link), open the panel for **Custom Link**. 
 
-![](images/add-linked-in.jpg "Updating info")
+![](images/add-custom-link.jpg "Adding Menu Items Links")
 
-Menu items can be re-ordered by drag and drop.
+Enter a title for the site and provide the URL that points to your content on that site. Add as many as you like. You can drag and drop them to change the order.
 
-Return to the main screen for the Customizer, and open the panel for **Social Icons**. Here you can select icon styles, color, size, and spacing.
+To set the icon, you must first enable the visibility of CSS classes for each menu item.  Click **Screen Options** in the upper right, and check the box for **CSS Classes**.
 
-![](images/social-icons.jpg "Modifying Social Media Icons")
+![](images/screen-options.jpg "Enabling screen options for menus")
+
+Open an item in your Social Menu and you will now see a field for entering CSS Class names. You have the choice to add from [well over 400 icons in the Font Awesome collection](http://fontawesome.io/icons/). Find the name of the icon you wish to use, and enter it's name as a CSS class with `fa-` in front. 
+
+For example, these are the class names to render the icon for typical social media sites (these should be all lower case):
+
+* fa-twitter
+* fa-facebook
+* fa-youtube
+* fa-linkedin
+* fa-instagram
+* fa-flickr
+
+With the Font Awesome icons, you can add any site you wish to be represented on the front page and pick the icon you prefer.
+
+**Save** your menu and check out the spiffy icons in the footer.
+
+![](images/font-awesome-icons.jpg "")
 
 ## Buttons! On the Bottom!
 
@@ -138,6 +155,7 @@ The featured images displayed for each post will be scaled down to fit a size wi
 
 ## Features / History
 
+* v1.4 (Jan  3, 2018)  Deprecated use of Customizer Social Icons plugin and re-wrote instructions to use Font-Awesome 4 Menus
 * v1.3 (Aug 21, 2017)  Integration of Social Media Icons for the WordPress Customizer plugin to provide a front page display of icons / links for social media sites, new post meta data field option to store an optional short name for the button display, another field to customize the link button label, CSS updates for `aligncenter`, `alignleft`, `alignright classes`, edit links added to post display.
 * v1.2 (Jun 19, 2017)  Added a page template to create longer content pieces
 * v1.1 (May 20, 2017) Added shortcodes for link buttons, display and show  order in the posts view of  Wordpress Editor
