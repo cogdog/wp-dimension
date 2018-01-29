@@ -31,18 +31,6 @@ You should download a ZIP file of this GitHub Repo (that's via the green **Clone
 
 The zip can be uploaded directly to your site via Add Themes in the Wordpress dashboard. Of you run into size upload limits or just prefer going old school like me, unzip the package and ftp the entire folder into your `wp-content/themes` directory.
 
-
-## Installing from The Instant Mix
-
-As a new approach for using my themes, I have set up this one as a prebuilt package that includes the theme, initial settings, plugins, and demo content. All you need to be able to do is to install a fresh Wordpress site into the location/domain you want your site.
-
-First [download the Instant Site package file](https://github.com/cogdog/instant-splot/raw/master/noodles/dimension-wpress.zip) and expand the file to reveal the single `*.wpress` file.
-
-Then follow the [Instant SPLOT directions for Using a Packaged Kit](https://github.com/cogdog/instant-splot#got-hosting-use-a-packaged-kit) to import into your new site.
-
-Reference the directions below for customizing (but you have all the plugins it needs already installed). 
-
-
 ## Updating the Theme
 
 If you have ftp/sftp access to your site (or this can be done in a cpanel file manager), simply upload the new theme files to the `wp-content/themes` directory that includes the older version theme. 
