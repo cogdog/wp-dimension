@@ -1653,7 +1653,10 @@ a.post-edit-link {
     border: none;
 }
 
-
+image.main img {
+	width: 100%;
+	height: auto;
+}
 
 ul.dsocial {
     list-style: none;
