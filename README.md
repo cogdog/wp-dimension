@@ -28,6 +28,7 @@ Now you can also create standalone WordPress pages in case you have more info th
 * Dan Zuberbier http://dpzuberbier.com/
 * Kim Jaxon http://www.kimjaxon.com/me/
 * Simon Thompson http://about.digis.im/
+* Tim Owens https://timowens.io
 * SPLOT demo site http://splot.ca/domains2017/
 
 
