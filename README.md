@@ -23,6 +23,7 @@ Now you can also create standalone WordPress pages in case you have more info th
 
 ## Examples
 
+* Cowboy flavored demo http://lab.cogdogblog.com/dimension/
 * Mariana Funes http://marianafun.es/
 * Laura Killam http://nursekillam.com/
 * Dan Zuberbier http://dpzuberbier.com/
