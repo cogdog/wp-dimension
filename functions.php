@@ -13,8 +13,9 @@ function dimension_setup() {
    
    // give us thumbnails and righteous sizes
 	add_theme_support( 'post-thumbnails' ); 
-	set_post_thumbnail_size( 480, 200, true );
-	add_image_size( 'page-thumb', 960, 400, true );
+	
+	add_image_size( 'dimension-thumb', 480, 200, array( 'center', 'center') );
+	add_image_size( 'page-thumb', 960, 400, array( 'center', 'center') );
 	
 	// give us custom headers (that we will sneakily use as background
 	$defaults = array(

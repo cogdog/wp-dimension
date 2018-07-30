@@ -25,12 +25,13 @@
 							<?php dimension_quote_text()?>
 							<!-- end front quote -->
 							
+							<!-- begin social menu -->
 							<?php 
-								if (  has_nav_menu( 'dimension-social' ) ) {
-									wp_nav_menu( array( 'theme_location' => 'dimension-social', 'menu_class' => 'dsocial' ) );
-								}
-								
+							if (  has_nav_menu( 'dimension-social' ) ) {
+								wp_nav_menu( array( 'theme_location' => 'dimension-social', 'menu_class' => 'actions' ) );
+							} 
 							?>
+							<!-- end social menu -->
 						</div>
 					</div>
 					
@@ -97,11 +98,11 @@
 							
 									if ( !empty($the_link) ) {
 										echo '<a href="' . $the_link . '"><span class="image main">';
-										the_post_thumbnail();
+										the_post_thumbnail('dimension-thumb');
 										echo '</span></a>';
 									 } else {
 										echo '<span class="image main">';
-										the_post_thumbnail();
+										the_post_thumbnail('dimension-thumb');
 										echo '</span>';
 									 }
 								} // has post thumbnail

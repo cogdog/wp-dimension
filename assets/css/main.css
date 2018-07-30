@@ -664,6 +664,7 @@
 
 			.image.main img {
 				width: 100%;
+				height: auto;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -1653,38 +1654,24 @@ a.post-edit-link {
     border: none;
 }
 
-image.main img {
-	width: 100%;
-	height: auto;
-}
-
-ul.dsocial {
-    list-style: none;
-}
-
-span.social-network-name {
+span.fontawesome-text {
     display: none;
 }
 
-ul.dsocial {
-		cursor: default;
-	}
-
-ul.dsocial li {
-	display: inline-block;
-	font-size: 2.5em;
+ul.actions li {
+    padding: 0 2rem 0 0;
 }
 
-ul.dsocial li:first-child {
-	margin-left: 0;
-}
-
-.dsocial a {
+ul.actions a {
     border: none;
 }
 
-.fontawesome-text {
-	display:none;
+.fa {
+	font-size: 2em;
+
 }
 
+h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
+    width: unset;
+}
 
