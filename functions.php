@@ -13,9 +13,8 @@ function dimension_setup() {
    
    // give us thumbnails and righteous sizes
 	add_theme_support( 'post-thumbnails' ); 
-	
-	add_image_size( 'dimension-thumb', 480, 200, array( 'center', 'center') );
-	add_image_size( 'page-thumb', 960, 400, array( 'center', 'center') );
+	set_post_thumbnail_size( 480, 200, true );
+	add_image_size( 'page-thumb', 960, 400, true );
 	
 	// give us custom headers (that we will sneakily use as background
 	$defaults = array(
@@ -363,4 +362,56 @@ function dimension_button( $atts ) {
 	return ('<p class="align-center"><a href="' . $url . '" class="' . $button_class . '">' . $text . '</a></p>');
 
 }
+
+/**
+ * This function assumes you have a Customizer export file in your theme directory
+ * at 'data/customizer.dat'. That file must be created using the Customizer Export/Import
+ * plugin found here... https://wordpress.org/plugins/customizer-export-import/
+ * h/t - https://gist.github.com/fastlinemedia/9a8070b9a636e38b510f
+ */
+ 
+function splot_import_customizer_settings()
+{
+	// Check to see if the settings have already been imported.
+	$template = get_template();
+	$imported = get_option( $template . '_customizer_import', false );
+	
+	// Bail if already imported.
+	if ( $imported ) {
+		return;
+	}
+	
+	// Get the path to the customizer export file.
+	$path = trailingslashit( get_stylesheet_directory() ) . 'data/customizer.dat';
+	
+	// Return if the file doesn't exist.
+	if ( ! file_exists( $path ) ) {
+		return;
+	}
+	
+	// Get the settings data.
+	$data = @unserialize( file_get_contents( $path ) );
+	
+	// Return if something is wrong with the data.
+	if ( 'array' != gettype( $data ) || ! isset( $data['mods'] ) ) {
+		return;
+	}
+	
+	// Import options.
+	if ( isset( $data['options'] ) ) {
+		foreach ( $data['options'] as $option_key => $option_value ) {
+			update_option( $option_key, $option_value );
+		}
+	}
+	
+	// Import mods.
+	foreach ( $data['mods'] as $key => $val ) {
+		set_theme_mod( $key, $val );
+	}
+	
+	// Set the option so we know these have already been imported.
+	update_option( $template . '_customizer_import', true );
+}
+
+add_action( 'after_switch_theme', 'splot_import_customizer_settings' );
 ?>
