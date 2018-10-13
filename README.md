@@ -8,34 +8,49 @@
 ----- 
 
 
-A configurable Wordpress Theme version of [HTML5up Dimension Theme](https://html5up.net/dimension) made for the internet by [@cogdog](http://cog.dog). It creates a simple, elegant calling card something that looks like
+A configurable Wordpress Theme version of [HTML5up Dimension Theme](https://html5up.net/dimension) made for the internet by [@cogdog](http://cog.dog). It creates a simple, elegant calling card site, something that looks like
 
-![Screenshot of Theme](screenshot.png "Screenshot of Theme")
+![Screenshot of Theme](screenshot.png "Screenshot of Dimension Theme")
 
-The box links below open content overlays (each is a Wordpress post) with optional links to external sites or to a Wordpress Page created on the same site:
+The box links below the headings each open content overlays, each a Wordpress post, internally on the site renamed "Front Boxes": 
 
 ![Sample Page](images/sample-page.jpg "Sample Page")
 
-Now you can also create standalone WordPress pages in case you have more info than you want to show in a front box, so it can link internally to a full page.
-
+Editing options in the posts/front pages provide the means to add a button and link at the bottom that can go ti any URL. You can also create standalone WordPress pages in case you have more info than you want to show in a front box.
 
 ![Static Page](images/dimension-page.jpg "Static Page")
 
 ## Examples
 
+* Bild-Lida (Belonging, Identity, Language, Diversity Research Group (BILD) // Groupe de Recherche Langage, Identité, Diversité, Appartenance (LIDA)) http://bild-lida.ca/
 * Cowboy flavored demo http://lab.cogdogblog.com/dimension/
-* Mariana Funes http://marianafun.es/
-* Laura Killam http://nursekillam.com/
 * Dan Zuberbier http://dpzuberbier.com/
+* Davie Quinn http://eduquinn.com/
+* Debby Tran http://staff.washington.edu/detran/
+* Discover WISR: The Western Institute for Social Research  https://discover.wisr.faberglas.com/blog/
+* Extend Labs Mad Scientists https://extendlabs.ca/
+* Jeff Jaxon http://www.jeffjaxon.com/
+* JR Dingwall https://jrdingwall.ca/
 * Kim Jaxon http://www.kimjaxon.com/me/
+* Kursi Yoga https://kursi-yoga.be/
+* Laura Killam http://nursekillam.com/
+* Lisa Katarina Zimmermann http://lisa-zimmermann-sopran.de/en/
+* Mariana Funes http://marianafun.es/
+* Marie Yvette Lepage, M.S.W., R.S.W. https://www.mylepage.ca/
+* Norm Wright ttp://nostorynorm.com/
+* Origin: Coventry University Art and Design Research Hub  http://origin.coventry.domains/
+* Science in the Learning Gardens http://learning-gardens.org/
 * Simon Thompson http://about.digis.im/
+* SPLOT presentation "A Shotgun Marriage" http://splot.ca/domains2017/
+* Thunder Fairy http://thethunderfairy.com/
 * Tim Owens https://timowens.io
-* SPLOT demo site http://splot.ca/domains2017/
 
+
+[Search for other examples in The Google](https://www.google.ca/search?q="WP+DIMENSION+BASED+ON+HTML5+UP")
 
 ## Installing from Scratch
 
-Install this theme on any self hosted Wordpress site. No luck on Wordpress.com, get a real web hosting package.
+Install this theme on any self hosted Wordpress site. You cannot do this on Wordpress.com, get a real web hosting package.
 
 You should download a ZIP file of this GitHub Repo (that's via the green **Clone or Download*" button above as a file `wp-dimension-master.zip`). 
 
@@ -79,8 +94,6 @@ Under `Dimension Logo` upload your own image. Amazing!
 
 ### Social Media Icons
 
-> **NOTE** Previous versions of this theme recommended the [Customizer Social Icons](https://wordpress.org/plugins/customizer-social-icons/) plugin but it conflicts with the current version of Wordpress and make the Customizer unusable. If you have this plugin, Deactivate it and delete it.  You will not lose your menus, just follow the instructions below to modify your menu to work with a different plugin.
-
 To have a customized set of icon links on the front of the site, install and activate the [Font Awesome 4 Menus](https://wordpress.org/plugins/font-awesome-4-menus/) plugin. This allows you to add an icon to any menu item.
 
 From the Wordpress Dashboard look under **Appearances** for **Menus**. Click **create a new menu**  name it whatever you like -- `social` is  a good choice. Under  **Menu Settings** next to **Display Location** check the box for `Social Media`. 
@@ -95,9 +108,9 @@ To set the icon, you must first enable the visibility of CSS classes for each me
 
 ![](images/screen-options.jpg "Enabling screen options for menus")
 
-Open an item in your Social Menu and you will now see a field for entering CSS Class names. You have the choice to add from [well over 400 icons in the Font Awesome collection](http://fontawesome.io/icons/). Find the name of the icon you wish to use, and enter it's name as a CSS class with `fa-` in front. 
+Open an item in your Social Menu and you will now see a field for entering CSS Class names. You have the choice to add from [the 675 icons in the Font Awesome 4.7 collection](https://fontawesome.com/v4.7.0/icons/). Find the name of the icon you wish to use, and enter it's name as a CSS class with `fa-` in front. 
 
-For example, these are the class names to render the icon for typical social media sites (these should be all lower case):
+For example these are the class names to render the icon for typical social media sites (these should be all lower case):
 
 * fa-twitter
 * fa-facebook
@@ -108,22 +121,30 @@ For example, these are the class names to render the icon for typical social med
 
 With the Font Awesome icons, you can add any site you wish to be represented on the front page and pick the icon you prefer.
 
-**Save** your menu and check out the spiffy icons up front.
+**Save** your menu and check out the spiffy icons up front. 
 
 ![](images/front-icons.jpg "")
 
 ## Buttons! On the Bottom!
 
-The content for the lower row of buttons is driven by plain old posts. You can have up to 8, but 4 or 6 look better.
+The content for the lower row of buttons is driven by plain old posts; inside of WordPress they are named "Front Boxes". You can have up to 8, but 4 or 6 look better.
 
-For each create a post. You can use long titles.
+For each create a new Front Box. You can use long titles.
 
-A featured image os optional, but will appear on the content overlay. The order of the buttons is via the post sidebar option for... **Order**
+A featured image is optional; they will appear on the content overlay for the box. 
+
+The order of the front page boxes is via the post sidebar option in the box labeled "Front Box Properties" for... **Order**
 
 ![](images/post-side-edits.jpg "Sidebar edits")
 
+Use numbers to indicate which ones should appear first, left to right. They do not need to successive numbers, e.g. 1,2,3,4. You will see this listed under "Box Order" when viewing "All Front Boxes" in the WordPress Dashboard.
 
-## Extra "Stuff" on Posts
+![](images/front-boxes.jpg "Front Boxes list view")
+
+
+
+
+## Extra "Stuff" on Front Boxes
 
 Look for a few more settings in  **Extra Dimension Stuff** box below the post content. The text entered in `Front Button Label` will be what is used to diplay the link in the box on the front page. If left blank, the theme will use the text of the post title. The label allows you to use a longer title when the box opens up.
 
@@ -132,6 +153,25 @@ You can also enter and optional link applied to the featured image and a bottom 
 ![](images/extra-dimension-stuff.jpg "Extra Stuff for posts")
 
 Enter under `Go Button Destintion URL` the web address the bottom button should link to. You can edit the label on the button as well (if left blank it will be `Go`) The `Font Awesome Icon Button` can be changed to anything available from [Font Awesome](http://fontawesome.io/icons/). 
+
+## Shortcodes
+
+The same buttons that are placed at the end of content based on the settings above can be added to any post via a shortcode:
+
+
+    [linkbutton 
+       url="https://nationalcowboymuseum.org/awards-halls-of-fame/" 
+       text="Hall of Fame" 
+        icon="fa-trophy"
+    ]
+
+These are made by including in your post code like:
+
+Where:
+
+* **url**is the address to send a visitor to when they click the button.
+* **text** the label for the button
+* **icon** is the [Font Awesome 4.7 name for an optional icon](https://fontawesome.com/v4.7.0/icons/) to include on the button.
 
 
 ## Note on Featured images
@@ -153,6 +193,7 @@ The featured images displayed for each post will be scaled down to fit a size wi
 
 ## Features / History
 
+* v1.5 (Oct 12, 2018) Rebranded WordPress posts internally as "Front Boxes" to better reflect their purpose. A new template for single entries shows a Front Box opened on the home page.
 * v1.4 (Jan  3, 2018)  Deprecated use of Customizer Social Icons plugin and re-wrote instructions to use Font-Awesome 4 Menus
 * v1.3 (Aug 21, 2017)  Integration of Social Media Icons for the WordPress Customizer plugin to provide a front page display of icons / links for social media sites, new post meta data field option to store an optional short name for the button display, another field to customize the link button label, CSS updates for `aligncenter`, `alignleft`, `alignright classes`, edit links added to post display.
 * v1.2 (Jun 19, 2017)  Added a page template to create longer content pieces

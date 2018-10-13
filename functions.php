@@ -7,6 +7,9 @@
 */
 
 
+// --------- theme setup ----------------------------------------------------------------
+add_action( 'after_setup_theme', 'dimension_setup' );
+
 // better title support https://make.wordpress.org/core/2014/10/29/title-tags-in-4-1/
 function dimension_setup() {
    add_theme_support( 'title-tag' );
@@ -30,7 +33,83 @@ function dimension_setup() {
 
 }
 
-add_action( 'after_setup_theme', 'dimension_setup' );
+
+
+// --------- rebrand posts ---------------------------------------------------------------
+
+// change the name of admin menu items from "Posts" to be "Front Boxes"
+// -- h/t https://wordpress.stackexchange.com/a/9224/14945
+
+add_action( 'admin_menu', 'dimension_change_post_label' );
+
+
+// turn 'em from Posts to Collectables
+function dimension_change_post_label() {
+    global $menu;
+    global $submenu;
+    
+    $thing_name = 'Front Box';
+    
+    $menu[5][0] = $thing_name . 'es';
+    $submenu['edit.php'][5][0] = 'All ' . $thing_name . 'es';
+    $submenu['edit.php'][10][0] = 'Add ' . $thing_name;
+    $submenu['edit.php'][15][0] = $thing_name .' Categories';
+    $submenu['edit.php'][16][0] = $thing_name .' Tags';
+    echo '';
+}
+
+// change the prompts and stuff for posts to be relevant to Front Boxes
+
+add_action( 'init', 'dimension_change_post_object' );
+
+function dimension_change_post_object() {
+
+    $thing_name = 'Front Box';
+
+    global $wp_post_types;
+    $labels = &$wp_post_types['post']->labels;
+    $labels->name =  $thing_name . 'es';
+    $labels->singular_name =  $thing_name;
+    $labels->add_new = 'Add ' . $thing_name;
+    $labels->add_new_item = 'Add ' . $thing_name;
+    $labels->edit_item = 'Edit ' . $thing_name;
+    $labels->new_item =  $thing_name;
+    $labels->view_item = 'View ' . $thing_name;
+    $labels->search_items = 'Search ' . $thing_name;
+    $labels->not_found = 'No ' . $thing_name . ' found';
+    $labels->not_found_in_trash = 'No ' .  $thing_name . ' found in Trash';
+    $labels->all_items = 'All ' . $thing_name . 'es';
+    $labels->menu_name =  $thing_name;
+    $labels->name_admin_bar =  $thing_name;
+    $labels->attributes = $thing_name . ' Properties';
+}
+
+// edit the post editing admin messages to reflect use of Front Boxes
+// h/t http://www.joanmiquelviade.com/how-to-change-the-wordpress-post-updated-messages-of-the-edit-screen/
+
+
+add_filter( 'post_updated_messages', 'dimension_post_updated_messages', 10, 1 );
+
+function dimension_post_updated_messages ( $msg ) {
+    $msg[ 'post' ] = array (
+         0 => '', // Unused. Messages start at index 1.
+	 1 => "Front Box updated.",
+	 2 => 'Custom field updated.',  // Probably better do not touch
+	 3 => 'Custom field deleted.',  // Probably better do not touch
+
+	 4 => "Front Box updated.",
+	 5 => "Front Box restored to revision",
+	 6 => "Front Box published.",
+
+	 7 => "Front Box saved.",
+	 8 => "Front Box submitted.",
+	 9 => "Front Box scheduled.",
+	10 => "Front Box draft updated.",
+    );
+    return $msg;
+}
+
+// --------- add menu location -----------------------------------------------------------
 
 
 add_action( 'init', 'dimension_register_my_menu' );
@@ -39,8 +118,10 @@ function dimension_register_my_menu() {
 	register_nav_menu( 'dimension-social', __( 'Social Media' ) );
 }
 
+// --------- ordering boxes --------------------------------------------------------------
 
-// add menu order to posts
+
+// add  order to posts aka "front boxes"
 function dimension_posts_order() {
     add_post_type_support( 'post', 'page-attributes' );
 }
@@ -48,7 +129,7 @@ function dimension_posts_order() {
 add_action( 'admin_init', 'dimension_posts_order' );
 
 
-// add post order to posts
+// add post order to posts aka "front boxes"
 function dimension_columns_show_columns($name) {
     global $post;
 
@@ -60,11 +141,13 @@ function dimension_columns_show_columns($name) {
     }
 }
 
+
+// Sort posts in posts view by menu_order in ascending or descending order.
+// h/t http://wordpress.stackexchange.com/questions/66455/how-to-change-order-of-posts-in-admin
+
 add_action('manage_posts_custom_column',  'dimension_columns_show_columns');
 
-/* Sort posts in posts view by menu_order in ascending or descending order. */
 
-// h/t http://wordpress.stackexchange.com/questions/66455/how-to-change-order-of-posts-in-admin
 function custom_post_order($query){
     /* 
         Set post types.
@@ -112,8 +195,10 @@ function dimension_columns($columns) {
     return $dimension_columns;
 }
 
-
+// --------- scripts and styles ----------------------------------------------------------
 // enqueue the scripts'n styles... do it right!
+
+add_action( 'wp_enqueue_scripts', 'dimension_scripts' );
 
 function dimension_scripts() {
 
@@ -138,9 +223,8 @@ function dimension_scripts() {
 	
 }
 
-add_action( 'wp_enqueue_scripts', 'dimension_scripts' );
 
-
+// --------- Customizer Controls  --------------------------------------------------------
 /*** Customizer settings to allow editing of a front quote, customizing the footer, and ivon ***/
 
 add_action( 'customize_register', 'dimension_register_theme_customizer' );
@@ -222,15 +306,13 @@ function dimension_register_theme_customizer( $wp_customize ) {
 		'settings' => 'dimension_logo',
 ) ) );
 
-
-
  	// Sanitize text
 	function sanitize_text( $text ) {
 	    return sanitize_text_field( $text );
 	}
 }
 
-
+// dispplay footer text
 function dimension_footer_text() {
 	 if ( get_theme_mod( 'footer_text_block') != "" ) {
 	 	echo get_theme_mod( 'footer_text_block') . ' &bull; ';
@@ -239,16 +321,74 @@ function dimension_footer_text() {
 	 }
 }
 
+// display front page quote
 function dimension_quote_text() {
 	 if ( get_theme_mod( 'quote_text_block') != "" ) {
 	 	echo '<p>' . get_theme_mod( 'quote_text_block') . '</p>';
 	 }	
 }
 
-/* post meta boxes 
+/**
+ * This function assumes you have a Customizer export file in your theme directory
+ * at 'data/customizer.dat'. That file must be created using the Customizer Export/Import
+ * plugin found here... https://wordpress.org/plugins/customizer-export-import/
+ * h/t - https://gist.github.com/fastlinemedia/9a8070b9a636e38b510f
+ */
+ 
+ add_action( 'after_switch_theme', 'splot_import_customizer_settings' );
+ 
+function splot_import_customizer_settings()
+{
+	// Check to see if the settings have already been imported.
+	$template = get_template();
+	$imported = get_option( $template . '_customizer_import', false );
+	
+	// Bail if already imported.
+	if ( $imported ) {
+		return;
+	}
+	
+	// Get the path to the customizer export file.
+	$path = trailingslashit( get_stylesheet_directory() ) . 'data/customizer.dat';
+	
+	// Return if the file doesn't exist.
+	if ( ! file_exists( $path ) ) {
+		return;
+	}
+	
+	// Get the settings data.
+	$data = @unserialize( file_get_contents( $path ) );
+	
+	// Return if something is wrong with the data.
+	if ( 'array' != gettype( $data ) || ! isset( $data['mods'] ) ) {
+		return;
+	}
+	
+	// Import options.
+	if ( isset( $data['options'] ) ) {
+		foreach ( $data['options'] as $option_key => $option_value ) {
+			update_option( $option_key, $option_value );
+		}
+	}
+	
+	// Import mods.
+	foreach ( $data['mods'] as $key => $val ) {
+		set_theme_mod( $key, $val );
+	}
+	
+	// Set the option so we know these have already been imported.
+	update_option( $template . '_customizer_import', true );
+}
+
+
+
+
+// --------- Post Meta Boxes  -----------------------------------------------------------
+
+/* add editor boxes for the post/front box labels and vuttons
 	https://codex.wordpress.org/Plugin_API/Action_Reference/add_meta_boxes
 	
-	One is for the optional short name for buttons, the second for building yjr
+	One is for the optional short name for front page didsplay, the second for building bottom buttons
 */
 
 function dimension_add_meta_boxes( $post ) {
@@ -343,11 +483,10 @@ function dimension_save_meta_boxes_data( $post_id ) {
 
 add_action( 'save_post', 'dimension_save_meta_boxes_data', 10, 2 );
 
+// --------- shortcodes  ----------------------------------------------------------------
 
-/* --- shortcodes --------------------------------------------------------------------- */
 
-
-// generate a numbered list of slides
+// generate buttons as needed
 add_shortcode("linkbutton", "dimension_button");  
 
 function dimension_button( $atts ) {  
@@ -363,55 +502,4 @@ function dimension_button( $atts ) {
 
 }
 
-/**
- * This function assumes you have a Customizer export file in your theme directory
- * at 'data/customizer.dat'. That file must be created using the Customizer Export/Import
- * plugin found here... https://wordpress.org/plugins/customizer-export-import/
- * h/t - https://gist.github.com/fastlinemedia/9a8070b9a636e38b510f
- */
- 
-function splot_import_customizer_settings()
-{
-	// Check to see if the settings have already been imported.
-	$template = get_template();
-	$imported = get_option( $template . '_customizer_import', false );
-	
-	// Bail if already imported.
-	if ( $imported ) {
-		return;
-	}
-	
-	// Get the path to the customizer export file.
-	$path = trailingslashit( get_stylesheet_directory() ) . 'data/customizer.dat';
-	
-	// Return if the file doesn't exist.
-	if ( ! file_exists( $path ) ) {
-		return;
-	}
-	
-	// Get the settings data.
-	$data = @unserialize( file_get_contents( $path ) );
-	
-	// Return if something is wrong with the data.
-	if ( 'array' != gettype( $data ) || ! isset( $data['mods'] ) ) {
-		return;
-	}
-	
-	// Import options.
-	if ( isset( $data['options'] ) ) {
-		foreach ( $data['options'] as $option_key => $option_value ) {
-			update_option( $option_key, $option_value );
-		}
-	}
-	
-	// Import mods.
-	foreach ( $data['mods'] as $key => $val ) {
-		set_theme_mod( $key, $val );
-	}
-	
-	// Set the option so we know these have already been imported.
-	update_option( $template . '_customizer_import', true );
-}
-
-add_action( 'after_switch_theme', 'splot_import_customizer_settings' );
 ?>

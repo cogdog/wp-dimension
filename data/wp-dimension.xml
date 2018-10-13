@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.9.7" created="2018-07-30 03:25" -->
+<!-- generator="WordPress/4.9.8" created="2018-10-13 21:00" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -26,10 +26,10 @@
 >
 
 <channel>
-	<title>One Cowboy&#039;s Dimension</title>
+	<title>One Cowboy's Dimension</title>
 	<link>http://lab.cogdogblog.com/dimension</link>
 	<description>Not A Dusty Calling Card</description>
-	<pubDate>Mon, 30 Jul 2018 03:25:00 +0000</pubDate>
+	<pubDate>Sat, 13 Oct 2018 21:00:32 +0000</pubDate>
 	<language>en</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://lab.cogdogblog.com/dimension</wp:base_site_url>
@@ -67,7 +67,7 @@
 	<wp:term><wp:term_id>3</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[social-media]]></wp:term_slug><wp:term_name><![CDATA[Social Media]]></wp:term_name>
 </wp:term>
 
-	<generator>https://wordpress.org/?v=4.9.7</generator>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
 
 	<item>
 		<title>explore-icon</title>
@@ -98,6 +98,68 @@
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2018/07/explore-icon.jpg]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>side-edits</title>
+		<link>http://lab.cogdogblog.com/dimension/uncategorized/my-wild-western-skills/attachment/side-edits/</link>
+		<pubDate>Sat, 13 Oct 2018 20:16:33 +0000</pubDate>
+		<dc:creator><![CDATA[oikoed]]></dc:creator>
+		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/side-edits.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>52</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-13 20:16:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-13 20:16:33]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[side-edits]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>23</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/side-edits.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:600;s:6:"height";i:546;s:4:"file";s:22:"2017/09/side-edits.jpg";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:22:"side-edits-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:22:"side-edits-300x273.jpg";s:5:"width";i:300;s:6:"height";i:273;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:22:"side-edits-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:22:"side-edits-600x400.jpg";s:5:"width";i:600;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"1";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/09/side-edits.jpg]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>front-boxes</title>
+		<link>http://lab.cogdogblog.com/dimension/uncategorized/my-wild-western-skills/attachment/front-boxes/</link>
+		<pubDate>Sat, 13 Oct 2018 20:16:57 +0000</pubDate>
+		<dc:creator><![CDATA[oikoed]]></dc:creator>
+		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/front-boxes.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>53</wp:post_id>
+		<wp:post_date><![CDATA[2018-10-13 20:16:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-10-13 20:16:57]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[front-boxes]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>23</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/front-boxes.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/09/front-boxes.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1024;s:6:"height";i:384;s:4:"file";s:23:"2017/09/front-boxes.jpg";s:5:"sizes";a:6:{s:9:"thumbnail";a:4:{s:4:"file";s:23:"front-boxes-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:23:"front-boxes-300x113.jpg";s:5:"width";i:300;s:6:"height";i:113;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:23:"front-boxes-768x288.jpg";s:5:"width";i:768;s:6:"height";i:288;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:24:"front-boxes-1024x384.jpg";s:5:"width";i:1024;s:6:"height";i:384;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:23:"front-boxes-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:23:"front-boxes-960x384.jpg";s:5:"width";i:960;s:6:"height";i:384;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"1";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -351,116 +413,6 @@
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attachment_is_custom_header]]></wp:meta_key>
 			<wp:meta_value><![CDATA[wp-dimension-master]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Twitter</title>
-		<link>http://lab.cogdogblog.com/dimension/uncategorized/twitter/</link>
-		<pubDate>Sun, 29 Jul 2018 20:00:28 +0000</pubDate>
-		<dc:creator><![CDATA[oikoed]]></dc:creator>
-		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/uncategorized/twitter/</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14</wp:post_id>
-		<wp:post_date><![CDATA[2018-07-29 20:00:28]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-07-29 20:00:28]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[twitter]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="social-media"><![CDATA[Social Media]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[14]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:10:"fa-twitter";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://twitter.com/me]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>YouTube</title>
-		<link>http://lab.cogdogblog.com/dimension/uncategorized/youtube/</link>
-		<pubDate>Sun, 29 Jul 2018 20:00:28 +0000</pubDate>
-		<dc:creator><![CDATA[oikoed]]></dc:creator>
-		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/uncategorized/youtube/</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>15</wp:post_id>
-		<wp:post_date><![CDATA[2018-07-29 20:00:28]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-07-29 20:00:28]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[youtube]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="social-media"><![CDATA[Social Media]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[15]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:10:"fa-youtube";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://youtube.com/channel/me]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -794,97 +746,6 @@
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Hello world!</title>
-		<link>http://lab.cogdogblog.com/dimension/uncategorized/hello-world__trashed/</link>
-		<pubDate>Sun, 29 Jul 2018 15:54:57 +0000</pubDate>
-		<dc:creator><![CDATA[oikoed]]></dc:creator>
-		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/?p=1</guid>
-		<description></description>
-		<content:encoded><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1</wp:post_id>
-		<wp:post_date><![CDATA[2018-07-29 15:54:57]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-07-29 15:54:57]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[hello-world__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1532897515]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-			<wp:meta_value><![CDATA[hello-world]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_comments_status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:1;s:1:"1";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:comment>
-			<wp:comment_id>1</wp:comment_id>
-			<wp:comment_author><![CDATA[Mr WordPress]]></wp:comment_author>
-			<wp:comment_author_email><![CDATA[]]></wp:comment_author_email>
-			<wp:comment_author_url>http://wordpress.org/</wp:comment_author_url>
-			<wp:comment_author_IP><![CDATA[]]></wp:comment_author_IP>
-			<wp:comment_date><![CDATA[2010-06-18 20:51:35]]></wp:comment_date>
-			<wp:comment_date_gmt><![CDATA[2010-06-18 20:51:35]]></wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[Hi, this is a comment.<br />To delete a comment, just log in and view the post&#039;s comments. There you will have the option to edit or delete them.]]></wp:comment_content>
-			<wp:comment_approved><![CDATA[post-trashed]]></wp:comment_approved>
-			<wp:comment_type><![CDATA[]]></wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-		</wp:comment>
-	</item>
-	<item>
-		<title>About</title>
-		<link>http://lab.cogdogblog.com/dimension/about__trashed/</link>
-		<pubDate>Sun, 29 Jul 2018 15:54:57 +0000</pubDate>
-		<dc:creator><![CDATA[oikoed]]></dc:creator>
-		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/?page_id=2</guid>
-		<description></description>
-		<content:encoded><![CDATA[This is an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many pages like this one or sub-pages as you like and manage all of your content inside of WordPress.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>2</wp:post_id>
-		<wp:post_date><![CDATA[2018-07-29 15:54:57]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-07-29 15:54:57]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[about__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1532897505]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-			<wp:meta_value><![CDATA[about]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>About</title>
 		<link>http://lab.cogdogblog.com/dimension/about/</link>
 		<pubDate>Sat, 23 Sep 2017 21:42:40 +0000</pubDate>
@@ -926,6 +787,116 @@ Troque el otro lado. peda balín. furris alipuz. niguas sangrón. como la chinga
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
 			<wp:meta_value><![CDATA[7]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Twitter</title>
+		<link>http://lab.cogdogblog.com/dimension/uncategorized/twitter/</link>
+		<pubDate>Sun, 29 Jul 2018 20:00:28 +0000</pubDate>
+		<dc:creator><![CDATA[oikoed]]></dc:creator>
+		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/uncategorized/twitter/</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>14</wp:post_id>
+		<wp:post_date><![CDATA[2018-07-29 20:00:28]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-07-29 20:00:28]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[twitter]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="social-media"><![CDATA[Social Media]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[14]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:10:"fa-twitter";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[http://twitter.com/me]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>YouTube</title>
+		<link>http://lab.cogdogblog.com/dimension/uncategorized/youtube/</link>
+		<pubDate>Sun, 29 Jul 2018 20:00:28 +0000</pubDate>
+		<dc:creator><![CDATA[oikoed]]></dc:creator>
+		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/uncategorized/youtube/</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>15</wp:post_id>
+		<wp:post_date><![CDATA[2018-07-29 20:00:28]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-07-29 20:00:28]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[youtube]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="social-media"><![CDATA[Social Media]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[15]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:10:"fa-youtube";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[http://youtube.com/channel/me]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1045,15 +1016,19 @@ Troque el otro lado. peda balín. furris alipuz. niguas sangrón. como la chinga
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://connectedcourses.stateu.org/seeds/dimension/?p=19</guid>
 		<description></description>
-		<content:encoded><![CDATA[Kind of self-explanatory, eh? Use the first box to provide a introduction to your big, open self. You can chose to have a brief intro here and link elsewhere. The link from the button below can go to another web site (like a more extensive bio) or even a Wordpress Page in this site.
+		<content:encoded><![CDATA[Kind of self-explanatory, eh? 
 
-The featured image is added to the top and will link to whatever site you want to. These images are hard cropped to be 480 x 200 pixels, so pick a good image where the good stuff is in the middle. 
+Use the first box to provide a introduction to your big, open self. You can chose to have a brief intro here and link elsewhere. The link from the button below can go to another web site (like a more extensive bio) or even a Wordpress Page in this site.
+
+The featured image is added to the top and will link to whatever site you want to. These images are hard cropped to be 480 x 200 pixels, so pick a good image where the good stuff is in the middle.  
 
 Like <a href="https://en.wikipedia.org/wiki/The_Treasure_of_the_Sierra_Madre_(film)">Goldhat</a>, there, isn't he worth a stinking badge?
 
 https://www.youtube.com/watch?v=VqomZQMZQCQ
 
-You might choose to keep these content pieces short and link out for longer pieces, but you can also use the Wordpress Page in this theme as a button link target. Just try this button.]]></content:encoded>
+You might choose to keep these content pieces short and link out for longer pieces, but you can also use the Wordpress Page in this theme as a button link target. 
+
+Just try this button.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>19</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 05:09:52]]></wp:post_date>
@@ -1098,7 +1073,7 @@ You might choose to keep these content pieces short and link out for longer piec
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_oembed_time_4820caea4fea857e15e6f27058375919]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1532920138]]></wp:meta_value>
+			<wp:meta_value><![CDATA[1539451857]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1112,15 +1087,38 @@ You might choose to keep these content pieces short and link out for longer piec
 
 You can completely gut this to customize it (please do not leave it as is), or delete this post and create a new one.
 
-&nbsp;
+<h2>Ordering Boxes</h2>
 
-One of the key features in the editor is the<strong> Post Attributes Box </strong>which allows you to control the order of the posts as they appear as boxes on your set- just use a higher number order to move things to the right, lower to move left.
+One of the key features in the editor is the <strong>Front Box Properties </strong> which allows you to control the order of the posts as they appear as boxes on your set- just use a higher number order to move things to the right, lower to move left.
 
-<img class="aligncenter size-medium wp-image-25" src="http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/post-attributes-box-300x130.jpg" alt="" width="300" height="130" />
+<a href="http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/side-edits.jpg"><img src="http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/side-edits-300x273.jpg" alt="" width="300" height="273" class="aligncenter size-medium wp-image-52" /></a>
 
 This also controls the order in which posts are displayed in the Wordpress Dashboard.
 
-Since this is an ordinary post, it can include:
+<a href="http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/front-boxes.jpg"><img src="http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/front-boxes-1024x384.jpg" alt="" width="100%" class="aligncenter size-large wp-image-53" /></a>
+
+<h2>Short Code Buttons</h2>
+
+In this front box, we are skipping leaving a button and a url to link to because this is so awesome it stands on its own. If there is no entry under <strong>Extra Dimension Stuff</strong> for "Go Button Destination URL" no button is added to the bottom.
+
+But if you really like these buttons, you can use them anywhere in your site using a WordPress shortcodes built into this theme.
+
+[linkbutton url="https://nationalcowboymuseum.org/awards-halls-of-fame/" text="Hall of Fame" icon="fa-trophy"] [linkbutton url="https://en.wikipedia.org/wiki/Billy_the_Kid" text="The Kid" icon="fa-child"] 
+
+These are made by including in your post code like:
+
+<code>&lbrack;linkbutton url="https://nationalcowboymuseum.org/awards-halls-of-fame/" text="Hall of Fame" icon="fa-trophy"&rbrack;</code>
+
+Where:
+<ul>
+	<li><strong>url</strong> is the address to send a visitor to when they click the button.</li>
+	<li><strong>text</strong> the label for the button</li>
+	<li><strong>icon</strong> is the <a href="https://fontawesome.com/v4.7.0/icons/" rel="noopener" target="_blank">Font Awesome 4.7 name for an optional icon</a> to include on the button.</li>
+</ul>
+
+<h2>Content for boxes</h2>
+
+Since a Front Box item is an ordinary WordPress Post, it can include:
 
 &nbsp;
 <ul>
@@ -1128,13 +1126,21 @@ Since this is an ordinary post, it can include:
  	<li>of</li>
  	<li>things</li>
 </ul>
+
+And fancy blockquotes...
+
+<blockquote>"When my time comes, just skin me and put me up there on Trigger, just as though nothing had ever changed."
+-- Roy Rogers</blockquote>
+
+
+
 [caption id="attachment_24" align="aligncenter" width="298"]<img class="size-medium wp-image-24" src="http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/ffa0a3379563b5e467fedc8633bdc485-298x300.jpg" alt="" width="298" height="300" /> uploaded images[/caption]
 
-Even embedded videos
+Even embedded videos! Yee hah!
 
 https://www.youtube.com/watch?v=czGIrp_GsTE
 
-In this box, we are skipping leaving a button and a url to link to because this is so awesome it stands on its own.]]></content:encoded>
+]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>23</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 05:28:15]]></wp:post_date>
@@ -1155,11 +1161,11 @@ In this box, we are skipping leaving a button and a url to link to because this 
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_oembed_5726d62e48f01788d3f2a309a6e5d7cd]]></wp:meta_key>
-			<wp:meta_value><![CDATA[<iframe width="500" height="281" src="https://www.youtube.com/embed/czGIrp_GsTE?feature=oembed" frameborder="0" allowfullscreen></iframe>]]></wp:meta_value>
+			<wp:meta_value><![CDATA[<iframe width="500" height="281" src="https://www.youtube.com/embed/czGIrp_GsTE?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_oembed_time_5726d62e48f01788d3f2a309a6e5d7cd]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1506230780]]></wp:meta_value>
+			<wp:meta_value><![CDATA[1539461872]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
