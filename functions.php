@@ -40,24 +40,6 @@ function dimension_setup() {
 // change the name of admin menu items from "Posts" to be "Front Boxes"
 // -- h/t https://wordpress.stackexchange.com/a/9224/14945
 
-// add_action( 'admin_menu', 'dimension_change_post_label' );
-
-
-// turn 'em from Posts to Collectables
-function dimension_change_post_label() {
-    global $menu;
-    global $submenu;
-    
-    $thing_name = 'Front Box';
-    
-    $menu[5][0] = $thing_name . 'es';
-    $submenu['edit.php'][5][0] = 'All ' . $thing_name . 'es';
-    $submenu['edit.php'][10][0] = 'Add ' . $thing_name;
-    $submenu['edit.php'][15][0] = $thing_name .' Categories';
-    $submenu['edit.php'][16][0] = $thing_name .' Tags';
-    echo '';
-}
-
 // change the prompts and stuff for posts to be relevant to Front Boxes
 
 add_action( 'init', 'dimension_change_post_object' );
