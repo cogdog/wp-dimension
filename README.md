@@ -37,6 +37,7 @@ Editing options in the posts/front pages provide the means to add a button and l
 * Lisa Katarina Zimmermann http://lisa-zimmermann-sopran.de/en/
 * Mariana Funes http://marianafun.es/
 * Marie Yvette Lepage, M.S.W., R.S.W. https://www.mylepage.ca/
+* Matt Croslin https://mattcrosslin.com/
 * Norm Wright ttp://nostorynorm.com/
 * Origin: Coventry University Art and Design Research Hub  http://origin.coventry.domains/
 * Science in the Learning Gardens http://learning-gardens.org/
@@ -186,7 +187,7 @@ The featured images displayed for each post will be scaled down to fit a size wi
 
 * [Font Awesome 4 Menus](https://wordpress.org/plugins/font-awesome-4-menus/) used to add the icons to the social media links below the tag line
 * [Fluid Video Embeds](https://wordpress.org/plugins/fluid-video-embeds/) will make sure your auto embedded videos (and other content wordpress can embed by URL) are responsive sized to fill the column width
-* [Easy Theme and Plugin Upgrades](https://wordpress.org/plugins/easy-theme-and-plugin-upgrades/) allows you yo update the theme by uploading the zip file again as a new server (because wordpress does not provide this capability)
+* [Easy Theme and Plugin Upgrades](https://wordpress.org/plugins/easy-theme-and-plugin-upgrades/) allows you to update the theme by uploading the zip file again as a new server (because wordpress does not provide this capability)
 * [JetPack](https://wordpress.org/plugins/jetpack/) can add a number of capabilities, such as adding a contact form. If you do [create a contact form](https://jetpack.com/support/contact-form/), make sure you also add and activate [Akismet](http://akismet.com/) because *you will get spam*
 * [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/) If you change to this theme from another one, you should run this plug to re-generate previously uploaded images in the specific sizes used by the theme.
 
