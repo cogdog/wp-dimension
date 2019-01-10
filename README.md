@@ -112,7 +112,7 @@ To set the icon, you must first enable the visibility of CSS classes for each me
 
 ![](images/screen-options.jpg "Enabling screen options for menus")
 
-Open an item in your Social Menu and you will now see a field for entering CSS Class names. You have the choice to add from [the 675 icons in the Font Awesome 4.7 collection](https://fontawesome.com/v4.7.0/icons/). Find the name of the icon you wish to use, and enter it's name as a CSS class with `fa-` in front. 
+Open an item in your Social Menu and you will now see a field for entering CSS Class names. You have the choice to add from [well over 1400 icons in the Font Awesome free collection](https://fontawesome.com/icons?d=gallery&m=free). Find the name of the icon you wish to use, and enter it's all of it's class names as listed,
 
 For example these are the class names to render the icon for typical social media sites (these should be all lower case):
 
