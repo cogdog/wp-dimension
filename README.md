@@ -96,7 +96,9 @@ Under `Dimension Logo` upload your own image. Amazing!
 
 ### Social Media Icons
 
-To have a customized set of icon links on the front of the site, install and activate the [Font Awesome 4 Menus](https://wordpress.org/plugins/font-awesome-4-menus/) plugin. This allows you to add an icon to any menu item.
+> **NOTE** Previous versions of the themes used the [Font Awesome 4 Menus](https://wordpress.org/plugins/font-awesome-4-menus/) plugin, which is not compatible with the latest set of [Font Awesome icons](https://fontawesome.com/icons) I have built an update to this plugin in you want access to a larger set of icons. You will also need to add `fab` to the menu class names (see below)
+
+To have a customized set of icon links on the front of the site, download, install and activate the [Font Awesome 5 Menus](https://github.com/cogdog/font-awesome-5-menus) plugin. This allows you to add an icon to any menu item.
 
 From the Wordpress Dashboard look under **Appearances** for **Menus**. Click **create a new menu**  name it whatever you like -- `social` is  a good choice. Under  **Menu Settings** next to **Display Location** check the box for `Social Media`. 
 
@@ -114,18 +116,27 @@ Open an item in your Social Menu and you will now see a field for entering CSS C
 
 For example these are the class names to render the icon for typical social media sites (these should be all lower case):
 
-* fa-twitter
-* fa-facebook
-* fa-youtube
-* fa-linkedin
-* fa-instagram
-* fa-flickr
+* fab fa-twitter
+* fab fa-facebook
+* fab fa-youtube
+* fab fa-linkedin
+* fab fa-instagram
+* fab fa-flickr
 
 With the Font Awesome icons, you can add any site you wish to be represented on the front page and pick the icon you prefer.
 
 **Save** your menu and check out the spiffy icons up front. 
 
 ![](images/front-icons.jpg "")
+
+In addition, if you want to provide a tool tip hover for the icons, look again under  **Screen Options** and enable the option for **Title Attribute**. This adds another editable field to add the tooltip text.
+
+![](images/menu-title-attribute.jpg "")
+
+This provides a tool tip like
+
+![](images/filckr-tip.jpg "")
+
 
 ## Buttons! On the Bottom!
 

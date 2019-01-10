@@ -1663,9 +1663,8 @@ ul.actions a {
     border: none;
 }
 
-.fa {
-	font-size: 2em;
-
+ul.actions li span {
+    font-size: 2rem;
 }
 
 h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {

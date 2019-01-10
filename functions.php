@@ -484,4 +484,8 @@ function dimension_button( $atts ) {
 
 }
 
+// Load plugin requirements file to display admin notices.
+require get_stylesheet_directory() . '/includes/splot-plugins.php';
+
+
 ?>
