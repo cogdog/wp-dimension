@@ -16,13 +16,14 @@ The box links below the headings each open content overlays, each a Wordpress po
 
 ![Sample Page](images/sample-page.jpg "Sample Page")
 
-Editing options in the posts/front pages provide the means to add a button and link at the bottom that can go ti any URL. You can also create standalone WordPress pages in case you have more info than you want to show in a front box.
+Editing options in the posts/front pages provide the means to add a button and link at the bottom that can go to any URL. You can also create standalone WordPress pages in case you have more info than you want to show in a front box.
 
 ![Static Page](images/dimension-page.jpg "Static Page")
 
 ## Examples
 
 * Bild-Lida (Belonging, Identity, Language, Diversity Research Group (BILD) // Groupe de Recherche Langage, Identité, Diversité, Appartenance (LIDA)) http://bild-lida.ca/
+* CogDog (that's me!) https://cog.dog/
 * Cowboy flavored demo http://lab.cogdogblog.com/dimension/
 * Dan Zuberbier http://dpzuberbier.com/
 * Davie Quinn http://eduquinn.com/
