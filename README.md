@@ -24,6 +24,7 @@ Editing options in the posts/front pages provide the means to add a button and l
 
 * Bild-Lida (Belonging, Identity, Language, Diversity Research Group (BILD) // Groupe de Recherche Langage, Identité, Diversité, Appartenance (LIDA)) http://bild-lida.ca/
 * CogDog (that's me!) https://cog.dog/
+* Coventry University Art and Design Skills Hub http://origin.coventry.domains/
 * Cowboy flavored demo http://lab.cogdogblog.com/dimension/
 * Dan Zuberbier http://dpzuberbier.com/
 * Davie Quinn http://eduquinn.com/
@@ -47,6 +48,8 @@ Editing options in the posts/front pages provide the means to add a button and l
 * SPLOT presentation "A Shotgun Marriage" http://splot.ca/domains2017/
 * Thunder Fairy http://thethunderfairy.com/
 * Tim Owens https://timowens.io
+
+
 
 
 [Search for other examples in The Google](https://www.google.ca/search?q="WP+DIMENSION+BASED+ON+HTML5+UP")

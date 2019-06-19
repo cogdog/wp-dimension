@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.9.8" created="2018-10-13 21:00" -->
+	<!-- generator="WordPress/5.1.1" created="2019-03-20 15:04" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,55 +29,58 @@
 	<title>One Cowboy's Dimension</title>
 	<link>http://lab.cogdogblog.com/dimension</link>
 	<description>Not A Dusty Calling Card</description>
-	<pubDate>Sat, 13 Oct 2018 21:00:32 +0000</pubDate>
+	<pubDate>Wed, 20 Mar 2019 15:04:49 +0000</pubDate>
 	<language>en</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://lab.cogdogblog.com/dimension</wp:base_site_url>
 	<wp:base_blog_url>http://lab.cogdogblog.com/dimension</wp:base_blog_url>
 
-	<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[oikoed]]></wp:author_login><wp:author_email><![CDATA[cogdogblog@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[oikoed]]></wp:author_login><wp:author_email><![CDATA[cogdogblog@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
-	<wp:category>
+		<wp:category>
 		<wp:term_id>1</wp:term_id>
 		<wp:category_nicename><![CDATA[uncategorized]]></wp:category_nicename>
 		<wp:category_parent><![CDATA[]]></wp:category_parent>
 		<wp:cat_name><![CDATA[Uncategorized]]></wp:cat_name>
 	</wp:category>
-	<wp:term>
+				<wp:term>
 		<wp:term_id><![CDATA[2]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[link_category]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[blogroll]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Blogroll]]></wp:term_name>
 	</wp:term>
-	<wp:term>
+		<wp:term>
 		<wp:term_id><![CDATA[3]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[nav_menu]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[social-media]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Social Media]]></wp:term_name>
 	</wp:term>
-	<wp:term>
+		<wp:term>
 		<wp:term_id><![CDATA[1]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[uncategorized]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Uncategorized]]></wp:term_name>
 	</wp:term>
-	<wp:term><wp:term_id>3</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[social-media]]></wp:term_slug><wp:term_name><![CDATA[Social Media]]></wp:term_name>
+			<wp:term><wp:term_id>3</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[social-media]]></wp:term_slug><wp:term_name><![CDATA[Social Media]]></wp:term_name>
 </wp:term>
 
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<generator>https://wordpress.org/?v=5.1.1</generator>
 
-	<item>
-		<title>explore-icon</title>
+		<item>
+		<title>
+				explore-icon		</title>
 		<link>http://lab.cogdogblog.com/dimension/explore-icon-2/</link>
 		<pubDate>Sun, 29 Jul 2018 20:26:43 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2018/07/explore-icon.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>30</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-29 20:26:43]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-29 20:26:43]]></wp:post_date_gmt>
@@ -90,25 +93,28 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2018/07/explore-icon.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:256;s:6:"height";i:256;s:4:"file";s:24:"2018/07/explore-icon.jpg";s:5:"sizes";a:3:{s:15:"dimension-thumb";a:4:{s:4:"file";s:24:"explore-icon-256x200.jpg";s:5:"width";i:256;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:24:"explore-icon-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:24:"explore-icon-256x200.jpg";s:5:"width";i:256;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2018/07/explore-icon.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:256;s:6:"height";i:256;s:4:"file";s:24:"2018/07/explore-icon.jpg";s:5:"sizes";a:3:{s:15:"dimension-thumb";a:4:{s:4:"file";s:24:"explore-icon-256x200.jpg";s:5:"width";i:256;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:24:"explore-icon-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:24:"explore-icon-256x200.jpg";s:5:"width";i:256;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2018/07/explore-icon.jpg]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2018/07/explore-icon.jpg]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>side-edits</title>
+							</item>
+					<item>
+		<title>
+				side-edits		</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/my-wild-western-skills/attachment/side-edits/</link>
 		<pubDate>Sat, 13 Oct 2018 20:16:33 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/side-edits.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>52</wp:post_id>
 		<wp:post_date><![CDATA[2018-10-13 20:16:33]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-10-13 20:16:33]]></wp:post_date_gmt>
@@ -121,25 +127,28 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/side-edits.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:600;s:6:"height";i:546;s:4:"file";s:22:"2017/09/side-edits.jpg";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:22:"side-edits-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:22:"side-edits-300x273.jpg";s:5:"width";i:300;s:6:"height";i:273;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:22:"side-edits-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:22:"side-edits-600x400.jpg";s:5:"width";i:600;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"1";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/side-edits.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:600;s:6:"height";i:546;s:4:"file";s:22:"2017/09/side-edits.jpg";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:22:"side-edits-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:22:"side-edits-300x273.jpg";s:5:"width";i:300;s:6:"height";i:273;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:22:"side-edits-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:22:"side-edits-600x400.jpg";s:5:"width";i:600;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"1";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/09/side-edits.jpg]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2017/09/side-edits.jpg]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>front-boxes</title>
+							</item>
+					<item>
+		<title>
+				front-boxes		</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/my-wild-western-skills/attachment/front-boxes/</link>
 		<pubDate>Sat, 13 Oct 2018 20:16:57 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/front-boxes.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>53</wp:post_id>
 		<wp:post_date><![CDATA[2018-10-13 20:16:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-10-13 20:16:57]]></wp:post_date_gmt>
@@ -152,25 +161,28 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/front-boxes.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/09/front-boxes.jpg]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/front-boxes.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2017/09/front-boxes.jpg]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1024;s:6:"height";i:384;s:4:"file";s:23:"2017/09/front-boxes.jpg";s:5:"sizes";a:6:{s:9:"thumbnail";a:4:{s:4:"file";s:23:"front-boxes-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:23:"front-boxes-300x113.jpg";s:5:"width";i:300;s:6:"height";i:113;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:23:"front-boxes-768x288.jpg";s:5:"width";i:768;s:6:"height";i:288;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:24:"front-boxes-1024x384.jpg";s:5:"width";i:1024;s:6:"height";i:384;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:23:"front-boxes-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:23:"front-boxes-960x384.jpg";s:5:"width";i:960;s:6:"height";i:384;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"1";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1024;s:6:"height";i:384;s:4:"file";s:23:"2017/09/front-boxes.jpg";s:5:"sizes";a:6:{s:9:"thumbnail";a:4:{s:4:"file";s:23:"front-boxes-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:23:"front-boxes-300x113.jpg";s:5:"width";i:300;s:6:"height";i:113;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:23:"front-boxes-768x288.jpg";s:5:"width";i:768;s:6:"height";i:288;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:24:"front-boxes-1024x384.jpg";s:5:"width";i:1024;s:6:"height";i:384;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:23:"front-boxes-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:23:"front-boxes-960x384.jpg";s:5:"width";i:960;s:6:"height";i:384;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"1";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>1024px-Colorado._Round_up_on_the_Cimarron</title>
+							</item>
+					<item>
+		<title>
+				1024px-Colorado._Round_up_on_the_Cimarron		</title>
 		<link>http://lab.cogdogblog.com/dimension/1024px-colorado-_round_up_on_the_cimarron/</link>
 		<pubDate>Sun, 24 Sep 2017 04:57:00 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/1024px-Colorado._Round_up_on_the_Cimarron.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>7</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 04:57:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 04:57:00]]></wp:post_date_gmt>
@@ -183,25 +195,28 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/1024px-Colorado._Round_up_on_the_Cimarron.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/09/1024px-Colorado._Round_up_on_the_Cimarron.jpg]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/1024px-Colorado._Round_up_on_the_Cimarron.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2017/09/1024px-Colorado._Round_up_on_the_Cimarron.jpg]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1024;s:6:"height";i:766;s:4:"file";s:53:"2017/09/1024px-Colorado._Round_up_on_the_Cimarron.jpg";s:5:"sizes";a:7:{s:15:"dimension-thumb";a:4:{s:4:"file";s:53:"1024px-Colorado._Round_up_on_the_Cimarron-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:53:"1024px-Colorado._Round_up_on_the_Cimarron-960x400.jpg";s:5:"width";i:960;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:53:"1024px-Colorado._Round_up_on_the_Cimarron-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:53:"1024px-Colorado._Round_up_on_the_Cimarron-300x224.jpg";s:5:"width";i:300;s:6:"height";i:224;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:53:"1024px-Colorado._Round_up_on_the_Cimarron-768x575.jpg";s:5:"width";i:768;s:6:"height";i:575;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:54:"1024px-Colorado._Round_up_on_the_Cimarron-1024x766.jpg";s:5:"width";i:1024;s:6:"height";i:766;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:53:"1024px-Colorado._Round_up_on_the_Cimarron-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1024;s:6:"height";i:766;s:4:"file";s:53:"2017/09/1024px-Colorado._Round_up_on_the_Cimarron.jpg";s:5:"sizes";a:7:{s:15:"dimension-thumb";a:4:{s:4:"file";s:53:"1024px-Colorado._Round_up_on_the_Cimarron-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:53:"1024px-Colorado._Round_up_on_the_Cimarron-960x400.jpg";s:5:"width";i:960;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:53:"1024px-Colorado._Round_up_on_the_Cimarron-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:53:"1024px-Colorado._Round_up_on_the_Cimarron-300x224.jpg";s:5:"width";i:300;s:6:"height";i:224;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:53:"1024px-Colorado._Round_up_on_the_Cimarron-768x575.jpg";s:5:"width";i:768;s:6:"height";i:575;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:54:"1024px-Colorado._Round_up_on_the_Cimarron-1024x766.jpg";s:5:"width";i:1024;s:6:"height";i:766;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:53:"1024px-Colorado._Round_up_on_the_Cimarron-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>cropped-1024px-Colorado._Round_up_on_the_Cimarron.jpg</title>
+							</item>
+					<item>
+		<title>
+				cropped-1024px-Colorado._Round_up_on_the_Cimarron.jpg		</title>
 		<link>http://lab.cogdogblog.com/dimension/cropped-1024px-colorado-_round_up_on_the_cimarron-jpg/</link>
 		<pubDate>Sun, 24 Sep 2017 04:57:07 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/cropped-1024px-Colorado._Round_up_on_the_Cimarron.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>8</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 04:57:07]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 04:57:07]]></wp:post_date_gmt>
@@ -214,37 +229,40 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/cropped-1024px-Colorado._Round_up_on_the_Cimarron.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/09/cropped-1024px-Colorado._Round_up_on_the_Cimarron.jpg]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/cropped-1024px-Colorado._Round_up_on_the_Cimarron.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2017/09/cropped-1024px-Colorado._Round_up_on_the_Cimarron.jpg]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1568;s:6:"height";i:1024;s:4:"file";s:61:"2017/09/cropped-1024px-Colorado._Round_up_on_the_Cimarron.jpg";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:61:"cropped-1024px-Colorado._Round_up_on_the_Cimarron-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:61:"cropped-1024px-Colorado._Round_up_on_the_Cimarron-300x196.jpg";s:5:"width";i:300;s:6:"height";i:196;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:61:"cropped-1024px-Colorado._Round_up_on_the_Cimarron-768x502.jpg";s:5:"width";i:768;s:6:"height";i:502;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:62:"cropped-1024px-Colorado._Round_up_on_the_Cimarron-1024x669.jpg";s:5:"width";i:1024;s:6:"height";i:669;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:61:"cropped-1024px-Colorado._Round_up_on_the_Cimarron-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1568;s:6:"height";i:1024;s:4:"file";s:61:"2017/09/cropped-1024px-Colorado._Round_up_on_the_Cimarron.jpg";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:61:"cropped-1024px-Colorado._Round_up_on_the_Cimarron-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:61:"cropped-1024px-Colorado._Round_up_on_the_Cimarron-300x196.jpg";s:5:"width";i:300;s:6:"height";i:196;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:61:"cropped-1024px-Colorado._Round_up_on_the_Cimarron-768x502.jpg";s:5:"width";i:768;s:6:"height";i:502;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:62:"cropped-1024px-Colorado._Round_up_on_the_Cimarron-1024x669.jpg";s:5:"width";i:1024;s:6:"height";i:669;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:61:"cropped-1024px-Colorado._Round_up_on_the_Cimarron-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom-header]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom-header]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_custom_header_last_used_wp-dimension-master]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1506229029]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_custom_header_last_used_wp-dimension-master]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1506229029]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_is_custom_header]]></wp:meta_key>
-			<wp:meta_value><![CDATA[wp-dimension-master]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_is_custom_header]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-dimension-master]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>explore-icon</title>
+							</item>
+					<item>
+		<title>
+				explore-icon		</title>
 		<link>http://lab.cogdogblog.com/dimension/explore-icon/</link>
 		<pubDate>Sun, 24 Sep 2017 05:01:18 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/explore-icon.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>12</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 05:01:18]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 05:01:18]]></wp:post_date_gmt>
@@ -257,25 +275,28 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/explore-icon.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/09/explore-icon.jpg]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/explore-icon.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2017/09/explore-icon.jpg]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:256;s:6:"height";i:256;s:4:"file";s:24:"2017/09/explore-icon.jpg";s:5:"sizes";a:3:{s:15:"dimension-thumb";a:4:{s:4:"file";s:24:"explore-icon-256x200.jpg";s:5:"width";i:256;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:24:"explore-icon-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:24:"explore-icon-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:256;s:6:"height";i:256;s:4:"file";s:24:"2017/09/explore-icon.jpg";s:5:"sizes";a:3:{s:15:"dimension-thumb";a:4:{s:4:"file";s:24:"explore-icon-256x200.jpg";s:5:"width";i:256;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:24:"explore-icon-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:24:"explore-icon-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014</title>
+							</item>
+					<item>
+		<title>
+				Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014		</title>
 		<link>http://lab.cogdogblog.com/dimension/open_range_sign_interstate_10_frontage_road_arizona_2014/</link>
 		<pubDate>Sun, 24 Sep 2017 04:57:37 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>13</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 04:57:37]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 04:57:37]]></wp:post_date_gmt>
@@ -288,25 +309,28 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/09/Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014.jpg]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2017/09/Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014.jpg]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1024;s:6:"height";i:768;s:4:"file";s:68:"2017/09/Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014.jpg";s:5:"sizes";a:7:{s:15:"dimension-thumb";a:4:{s:4:"file";s:68:"Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:68:"Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-960x400.jpg";s:5:"width";i:960;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:68:"Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:68:"Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:68:"Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-768x576.jpg";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:69:"Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-1024x768.jpg";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:68:"Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1024;s:6:"height";i:768;s:4:"file";s:68:"2017/09/Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014.jpg";s:5:"sizes";a:7:{s:15:"dimension-thumb";a:4:{s:4:"file";s:68:"Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:68:"Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-960x400.jpg";s:5:"width";i:960;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:68:"Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:68:"Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:68:"Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-768x576.jpg";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:69:"Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-1024x768.jpg";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:68:"Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014.jpg</title>
+							</item>
+					<item>
+		<title>
+				cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014.jpg		</title>
 		<link>http://lab.cogdogblog.com/dimension/cropped-open_range_sign_interstate_10_frontage_road_arizona_2014-jpg/</link>
 		<pubDate>Sun, 24 Sep 2017 04:57:43 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>9</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 04:57:43]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 04:57:43]]></wp:post_date_gmt>
@@ -319,37 +343,40 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/09/cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014.jpg]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2017/09/cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014.jpg]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1568;s:6:"height";i:1024;s:4:"file";s:76:"2017/09/cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014.jpg";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:76:"cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:76:"cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-300x196.jpg";s:5:"width";i:300;s:6:"height";i:196;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:76:"cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-768x502.jpg";s:5:"width";i:768;s:6:"height";i:502;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:77:"cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-1024x669.jpg";s:5:"width";i:1024;s:6:"height";i:669;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:76:"cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1568;s:6:"height";i:1024;s:4:"file";s:76:"2017/09/cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014.jpg";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:76:"cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:76:"cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-300x196.jpg";s:5:"width";i:300;s:6:"height";i:196;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:76:"cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-768x502.jpg";s:5:"width";i:768;s:6:"height";i:502;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:77:"cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-1024x669.jpg";s:5:"width";i:1024;s:6:"height";i:669;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:76:"cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom-header]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom-header]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_custom_header_last_used_wp-dimension-master]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1506229065]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_custom_header_last_used_wp-dimension-master]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1506229065]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_is_custom_header]]></wp:meta_key>
-			<wp:meta_value><![CDATA[wp-dimension-master]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_is_custom_header]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-dimension-master]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>&#039;Western_Landscape&#039;_by_Johann_Hermann_Carmiencke,_High_Museum</title>
+							</item>
+					<item>
+		<title>
+				&#039;Western_Landscape&#039;_by_Johann_Hermann_Carmiencke,_High_Museum		</title>
 		<link>http://lab.cogdogblog.com/dimension/western_landscape_by_johann_hermann_carmiencke_high_museum/</link>
 		<pubDate>Sun, 24 Sep 2017 04:57:57 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>10</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 04:57:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 04:57:57]]></wp:post_date_gmt>
@@ -362,25 +389,28 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/09/Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum.jpg]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2017/09/Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum.jpg]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1280;s:6:"height";i:864;s:4:"file";s:70:"2017/09/Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum.jpg";s:5:"sizes";a:7:{s:15:"dimension-thumb";a:4:{s:4:"file";s:70:"Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:70:"Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-960x400.jpg";s:5:"width";i:960;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:70:"Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:70:"Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-300x203.jpg";s:5:"width";i:300;s:6:"height";i:203;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:70:"Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-768x518.jpg";s:5:"width";i:768;s:6:"height";i:518;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:71:"Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1024x691.jpg";s:5:"width";i:1024;s:6:"height";i:691;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:70:"Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1280;s:6:"height";i:864;s:4:"file";s:70:"2017/09/Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum.jpg";s:5:"sizes";a:7:{s:15:"dimension-thumb";a:4:{s:4:"file";s:70:"Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:70:"Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-960x400.jpg";s:5:"width";i:960;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:70:"Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:70:"Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-300x203.jpg";s:5:"width";i:300;s:6:"height";i:203;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:70:"Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-768x518.jpg";s:5:"width";i:768;s:6:"height";i:518;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:71:"Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1024x691.jpg";s:5:"width";i:1024;s:6:"height";i:691;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:70:"Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum.jpg</title>
+							</item>
+					<item>
+		<title>
+				cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum.jpg		</title>
 		<link>http://lab.cogdogblog.com/dimension/cropped-western_landscape_by_johann_hermann_carmiencke_high_museum-jpg/</link>
 		<pubDate>Sun, 24 Sep 2017 04:58:07 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>11</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 04:58:07]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 04:58:07]]></wp:post_date_gmt>
@@ -393,37 +423,40 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/09/cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum.jpg]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2017/09/cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum.jpg]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1568;s:6:"height";i:1024;s:4:"file";s:78:"2017/09/cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum.jpg";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:78:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:78:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-300x196.jpg";s:5:"width";i:300;s:6:"height";i:196;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:78:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-768x502.jpg";s:5:"width";i:768;s:6:"height";i:502;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:79:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1024x669.jpg";s:5:"width";i:1024;s:6:"height";i:669;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:78:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1568;s:6:"height";i:1024;s:4:"file";s:78:"2017/09/cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum.jpg";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:78:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:78:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-300x196.jpg";s:5:"width";i:300;s:6:"height";i:196;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:78:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-768x502.jpg";s:5:"width";i:768;s:6:"height";i:502;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:79:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1024x669.jpg";s:5:"width";i:1024;s:6:"height";i:669;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:78:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom-header]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom-header]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_custom_header_last_used_wp-dimension-master]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1506229088]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_custom_header_last_used_wp-dimension-master]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1506229088]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_is_custom_header]]></wp:meta_key>
-			<wp:meta_value><![CDATA[wp-dimension-master]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_is_custom_header]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-dimension-master]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>Alfonso Bedoya as Gold Hat-8x6</title>
+							</item>
+					<item>
+		<title>
+				Alfonso Bedoya as Gold Hat-8x6		</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/me-i-have-some-stinking-badges/attachment/alfonso-bedoya-as-gold-hat-8x6/</link>
 		<pubDate>Sun, 24 Sep 2017 05:08:44 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/Alfonso-Bedoya-as-Gold-Hat-8x6.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>20</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 05:08:44]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 05:08:44]]></wp:post_date_gmt>
@@ -436,25 +469,28 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/Alfonso-Bedoya-as-Gold-Hat-8x6.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/09/Alfonso-Bedoya-as-Gold-Hat-8x6.jpg]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/Alfonso-Bedoya-as-Gold-Hat-8x6.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2017/09/Alfonso-Bedoya-as-Gold-Hat-8x6.jpg]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:400;s:6:"height";i:300;s:4:"file";s:42:"2017/09/Alfonso-Bedoya-as-Gold-Hat-8x6.jpg";s:5:"sizes";a:4:{s:15:"dimension-thumb";a:4:{s:4:"file";s:42:"Alfonso-Bedoya-as-Gold-Hat-8x6-400x200.jpg";s:5:"width";i:400;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:42:"Alfonso-Bedoya-as-Gold-Hat-8x6-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:42:"Alfonso-Bedoya-as-Gold-Hat-8x6-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:42:"Alfonso-Bedoya-as-Gold-Hat-8x6-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:400;s:6:"height";i:300;s:4:"file";s:42:"2017/09/Alfonso-Bedoya-as-Gold-Hat-8x6.jpg";s:5:"sizes";a:4:{s:15:"dimension-thumb";a:4:{s:4:"file";s:42:"Alfonso-Bedoya-as-Gold-Hat-8x6-400x200.jpg";s:5:"width";i:400;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:42:"Alfonso-Bedoya-as-Gold-Hat-8x6-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:42:"Alfonso-Bedoya-as-Gold-Hat-8x6-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:42:"Alfonso-Bedoya-as-Gold-Hat-8x6-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>ffa0a3379563b5e467fedc8633bdc485</title>
+							</item>
+					<item>
+		<title>
+				ffa0a3379563b5e467fedc8633bdc485		</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/my-wild-western-skills/attachment/ffa0a3379563b5e467fedc8633bdc485/</link>
 		<pubDate>Sun, 24 Sep 2017 05:16:50 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/ffa0a3379563b5e467fedc8633bdc485.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[uploaded images]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[uploaded images]]>		</excerpt:encoded>
 		<wp:post_id>24</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 05:16:50]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 05:16:50]]></wp:post_date_gmt>
@@ -467,25 +503,28 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/ffa0a3379563b5e467fedc8633bdc485.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/09/ffa0a3379563b5e467fedc8633bdc485.jpg]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/ffa0a3379563b5e467fedc8633bdc485.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2017/09/ffa0a3379563b5e467fedc8633bdc485.jpg]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:736;s:6:"height";i:741;s:4:"file";s:44:"2017/09/ffa0a3379563b5e467fedc8633bdc485.jpg";s:5:"sizes";a:5:{s:15:"dimension-thumb";a:4:{s:4:"file";s:44:"ffa0a3379563b5e467fedc8633bdc485-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:44:"ffa0a3379563b5e467fedc8633bdc485-736x400.jpg";s:5:"width";i:736;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:44:"ffa0a3379563b5e467fedc8633bdc485-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:44:"ffa0a3379563b5e467fedc8633bdc485-298x300.jpg";s:5:"width";i:298;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:44:"ffa0a3379563b5e467fedc8633bdc485-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:736;s:6:"height";i:741;s:4:"file";s:44:"2017/09/ffa0a3379563b5e467fedc8633bdc485.jpg";s:5:"sizes";a:5:{s:15:"dimension-thumb";a:4:{s:4:"file";s:44:"ffa0a3379563b5e467fedc8633bdc485-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:44:"ffa0a3379563b5e467fedc8633bdc485-736x400.jpg";s:5:"width";i:736;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:44:"ffa0a3379563b5e467fedc8633bdc485-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:44:"ffa0a3379563b5e467fedc8633bdc485-298x300.jpg";s:5:"width";i:298;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:44:"ffa0a3379563b5e467fedc8633bdc485-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>post-attributes-box</title>
+							</item>
+					<item>
+		<title>
+				post-attributes-box		</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/my-wild-western-skills/attachment/post-attributes-box/</link>
 		<pubDate>Sun, 24 Sep 2017 05:25:18 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/post-attributes-box.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>25</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 05:25:18]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 05:25:18]]></wp:post_date_gmt>
@@ -498,25 +537,28 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/post-attributes-box.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/09/post-attributes-box.jpg]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/post-attributes-box.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2017/09/post-attributes-box.jpg]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:612;s:6:"height";i:266;s:4:"file";s:31:"2017/09/post-attributes-box.jpg";s:5:"sizes";a:4:{s:15:"dimension-thumb";a:4:{s:4:"file";s:31:"post-attributes-box-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:31:"post-attributes-box-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:31:"post-attributes-box-300x130.jpg";s:5:"width";i:300;s:6:"height";i:130;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:31:"post-attributes-box-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:612;s:6:"height";i:266;s:4:"file";s:31:"2017/09/post-attributes-box.jpg";s:5:"sizes";a:4:{s:15:"dimension-thumb";a:4:{s:4:"file";s:31:"post-attributes-box-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:31:"post-attributes-box-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:31:"post-attributes-box-300x130.jpg";s:5:"width";i:300;s:6:"height";i:130;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:31:"post-attributes-box-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916</title>
+							</item>
+					<item>
+		<title>
+				Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916		</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/my-wild-western-skills/attachment/russell_loops_and_swift_horses_are_surer_than_lead_1916/</link>
 		<pubDate>Sun, 24 Sep 2017 05:28:06 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>26</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 05:28:06]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 05:28:06]]></wp:post_date_gmt>
@@ -529,25 +571,28 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/09/Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916.jpg]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2017/09/Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916.jpg]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:2322;s:6:"height";i:1410;s:4:"file";s:67:"2017/09/Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916.jpg";s:5:"sizes";a:8:{s:15:"dimension-thumb";a:4:{s:4:"file";s:67:"Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:67:"Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916-960x400.jpg";s:5:"width";i:960;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:67:"Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:67:"Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916-300x182.jpg";s:5:"width";i:300;s:6:"height";i:182;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:67:"Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916-768x466.jpg";s:5:"width";i:768;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:68:"Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916-1024x622.jpg";s:5:"width";i:1024;s:6:"height";i:622;s:9:"mime-type";s:10:"image/jpeg";}s:30:"twentyseventeen-featured-image";a:4:{s:4:"file";s:69:"Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916-2000x1200.jpg";s:5:"width";i:2000;s:6:"height";i:1200;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:67:"Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:2322;s:6:"height";i:1410;s:4:"file";s:67:"2017/09/Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916.jpg";s:5:"sizes";a:8:{s:15:"dimension-thumb";a:4:{s:4:"file";s:67:"Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:67:"Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916-960x400.jpg";s:5:"width";i:960;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:67:"Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:67:"Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916-300x182.jpg";s:5:"width";i:300;s:6:"height";i:182;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:67:"Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916-768x466.jpg";s:5:"width";i:768;s:6:"height";i:466;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:68:"Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916-1024x622.jpg";s:5:"width";i:1024;s:6:"height";i:622;s:9:"mime-type";s:10:"image/jpeg";}s:30:"twentyseventeen-featured-image";a:4:{s:4:"file";s:69:"Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916-2000x1200.jpg";s:5:"width";i:2000;s:6:"height";i:1200;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:67:"Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966</title>
+							</item>
+					<item>
+		<title>
+				lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966		</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/cowboys-write-too/attachment/lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966/</link>
 		<pubDate>Sun, 24 Sep 2017 05:30:53 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>29</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 05:30:53]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 05:30:53]]></wp:post_date_gmt>
@@ -560,25 +605,28 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/09/lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966.jpg]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2017/09/lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966.jpg]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:400;s:6:"height";i:382;s:4:"file";s:119:"2017/09/lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966.jpg";s:5:"sizes";a:4:{s:15:"dimension-thumb";a:4:{s:4:"file";s:119:"lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-400x200.jpg";s:5:"width";i:400;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:119:"lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:119:"lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-300x287.jpg";s:5:"width";i:300;s:6:"height";i:287;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:119:"lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:400;s:6:"height";i:382;s:4:"file";s:119:"2017/09/lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966.jpg";s:5:"sizes";a:4:{s:15:"dimension-thumb";a:4:{s:4:"file";s:119:"lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-400x200.jpg";s:5:"width";i:400;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:119:"lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:119:"lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-300x287.jpg";s:5:"width";i:300;s:6:"height";i:287;s:9:"mime-type";s:10:"image/jpeg";}s:32:"twentyseventeen-thumbnail-avatar";a:4:{s:4:"file";s:119:"lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-100x100.jpg";s:5:"width";i:100;s:6:"height";i:100;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1.jpg</title>
+							</item>
+					<item>
+		<title>
+				cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1.jpg		</title>
 		<link>http://lab.cogdogblog.com/dimension/cropped-western_landscape_by_johann_hermann_carmiencke_high_museum-1-jpg/</link>
 		<pubDate>Sun, 29 Jul 2018 20:36:04 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>32</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-29 20:36:04]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-29 20:36:04]]></wp:post_date_gmt>
@@ -591,29 +639,32 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/09/cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1.jpg]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2017/09/cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1.jpg]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom-header]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom-header]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1568;s:6:"height";i:1024;s:4:"file";s:80:"2017/09/cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1.jpg";s:5:"sizes";a:6:{s:9:"thumbnail";a:4:{s:4:"file";s:80:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:80:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1-300x196.jpg";s:5:"width";i:300;s:6:"height";i:196;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:80:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1-768x502.jpg";s:5:"width";i:768;s:6:"height";i:502;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:81:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1-1024x669.jpg";s:5:"width";i:1024;s:6:"height";i:669;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:80:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:80:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1-960x400.jpg";s:5:"width";i:960;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:17:"attachment_parent";i:10;}]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1568;s:6:"height";i:1024;s:4:"file";s:80:"2017/09/cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1.jpg";s:5:"sizes";a:6:{s:9:"thumbnail";a:4:{s:4:"file";s:80:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:80:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1-300x196.jpg";s:5:"width";i:300;s:6:"height";i:196;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:80:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1-768x502.jpg";s:5:"width";i:768;s:6:"height";i:502;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:81:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1-1024x669.jpg";s:5:"width";i:1024;s:6:"height";i:669;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:80:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:80:"cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1-960x400.jpg";s:5:"width";i:960;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:17:"attachment_parent";i:10;}]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>wild-west-show</title>
+							</item>
+					<item>
+		<title>
+				wild-west-show		</title>
 		<link>http://lab.cogdogblog.com/dimension/wild-west-show/</link>
 		<pubDate>Sun, 29 Jul 2018 20:50:10 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2018/07/wild-west-show.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>34</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-29 20:50:10]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-29 20:50:10]]></wp:post_date_gmt>
@@ -626,25 +677,28 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2018/07/wild-west-show.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1400;s:6:"height";i:839;s:4:"file";s:26:"2018/07/wild-west-show.jpg";s:5:"sizes";a:7:{s:15:"dimension-thumb";a:4:{s:4:"file";s:26:"wild-west-show-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:26:"wild-west-show-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:26:"wild-west-show-300x180.jpg";s:5:"width";i:300;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:26:"wild-west-show-768x460.jpg";s:5:"width";i:768;s:6:"height";i:460;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:27:"wild-west-show-1024x614.jpg";s:5:"width";i:1024;s:6:"height";i:614;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:26:"wild-west-show-960x400.jpg";s:5:"width";i:960;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:26:"wild-west-show-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2018/07/wild-west-show.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1400;s:6:"height";i:839;s:4:"file";s:26:"2018/07/wild-west-show.jpg";s:5:"sizes";a:7:{s:15:"dimension-thumb";a:4:{s:4:"file";s:26:"wild-west-show-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:26:"wild-west-show-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:26:"wild-west-show-300x180.jpg";s:5:"width";i:300;s:6:"height";i:180;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:26:"wild-west-show-768x460.jpg";s:5:"width";i:768;s:6:"height";i:460;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:27:"wild-west-show-1024x614.jpg";s:5:"width";i:1024;s:6:"height";i:614;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:26:"wild-west-show-960x400.jpg";s:5:"width";i:960;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:26:"wild-west-show-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2018/07/wild-west-show.jpg]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2018/07/wild-west-show.jpg]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>cropped-wild-west-show.jpg</title>
+							</item>
+					<item>
+		<title>
+				cropped-wild-west-show.jpg		</title>
 		<link>http://lab.cogdogblog.com/dimension/cropped-wild-west-show-jpg/</link>
 		<pubDate>Sun, 29 Jul 2018 20:50:28 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2018/07/cropped-wild-west-show.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>35</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-29 20:50:28]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-29 20:50:28]]></wp:post_date_gmt>
@@ -657,37 +711,40 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2018/07/cropped-wild-west-show.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2018/07/cropped-wild-west-show.jpg]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2018/07/cropped-wild-west-show.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2018/07/cropped-wild-west-show.jpg]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom-header]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom-header]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1568;s:6:"height";i:1024;s:4:"file";s:34:"2018/07/cropped-wild-west-show.jpg";s:5:"sizes";a:6:{s:9:"thumbnail";a:4:{s:4:"file";s:34:"cropped-wild-west-show-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:34:"cropped-wild-west-show-300x196.jpg";s:5:"width";i:300;s:6:"height";i:196;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:34:"cropped-wild-west-show-768x502.jpg";s:5:"width";i:768;s:6:"height";i:502;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:35:"cropped-wild-west-show-1024x669.jpg";s:5:"width";i:1024;s:6:"height";i:669;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:34:"cropped-wild-west-show-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:34:"cropped-wild-west-show-960x400.jpg";s:5:"width";i:960;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:17:"attachment_parent";i:34;}]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1568;s:6:"height";i:1024;s:4:"file";s:34:"2018/07/cropped-wild-west-show.jpg";s:5:"sizes";a:6:{s:9:"thumbnail";a:4:{s:4:"file";s:34:"cropped-wild-west-show-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:34:"cropped-wild-west-show-300x196.jpg";s:5:"width";i:300;s:6:"height";i:196;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:34:"cropped-wild-west-show-768x502.jpg";s:5:"width";i:768;s:6:"height";i:502;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:35:"cropped-wild-west-show-1024x669.jpg";s:5:"width";i:1024;s:6:"height";i:669;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:34:"cropped-wild-west-show-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:34:"cropped-wild-west-show-960x400.jpg";s:5:"width";i:960;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:17:"attachment_parent";i:34;}]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_custom_header_last_used_wp-dimension]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1532897441]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_custom_header_last_used_wp-dimension]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1532897441]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_is_custom_header]]></wp:meta_key>
-			<wp:meta_value><![CDATA[wp-dimension]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_is_custom_header]]></wp:meta_key>
+		<wp:meta_value><![CDATA[wp-dimension]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966.jpg</title>
+							</item>
+					<item>
+		<title>
+				cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966.jpg		</title>
 		<link>http://lab.cogdogblog.com/dimension/cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-jpg/</link>
 		<pubDate>Sun, 29 Jul 2018 20:48:01 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>33</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-29 20:48:01]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-29 20:48:01]]></wp:post_date_gmt>
@@ -700,29 +757,32 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/09/cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966.jpg]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2017/09/cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966.jpg]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom-header]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom-header]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1568;s:6:"height";i:1024;s:4:"file";s:127:"2017/09/cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966.jpg";s:5:"sizes";a:6:{s:9:"thumbnail";a:4:{s:4:"file";s:127:"cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:127:"cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-300x196.jpg";s:5:"width";i:300;s:6:"height";i:196;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:127:"cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-768x502.jpg";s:5:"width";i:768;s:6:"height";i:502;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:128:"cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-1024x669.jpg";s:5:"width";i:1024;s:6:"height";i:669;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:127:"cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:127:"cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-960x400.jpg";s:5:"width";i:960;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:17:"attachment_parent";i:29;}]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1568;s:6:"height";i:1024;s:4:"file";s:127:"2017/09/cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966.jpg";s:5:"sizes";a:6:{s:9:"thumbnail";a:4:{s:4:"file";s:127:"cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:127:"cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-300x196.jpg";s:5:"width";i:300;s:6:"height";i:196;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:127:"cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-768x502.jpg";s:5:"width";i:768;s:6:"height";i:502;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:128:"cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-1024x669.jpg";s:5:"width";i:1024;s:6:"height";i:669;s:9:"mime-type";s:10:"image/jpeg";}s:14:"post-thumbnail";a:4:{s:4:"file";s:127:"cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:127:"cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-960x400.jpg";s:5:"width";i:960;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:17:"attachment_parent";i:29;}]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>The_Sentinel_(Remington)</title>
+							</item>
+					<item>
+		<title>
+				The_Sentinel_(Remington)		</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/yell/attachment/the_sentinel_remington/</link>
 		<pubDate>Mon, 30 Jul 2018 02:56:36 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2018/07/The_Sentinel_Remington.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>43</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-30 02:56:36]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-30 02:56:36]]></wp:post_date_gmt>
@@ -735,24 +795,26 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2018/07/The_Sentinel_Remington.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2018/07/The_Sentinel_Remington.jpg]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://lab.cogdogblog.com/dimension/wp-content/uploads/2018/07/The_Sentinel_Remington.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2018/07/The_Sentinel_Remington.jpg]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:600;s:6:"height";i:412;s:4:"file";s:34:"2018/07/The_Sentinel_Remington.jpg";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:34:"The_Sentinel_Remington-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:34:"The_Sentinel_Remington-300x206.jpg";s:5:"width";i:300;s:6:"height";i:206;s:9:"mime-type";s:10:"image/jpeg";}s:15:"dimension-thumb";a:4:{s:4:"file";s:34:"The_Sentinel_Remington-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:34:"The_Sentinel_Remington-600x400.jpg";s:5:"width";i:600;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:54:"Copyright, Sid Richardson Museum, All Rights Reserved.";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:600;s:6:"height";i:412;s:4:"file";s:34:"2018/07/The_Sentinel_Remington.jpg";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:34:"The_Sentinel_Remington-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:34:"The_Sentinel_Remington-300x206.jpg";s:5:"width";i:300;s:6:"height";i:206;s:9:"mime-type";s:10:"image/jpeg";}s:15:"dimension-thumb";a:4:{s:4:"file";s:34:"The_Sentinel_Remington-480x200.jpg";s:5:"width";i:480;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:10:"page-thumb";a:4:{s:4:"file";s:34:"The_Sentinel_Remington-600x400.jpg";s:5:"width";i:600;s:6:"height";i:400;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:54:"Copyright, Sid Richardson Museum, All Rights Reserved.";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>About</title>
+							</item>
+					<item>
+		<title>
+				About		</title>
 		<link>http://lab.cogdogblog.com/dimension/about/</link>
 		<pubDate>Sat, 23 Sep 2017 21:42:40 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://connectedcourses.stateu.org/seeds/dimension/?page_id=2</guid>
 		<description></description>
-		<content:encoded><![CDATA[This theme supports longer stand alone Pages, that you can use as button link targets.
+		<content:encoded>
+				<![CDATA[This theme supports longer stand alone Pages, that you can use as button link targets.
 
 Hey we might fill this page with a whole lot of stuff.
 
@@ -762,8 +824,9 @@ Rollo tracalero. valemadrista hasta la madre. poca madre compa. colado bote. zot
 
 Piocha pachuco. gato volador onda. carrilla cae gordo. birria apapache. curiosito pasar. clarín enchilado. ridículum andas tras de los huesos. mariachi pollero. rola bofeado. burra chiflársela. de cabeza canijo. gacho vagaciones. campechana troquita. andas tras de los huesos cascarear. panzona capirucha. aventado popis. choncho mochate. jale clavatelo. pedo al brinco. cae de a madre sangrón. chingadazo pingo. aguas chimuelo. chingado guey. quemón de pelos. neta galán. cachetón jambar. chupete hasta atrás. pinche guato. al brinco tanto pedo pa' cagar aguado. jetón malilla.
 
-Troque el otro lado. peda balín. furris alipuz. niguas sangrón. como la chingada ni madre. como jefe la mera mata. curiosito güero. lisa talonear. cascarear chido. lépero rollero. me agarro en curva cerote. wacha malilla. arnero chamaco. servilleta reventón. cheve cascarear. cuachalote eres junior. filero chicle. choya de la patada. andas tras de los huesos lavar el coco. se hace pato mafufo. gandalla fumigado. mayate ahi se va. aventarse poca madre. jalas parejo chamaco. chueco cheve. güiri-güiri naifa. trompabulario de pelos. hace los mandados chivearse. me sacaste un pedo panzona. guamazo guapacho]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+Troque el otro lado. peda balín. furris alipuz. niguas sangrón. como la chingada ni madre. como jefe la mera mata. curiosito güero. lisa talonear. cascarear chido. lépero rollero. me agarro en curva cerote. wacha malilla. arnero chamaco. servilleta reventón. cheve cascarear. cuachalote eres junior. filero chicle. choya de la patada. andas tras de los huesos lavar el coco. se hace pato mafufo. gandalla fumigado. mayate ahi se va. aventarse poca madre. jalas parejo chamaco. chueco cheve. güiri-güiri naifa. trompabulario de pelos. hace los mandados chivearse. me sacaste un pedo panzona. guamazo guapacho]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>6</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-23 21:42:40]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-23 21:42:40]]></wp:post_date_gmt>
@@ -776,28 +839,31 @@ Troque el otro lado. peda balín. furris alipuz. niguas sangrón. como la chinga
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[7]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[7]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>Twitter</title>
+							</item>
+					<item>
+		<title>
+				Twitter		</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/twitter/</link>
 		<pubDate>Sun, 29 Jul 2018 20:00:28 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/uncategorized/twitter/</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>14</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-29 20:00:28]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-29 20:00:28]]></wp:post_date_gmt>
@@ -810,49 +876,52 @@ Troque el otro lado. peda balín. furris alipuz. niguas sangrón. como la chinga
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="social-media"><![CDATA[Social Media]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+										<category domain="nav_menu" nicename="social-media"><![CDATA[Social Media]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[14]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[14]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:10:"fa-twitter";}]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:2:{i:0;s:3:"fab";i:1;s:10:"fa-twitter";}]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://twitter.com/me]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[http://twitter.com/me]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>YouTube</title>
+							</item>
+					<item>
+		<title>
+				YouTube		</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/youtube/</link>
 		<pubDate>Sun, 29 Jul 2018 20:00:28 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/uncategorized/youtube/</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>15</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-29 20:00:28]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-29 20:00:28]]></wp:post_date_gmt>
@@ -865,49 +934,52 @@ Troque el otro lado. peda balín. furris alipuz. niguas sangrón. como la chinga
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="social-media"><![CDATA[Social Media]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+										<category domain="nav_menu" nicename="social-media"><![CDATA[Social Media]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[15]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[15]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:10:"fa-youtube";}]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:2:{i:0;s:3:"fab";i:1;s:10:"fa-youtube";}]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://youtube.com/channel/me]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[http://youtube.com/channel/me]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>Instagram</title>
+							</item>
+					<item>
+		<title>
+				Instagram		</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/instagram/</link>
 		<pubDate>Sun, 29 Jul 2018 20:00:28 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/uncategorized/instagram/</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>16</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-29 20:00:28]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-29 20:00:28]]></wp:post_date_gmt>
@@ -920,49 +992,52 @@ Troque el otro lado. peda balín. furris alipuz. niguas sangrón. como la chinga
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="social-media"><![CDATA[Social Media]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+										<category domain="nav_menu" nicename="social-media"><![CDATA[Social Media]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[16]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[16]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:12:"fa-instagram";}]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:2:{i:0;s:3:"fab";i:1;s:12:"fa-instagram";}]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://instagram.com/me]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[http://instagram.com/me]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>Email</title>
+							</item>
+					<item>
+		<title>
+				Email		</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/email/</link>
 		<pubDate>Sun, 29 Jul 2018 20:00:28 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/uncategorized/email/</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>17</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-29 20:00:28]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-29 20:00:28]]></wp:post_date_gmt>
@@ -971,52 +1046,54 @@ Troque el otro lado. peda balín. furris alipuz. niguas sangrón. como la chinga
 		<wp:post_name><![CDATA[email]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>4</wp:menu_order>
+		<wp:menu_order>5</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="social-media"><![CDATA[Social Media]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+										<category domain="nav_menu" nicename="social-media"><![CDATA[Social Media]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[17]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[17]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:11:"fa-envelope";}]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:2:{i:0;s:3:"fas";i:1;s:11:"fa-envelope";}]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://mailto:me@me.org]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[http://mailto:me@me.org]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>Me? I Got Badges</title>
+							</item>
+					<item>
+		<title>
+				Me? I Got Badges		</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/me-i-have-some-stinking-badges/</link>
 		<pubDate>Sun, 24 Sep 2017 05:09:52 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://connectedcourses.stateu.org/seeds/dimension/?p=19</guid>
 		<description></description>
-		<content:encoded><![CDATA[Kind of self-explanatory, eh? 
+		<content:encoded>
+				<![CDATA[Kind of self-explanatory, eh? 
 
 Use the first box to provide a introduction to your big, open self. You can chose to have a brief intro here and link elsewhere. The link from the button below can go to another web site (like a more extensive bio) or even a Wordpress Page in this site.
 
@@ -1028,8 +1105,9 @@ https://www.youtube.com/watch?v=VqomZQMZQCQ
 
 You might choose to keep these content pieces short and link out for longer pieces, but you can also use the Wordpress Page in this theme as a button link target. 
 
-Just try this button.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+Just try this button.]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>19</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 05:09:52]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 05:09:52]]></wp:post_date_gmt>
@@ -1042,48 +1120,50 @@ Just try this button.]]></content:encoded>
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[20]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[20]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_button_label]]></wp:meta_key>
-			<wp:meta_value><![CDATA[About]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_button_label]]></wp:meta_key>
+		<wp:meta_value><![CDATA[About]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_go_button_name]]></wp:meta_key>
-			<wp:meta_value><![CDATA[More Stuff]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_go_button_name]]></wp:meta_key>
+		<wp:meta_value><![CDATA[More Stuff]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_dimension_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://lab.cogdogblog.com/dimension/about]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_dimension_link]]></wp:meta_key>
+		<wp:meta_value><![CDATA[http://lab.cogdogblog.com/dimension/about]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_link_fa_icon]]></wp:meta_key>
-			<wp:meta_value><![CDATA[fa-arrow-circle-right]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_link_fa_icon]]></wp:meta_key>
+		<wp:meta_value><![CDATA[fa-arrow-circle-right]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_oembed_4820caea4fea857e15e6f27058375919]]></wp:meta_key>
-			<wp:meta_value><![CDATA[<iframe width="500" height="375" src="https://www.youtube.com/embed/VqomZQMZQCQ?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_4820caea4fea857e15e6f27058375919]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<iframe width="500" height="375" src="https://www.youtube.com/embed/VqomZQMZQCQ?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_oembed_time_4820caea4fea857e15e6f27058375919]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1539451857]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_time_4820caea4fea857e15e6f27058375919]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1539451857]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>My Wild Western Skills</title>
+							</item>
+					<item>
+		<title>
+				My Wild Western Skills		</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/my-wild-western-skills/</link>
 		<pubDate>Sun, 24 Sep 2017 05:28:15 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://connectedcourses.stateu.org/seeds/dimension/?p=23</guid>
 		<description></description>
-		<content:encoded><![CDATA[A second part of a site might be a resume, or an overview of works created, projects, some hint at the awesomeness of my skill set.
+		<content:encoded>
+				<![CDATA[A second part of a site might be a resume, or an overview of works created, projects, some hint at the awesomeness of my skill set.
 
 You can completely gut this to customize it (please do not leave it as is), or delete this post and create a new one.
 
@@ -1140,8 +1220,9 @@ Even embedded videos! Yee hah!
 
 https://www.youtube.com/watch?v=czGIrp_GsTE
 
-]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>23</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 05:28:15]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 05:28:15]]></wp:post_date_gmt>
@@ -1154,48 +1235,50 @@ https://www.youtube.com/watch?v=czGIrp_GsTE
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_oembed_5726d62e48f01788d3f2a309a6e5d7cd]]></wp:meta_key>
-			<wp:meta_value><![CDATA[<iframe width="500" height="281" src="https://www.youtube.com/embed/czGIrp_GsTE?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_5726d62e48f01788d3f2a309a6e5d7cd]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<iframe width="500" height="281" src="https://www.youtube.com/embed/czGIrp_GsTE?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_oembed_time_5726d62e48f01788d3f2a309a6e5d7cd]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1539461872]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_time_5726d62e48f01788d3f2a309a6e5d7cd]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1539461872]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[26]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[26]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_button_label]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Skills]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_button_label]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Skills]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_go_button_name]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_go_button_name]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_dimension_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_dimension_link]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_link_fa_icon]]></wp:meta_key>
-			<wp:meta_value><![CDATA[fa-share]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_link_fa_icon]]></wp:meta_key>
+		<wp:meta_value><![CDATA[fa-share]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>Cowboys Write Too</title>
+							</item>
+					<item>
+		<title>
+				Cowboys Write Too		</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/cowboys-write-too/</link>
 		<pubDate>Sun, 24 Sep 2017 05:34:24 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://connectedcourses.stateu.org/seeds/dimension/?p=28</guid>
 		<description></description>
-		<content:encoded><![CDATA[While out on the trail I still manage to do my esoteric research and paper writing. Here are a few of my recent publications.
+		<content:encoded>
+				<![CDATA[While out on the trail I still manage to do my esoteric research and paper writing. Here are a few of my recent publications.
 
 &nbsp;
 
@@ -1227,8 +1310,9 @@ Pattullo, George. <em>A Good Rooster Crows Everywhere</em>. 1939.
 
 Price, Byron. <em><a href="http://www.cartermuseum.org/publications_set.html#openrange" target="new">Imagining the Open Range: Erwin E. Smith, Cowboy Photographer</a></em>. Fort Worth: Amon Carter Museum, 1998.
 
-Taylor, Lonn , and Ingrid Maar. <em>The American Cowboy</em>. New York: Harper &amp; Row, 1983.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+Taylor, Lonn , and Ingrid Maar. <em>The American Cowboy</em>. New York: Harper &amp; Row, 1983.]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>28</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 05:34:24]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 05:34:24]]></wp:post_date_gmt>
@@ -1241,43 +1325,46 @@ Taylor, Lonn , and Ingrid Maar. <em>The American Cowboy</em>. New York: Harper 
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[29]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[29]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_button_label]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Writing]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_button_label]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Writing]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_go_button_name]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Peer Reviewer Papers]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_go_button_name]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Peer Reviewer Papers]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_dimension_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://www.online-literature.com/zane-grey/]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_dimension_link]]></wp:meta_key>
+		<wp:meta_value><![CDATA[http://www.online-literature.com/zane-grey/]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_link_fa_icon]]></wp:meta_key>
-			<wp:meta_value><![CDATA[fa-book]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_link_fa_icon]]></wp:meta_key>
+		<wp:meta_value><![CDATA[fa-book]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>Yell Loudly to Find Me</title>
+							</item>
+					<item>
+		<title>
+				Yell Loudly to Find Me		</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/yell/</link>
 		<pubDate>Mon, 30 Jul 2018 02:59:38 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/?p=42</guid>
 		<description></description>
-		<content:encoded><![CDATA[I'm busy out there in the wild web, but am also eager to hear what kind of tales you spin or offers you may send my way.
+		<content:encoded>
+				<![CDATA[I'm busy out there in the wild web, but am also eager to hear what kind of tales you spin or offers you may send my way.
 
-You might find me at one of those little pretty icons there on the page, but also feel free to give me a yell over on my contact page.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+You might find me at one of those little pretty icons there on the page, but also feel free to give me a yell over on my contact page.]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
 		<wp:post_id>42</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-30 02:59:38]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-30 02:59:38]]></wp:post_date_gmt>
@@ -1290,31 +1377,90 @@ You might find me at one of those little pretty icons there on the page, but als
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[43]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[43]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_button_label]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Contact]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_button_label]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Contact]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_go_button_name]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Yell]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_go_button_name]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Yell]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_dimension_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://facebook.com/realcowboysdontdofacebook]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_dimension_link]]></wp:meta_key>
+		<wp:meta_value><![CDATA[http://facebook.com/realcowboysdontdofacebook]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_link_fa_icon]]></wp:meta_key>
-			<wp:meta_value><![CDATA[fa-bullhorn]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_link_fa_icon]]></wp:meta_key>
+		<wp:meta_value><![CDATA[fa-bullhorn]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-</channel>
+							</item>
+					<item>
+		<title>
+				Mastodon		</title>
+		<link>http://lab.cogdogblog.com/dimension/uncategorized/mastodon/</link>
+		<pubDate>Thu, 03 Jan 2019 14:15:49 +0000</pubDate>
+		<dc:creator><![CDATA[oikoed]]></dc:creator>
+		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/?p=66</guid>
+		<description></description>
+		<content:encoded>
+				<![CDATA[]]>		</content:encoded>
+		<excerpt:encoded>
+				<![CDATA[]]>		</excerpt:encoded>
+		<wp:post_id>66</wp:post_id>
+		<wp:post_date><![CDATA[2019-01-03 14:15:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-01-03 14:15:49]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[mastodon]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="social-media"><![CDATA[Social Media]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[66]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:2:{i:0;s:3:"fab";i:1;s:11:"fa-mastodon";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[http://mastodon.social]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+				</channel>
 </rss>
+	
