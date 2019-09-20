@@ -31,6 +31,7 @@ Editing options in the posts/front pages provide the means to add a button and l
 * Coventry University Art and Design Skills Hub http://origin.coventry.domains/
 * Cowboy flavored demo http://lab.cogdogblog.com/dimension/
 * Dan Zuberbier http://dpzuberbier.com/
+* Daniel Villar-Onrubia http://daniel.coventry.domains/
 * Davie Quinn http://eduquinn.com/
 * Debby Tran http://staff.washington.edu/detran/
 * Discover WISR: The Western Institute for Social Research  https://discover.wisr.faberglas.com/blog/
@@ -50,6 +51,7 @@ Editing options in the posts/front pages provide the means to add a button and l
 * Mariana Funes http://marianafun.es/
 * Marie Yvette Lepage, M.S.W., R.S.W. https://www.mylepage.ca/
 * Matt Croslin https://mattcrosslin.com/
+* Micheal J Altman https://michaeljaltman.com/
 * Norm Wright ttp://nostorynorm.com/
 * Origin: Coventry University Art and Design Research Hub  http://origin.coventry.domains/
 * PT Becca http://www.ptbecca.co.uk/
@@ -60,6 +62,7 @@ Editing options in the posts/front pages provide the means to add a button and l
 * SPLOT presentation "A Shotgun Marriage" http://splot.ca/domains2017/
 * Spring History Symposium, University of Hong Kong https://shs.history.hku.hk/
 * Suzanne Thompson https://thompssw.sites.wfu.edu/
+* Svea Hernandez http://www.stsci.edu/~sveash/
 * Tom Fullerton http://tomfullerton.ca/
 * Tech For Teaching (Conestoga College) http://techforteaching.ca/
 * Thunder Fairy http://thethunderfairy.com/
@@ -215,7 +218,7 @@ The featured images displayed for each post will be scaled down to fit a size wi
 
 ## Suggested Plugins
 
-* [Font Awesome 4 Menus](https://wordpress.org/plugins/font-awesome-4-menus/) used to add the icons to the social media links below the tag line
+* [Font Awesome 5 Menus](https://github.com/cogdog/font-awesome-5-menus) used to add the icons to the social media links below the tag line
 * [Fluid Video Embeds](https://wordpress.org/plugins/fluid-video-embeds/) will make sure your auto embedded videos (and other content wordpress can embed by URL) are responsive sized to fill the column width
 * [Easy Theme and Plugin Upgrades](https://wordpress.org/plugins/easy-theme-and-plugin-upgrades/) allows you to update the theme by uploading the zip file again as a new server (because wordpress does not provide this capability)
 * [JetPack](https://wordpress.org/plugins/jetpack/) can add a number of capabilities, such as adding a contact form. If you do [create a contact form](https://jetpack.com/support/contact-form/), make sure you also add and activate [Akismet](http://akismet.com/) because *you will get spam*
