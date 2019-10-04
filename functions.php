@@ -191,7 +191,11 @@ function dimension_scripts() {
 	// dimension no script CSS
 	wp_register_style( 'dimension-scriptless-style', get_stylesheet_directory_uri() . '/assets/css/noscript.css' );
 	wp_enqueue_style( 'dimension-scriptless-style' );
-	
+
+	// dimension base CSS
+	wp_register_style( 'dimension-style-wp', get_stylesheet_directory_uri() . '/style.css' );
+	wp_enqueue_style( 'dimension-style-wp' );	
+		
 	// custom jquery down in the footer you go
 	wp_register_script( 'dimension-skel' , get_stylesheet_directory_uri() . '/assets/js/skel.min.js', array( 'jquery' ), false, true );
 	wp_enqueue_script( 'dimension-skel' );

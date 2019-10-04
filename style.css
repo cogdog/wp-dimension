@@ -3,12 +3,80 @@ Theme Name: WP-Dimension
 Theme URI: http://github.com/cogdog/wp-dimension
 Author: Alan Levine
 Author URI: https://cog.dog
-Version: 1.72
+Version: 1.8
 Description: Use this theme for a single screen, clean calling card site, based on the HTML5 UP theme Dimension template. Have up to 10 front page box links for short content (anything that fits into a post) with optional buttons that link to outside content or longer content on the Page Template. Add a social media icon theme with the Font Awesome 4 menus plugin. 
 License: Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-/* note All CSS is loaded from assets/main.css
-   Do not waste time putting anything here!
+/* note Main theme CSS is loaded from assets/main.css
+
+   WordPress specific CSS is below
 */
+
+
+/* Custom logo */
+
+.logo {
+	overflow: hidden;
+}
+
+.logo img {
+	 width: 100%;
+	 height: 100%;
+}
+
+/* WP Alignment */
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p.edit-this {
+    text-align: right;
+    font-size: 90%;
+    color: yellow;
+}
+
+a.post-edit-link {
+    border: none;
+}
+
+span.fontawesome-text {
+    display: none;
+}
+
+
+ul.actions a {
+    border: none;
+}
+
+ul.actions li span {
+    font-size: 2rem;
+}
+
+h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
+    width: unset;
+}
+
+
+@media screen and (max-width: 480px) {
+	ul.actions li:last-child {
+		padding-right:2em;
+	}
+}
