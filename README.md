@@ -26,6 +26,7 @@ Editing options in the posts/front pages provide the means to add a button and l
 * Ancestors in the Archives http://ancestorsinthearchives.com/
 * Asako Yoshida https://aozora.ca/me
 * Bild-Lida (Belonging, Identity, Language, Diversity Research Group (BILD) // Groupe de Recherche Langage, Identité, Diversité, Appartenance (LIDA)) http://bild-lida.ca/
+* Buffscreate Community http://possibility.buffscreate.net/
 * Chris Lott https://chrislott.org/
 * CogDog (that's me!) https://cog.dog/
 * Coventry University Art and Design Skills Hub http://origin.coventry.domains/
