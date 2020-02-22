@@ -25,6 +25,7 @@ Editing options in the posts/front pages provide the means to add a button and l
 * Alison Crump http://alisoncrump.ca/research/
 * Ancestors in the Archives http://ancestorsinthearchives.com/
 * Asako Yoshida https://aozora.ca/me
+* BC Academic Integrity Network https://bcain.trubox.ca/
 * Bild-Lida (Belonging, Identity, Language, Diversity Research Group (BILD) // Groupe de Recherche Langage, Identité, Diversité, Appartenance (LIDA)) http://bild-lida.ca/
 * Buffscreate Community http://possibility.buffscreate.net/
 * Chris Lott https://chrislott.org/
