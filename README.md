@@ -229,6 +229,8 @@ The featured images displayed for each post will be scaled down to fit a size wi
 
 ## Features / History
 
+
+* v2.0 (Feb 25, 2020) Better CSS for a responsive and even sized navigation menu.
 * v1.8 (Oct 12, 2018) Nag notices added to encourage use of FontAwesome 5 plugin, CSS tweak to fix mobile menus, segment base CSS from WordPress
 * v1.7 (Oct 12, 2018) Rebranded WordPress posts internally as "Front Boxes" to better reflect their purpose. A new template for single entries shows a Front Box opened on the home page.
 * v1.4 (Jan  3, 2018)  Deprecated use of Customizer Social Icons plugin and re-wrote instructions to use Font-Awesome 4 Menus

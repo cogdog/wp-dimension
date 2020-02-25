@@ -3,8 +3,8 @@ Theme Name: WP-Dimension
 Theme URI: http://github.com/cogdog/wp-dimension
 Author: Alan Levine
 Author URI: https://cog.dog
-Version: 1.81
-Description: Use this theme for a single screen, clean calling card site, based on the HTML5 UP theme Dimension template. Have up to 10 front page box links for short content (anything that fits into a post) with optional buttons that link to outside content or longer content on the Page Template. Add a social media icon theme with the Font Awesome 5 menus plugin. 
+Version: 2.0
+Description: Use this theme for a single screen, clean calling card site, based on the HTML5 UP theme Dimension template. Have up to 10 front page box links for short content (anything that fits into a post) with optional buttons that link to outside content or longer content on the Page Template. Add a social media icon theme with the Font Awesome 5 menus plugin.
 License: Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -74,9 +74,67 @@ h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
     width: unset;
 }
 
-
 @media screen and (max-width: 480px) {
 	ul.actions li:last-child {
-		padding-right:2em;
+		padding-right:0;
 	}
+}
+
+
+@media screen and (min-width: 481px) {
+    #header nav {
+        display: table;
+        width: 90%;
+        table-layout: fixed;
+    }
+
+    #header nav ul {
+        display: table-row;
+        margin: 0;
+        padding: 0;
+        list-style:none;
+    }
+
+    #header nav ul li {
+        list-style: none;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        padding: 0;
+        border: 1px solid white;
+        border-left: none;
+        cursor:pointer;
+    }
+
+    #header nav ul li:hover {
+      background-color: rgba(255, 255, 255, 0.075);
+    }
+
+    #header nav ul li.active {
+      background-color: rgba(255, 255, 255, 0.175);
+    }
+
+
+    #header nav ul li:first-child {
+        border-left: 1px solid white;
+    }
+
+    #header nav ul li a {
+        display: block;
+        min-width: inherit;
+        height: inherit;
+        line-height: inherit;
+        padding: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        font-size: 0.8rem;
+        border:0;
+        text-decoration: none;
+    }
+
+    #header nav ul li a:hover {
+      background-color: none;
+    }
+
+
 }
