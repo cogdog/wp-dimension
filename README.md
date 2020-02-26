@@ -54,7 +54,7 @@ Editing options in the posts/front pages provide the means to add a button and l
 * Marie Yvette Lepage, M.S.W., R.S.W. https://www.mylepage.ca/
 * Matt Croslin https://mattcrosslin.com/
 * Micheal J Altman https://michaeljaltman.com/
-* Norm Wright ttp://nostorynorm.com/
+* Norm Wright http://nostorynorm.com/
 * Origin: Coventry University Art and Design Research Hub  http://origin.coventry.domains/
 * PT Becca http://www.ptbecca.co.uk/
 * Retrospect Prints http://www.retrospectprints.com/
