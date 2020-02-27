@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/5.1.1" created="2019-03-20 15:04" -->
+	<!-- generator="WordPress/5.3.2" created="2020-02-27 00:51" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>One Cowboy's Dimension</title>
 	<link>http://lab.cogdogblog.com/dimension</link>
 	<description>Not A Dusty Calling Card</description>
-	<pubDate>Wed, 20 Mar 2019 15:04:49 +0000</pubDate>
+	<pubDate>Thu, 27 Feb 2020 00:51:24 +0000</pubDate>
 	<language>en</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://lab.cogdogblog.com/dimension</wp:base_site_url>
@@ -67,20 +67,17 @@
 			<wp:term><wp:term_id>3</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[social-media]]></wp:term_slug><wp:term_name><![CDATA[Social Media]]></wp:term_name>
 </wp:term>
 
-	<generator>https://wordpress.org/?v=5.1.1</generator>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 
 		<item>
-		<title>
-				explore-icon		</title>
+		<title>explore-icon</title>
 		<link>http://lab.cogdogblog.com/dimension/explore-icon-2/</link>
 		<pubDate>Sun, 29 Jul 2018 20:26:43 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2018/07/explore-icon.jpg</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>30</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-29 20:26:43]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-29 20:26:43]]></wp:post_date_gmt>
@@ -104,17 +101,14 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				side-edits		</title>
+		<title>side-edits</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/my-wild-western-skills/attachment/side-edits/</link>
 		<pubDate>Sat, 13 Oct 2018 20:16:33 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/side-edits.jpg</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>52</wp:post_id>
 		<wp:post_date><![CDATA[2018-10-13 20:16:33]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-10-13 20:16:33]]></wp:post_date_gmt>
@@ -138,17 +132,14 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				front-boxes		</title>
+		<title>front-boxes</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/my-wild-western-skills/attachment/front-boxes/</link>
 		<pubDate>Sat, 13 Oct 2018 20:16:57 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/front-boxes.jpg</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>53</wp:post_id>
 		<wp:post_date><![CDATA[2018-10-13 20:16:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-10-13 20:16:57]]></wp:post_date_gmt>
@@ -172,17 +163,14 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				1024px-Colorado._Round_up_on_the_Cimarron		</title>
+		<title>1024px-Colorado._Round_up_on_the_Cimarron</title>
 		<link>http://lab.cogdogblog.com/dimension/1024px-colorado-_round_up_on_the_cimarron/</link>
 		<pubDate>Sun, 24 Sep 2017 04:57:00 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/1024px-Colorado._Round_up_on_the_Cimarron.jpg</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>7</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 04:57:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 04:57:00]]></wp:post_date_gmt>
@@ -206,17 +194,14 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				cropped-1024px-Colorado._Round_up_on_the_Cimarron.jpg		</title>
+		<title>cropped-1024px-Colorado._Round_up_on_the_Cimarron.jpg</title>
 		<link>http://lab.cogdogblog.com/dimension/cropped-1024px-colorado-_round_up_on_the_cimarron-jpg/</link>
 		<pubDate>Sun, 24 Sep 2017 04:57:07 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/cropped-1024px-Colorado._Round_up_on_the_Cimarron.jpg</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>8</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 04:57:07]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 04:57:07]]></wp:post_date_gmt>
@@ -252,17 +237,14 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				explore-icon		</title>
+		<title>explore-icon</title>
 		<link>http://lab.cogdogblog.com/dimension/explore-icon/</link>
 		<pubDate>Sun, 24 Sep 2017 05:01:18 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/explore-icon.jpg</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>12</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 05:01:18]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 05:01:18]]></wp:post_date_gmt>
@@ -286,17 +268,14 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014		</title>
+		<title>Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014</title>
 		<link>http://lab.cogdogblog.com/dimension/open_range_sign_interstate_10_frontage_road_arizona_2014/</link>
 		<pubDate>Sun, 24 Sep 2017 04:57:37 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014.jpg</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>13</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 04:57:37]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 04:57:37]]></wp:post_date_gmt>
@@ -320,17 +299,14 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014.jpg		</title>
+		<title>cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014.jpg</title>
 		<link>http://lab.cogdogblog.com/dimension/cropped-open_range_sign_interstate_10_frontage_road_arizona_2014-jpg/</link>
 		<pubDate>Sun, 24 Sep 2017 04:57:43 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/cropped-Open_Range_Sign_Interstate_10_Frontage_Road_Arizona_2014.jpg</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>9</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 04:57:43]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 04:57:43]]></wp:post_date_gmt>
@@ -366,17 +342,14 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				&#039;Western_Landscape&#039;_by_Johann_Hermann_Carmiencke,_High_Museum		</title>
+		<title>&#039;Western_Landscape&#039;_by_Johann_Hermann_Carmiencke,_High_Museum</title>
 		<link>http://lab.cogdogblog.com/dimension/western_landscape_by_johann_hermann_carmiencke_high_museum/</link>
 		<pubDate>Sun, 24 Sep 2017 04:57:57 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum.jpg</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>10</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 04:57:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 04:57:57]]></wp:post_date_gmt>
@@ -400,17 +373,14 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum.jpg		</title>
+		<title>cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum.jpg</title>
 		<link>http://lab.cogdogblog.com/dimension/cropped-western_landscape_by_johann_hermann_carmiencke_high_museum-jpg/</link>
 		<pubDate>Sun, 24 Sep 2017 04:58:07 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum.jpg</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>11</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 04:58:07]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 04:58:07]]></wp:post_date_gmt>
@@ -446,17 +416,14 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				Alfonso Bedoya as Gold Hat-8x6		</title>
+		<title>Alfonso Bedoya as Gold Hat-8x6</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/me-i-have-some-stinking-badges/attachment/alfonso-bedoya-as-gold-hat-8x6/</link>
 		<pubDate>Sun, 24 Sep 2017 05:08:44 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/Alfonso-Bedoya-as-Gold-Hat-8x6.jpg</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>20</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 05:08:44]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 05:08:44]]></wp:post_date_gmt>
@@ -480,17 +447,14 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				ffa0a3379563b5e467fedc8633bdc485		</title>
+		<title>ffa0a3379563b5e467fedc8633bdc485</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/my-wild-western-skills/attachment/ffa0a3379563b5e467fedc8633bdc485/</link>
 		<pubDate>Sun, 24 Sep 2017 05:16:50 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/ffa0a3379563b5e467fedc8633bdc485.jpg</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[uploaded images]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[uploaded images]]></excerpt:encoded>
 		<wp:post_id>24</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 05:16:50]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 05:16:50]]></wp:post_date_gmt>
@@ -514,17 +478,14 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				post-attributes-box		</title>
+		<title>post-attributes-box</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/my-wild-western-skills/attachment/post-attributes-box/</link>
 		<pubDate>Sun, 24 Sep 2017 05:25:18 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/post-attributes-box.jpg</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>25</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 05:25:18]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 05:25:18]]></wp:post_date_gmt>
@@ -548,17 +509,14 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916		</title>
+		<title>Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/my-wild-western-skills/attachment/russell_loops_and_swift_horses_are_surer_than_lead_1916/</link>
 		<pubDate>Sun, 24 Sep 2017 05:28:06 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/Russell_Loops_and_Swift_Horses_are_Surer_than_Lead_1916.jpg</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>26</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 05:28:06]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 05:28:06]]></wp:post_date_gmt>
@@ -582,17 +540,14 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966		</title>
+		<title>lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/cowboys-write-too/attachment/lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966/</link>
 		<pubDate>Sun, 24 Sep 2017 05:30:53 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966.jpg</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>29</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 05:30:53]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 05:30:53]]></wp:post_date_gmt>
@@ -616,17 +571,14 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1.jpg		</title>
+		<title>cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1.jpg</title>
 		<link>http://lab.cogdogblog.com/dimension/cropped-western_landscape_by_johann_hermann_carmiencke_high_museum-1-jpg/</link>
 		<pubDate>Sun, 29 Jul 2018 20:36:04 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/cropped-Western_Landscape_by_Johann_Hermann_Carmiencke_High_Museum-1.jpg</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>32</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-29 20:36:04]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-29 20:36:04]]></wp:post_date_gmt>
@@ -654,17 +606,14 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				wild-west-show		</title>
+		<title>wild-west-show</title>
 		<link>http://lab.cogdogblog.com/dimension/wild-west-show/</link>
 		<pubDate>Sun, 29 Jul 2018 20:50:10 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2018/07/wild-west-show.jpg</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>34</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-29 20:50:10]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-29 20:50:10]]></wp:post_date_gmt>
@@ -688,17 +637,14 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				cropped-wild-west-show.jpg		</title>
+		<title>cropped-wild-west-show.jpg</title>
 		<link>http://lab.cogdogblog.com/dimension/cropped-wild-west-show-jpg/</link>
 		<pubDate>Sun, 29 Jul 2018 20:50:28 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2018/07/cropped-wild-west-show.jpg</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>35</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-29 20:50:28]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-29 20:50:28]]></wp:post_date_gmt>
@@ -734,17 +680,14 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966.jpg		</title>
+		<title>cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966.jpg</title>
 		<link>http://lab.cogdogblog.com/dimension/cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966-jpg/</link>
 		<pubDate>Sun, 29 Jul 2018 20:48:01 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2017/09/cropped-lot-of-42-zane-grey-western-books-cowboy-old-west-vintage-hardcovers-c1940-681de4c332ea8ca731a81104d9180966.jpg</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>33</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-29 20:48:01]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-29 20:48:01]]></wp:post_date_gmt>
@@ -772,17 +715,14 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				The_Sentinel_(Remington)		</title>
+		<title>The_Sentinel_(Remington)</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/yell/attachment/the_sentinel_remington/</link>
 		<pubDate>Mon, 30 Jul 2018 02:56:36 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/wp-content/uploads/2018/07/The_Sentinel_Remington.jpg</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>43</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-30 02:56:36]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-30 02:56:36]]></wp:post_date_gmt>
@@ -806,15 +746,13 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				About		</title>
+		<title>About</title>
 		<link>http://lab.cogdogblog.com/dimension/about/</link>
 		<pubDate>Sat, 23 Sep 2017 21:42:40 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://connectedcourses.stateu.org/seeds/dimension/?page_id=2</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[This theme supports longer stand alone Pages, that you can use as button link targets.
+		<content:encoded><![CDATA[This theme supports longer stand alone Pages, that you can use as button link targets.
 
 Hey we might fill this page with a whole lot of stuff.
 
@@ -824,9 +762,8 @@ Rollo tracalero. valemadrista hasta la madre. poca madre compa. colado bote. zot
 
 Piocha pachuco. gato volador onda. carrilla cae gordo. birria apapache. curiosito pasar. clarín enchilado. ridículum andas tras de los huesos. mariachi pollero. rola bofeado. burra chiflársela. de cabeza canijo. gacho vagaciones. campechana troquita. andas tras de los huesos cascarear. panzona capirucha. aventado popis. choncho mochate. jale clavatelo. pedo al brinco. cae de a madre sangrón. chingadazo pingo. aguas chimuelo. chingado guey. quemón de pelos. neta galán. cachetón jambar. chupete hasta atrás. pinche guato. al brinco tanto pedo pa' cagar aguado. jetón malilla.
 
-Troque el otro lado. peda balín. furris alipuz. niguas sangrón. como la chingada ni madre. como jefe la mera mata. curiosito güero. lisa talonear. cascarear chido. lépero rollero. me agarro en curva cerote. wacha malilla. arnero chamaco. servilleta reventón. cheve cascarear. cuachalote eres junior. filero chicle. choya de la patada. andas tras de los huesos lavar el coco. se hace pato mafufo. gandalla fumigado. mayate ahi se va. aventarse poca madre. jalas parejo chamaco. chueco cheve. güiri-güiri naifa. trompabulario de pelos. hace los mandados chivearse. me sacaste un pedo panzona. guamazo guapacho]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+Troque el otro lado. peda balín. furris alipuz. niguas sangrón. como la chingada ni madre. como jefe la mera mata. curiosito güero. lisa talonear. cascarear chido. lépero rollero. me agarro en curva cerote. wacha malilla. arnero chamaco. servilleta reventón. cheve cascarear. cuachalote eres junior. filero chicle. choya de la patada. andas tras de los huesos lavar el coco. se hace pato mafufo. gandalla fumigado. mayate ahi se va. aventarse poca madre. jalas parejo chamaco. chueco cheve. güiri-güiri naifa. trompabulario de pelos. hace los mandados chivearse. me sacaste un pedo panzona. guamazo guapacho]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>6</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-23 21:42:40]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-23 21:42:40]]></wp:post_date_gmt>
@@ -853,17 +790,14 @@ Troque el otro lado. peda balín. furris alipuz. niguas sangrón. como la chinga
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				Twitter		</title>
+		<title>Twitter</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/twitter/</link>
 		<pubDate>Sun, 29 Jul 2018 20:00:28 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/uncategorized/twitter/</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>14</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-29 20:00:28]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-29 20:00:28]]></wp:post_date_gmt>
@@ -911,17 +845,14 @@ Troque el otro lado. peda balín. furris alipuz. niguas sangrón. como la chinga
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				YouTube		</title>
+		<title>YouTube</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/youtube/</link>
 		<pubDate>Sun, 29 Jul 2018 20:00:28 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/uncategorized/youtube/</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>15</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-29 20:00:28]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-29 20:00:28]]></wp:post_date_gmt>
@@ -969,17 +900,14 @@ Troque el otro lado. peda balín. furris alipuz. niguas sangrón. como la chinga
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				Instagram		</title>
+		<title>Instagram</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/instagram/</link>
 		<pubDate>Sun, 29 Jul 2018 20:00:28 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/uncategorized/instagram/</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>16</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-29 20:00:28]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-29 20:00:28]]></wp:post_date_gmt>
@@ -1027,17 +955,14 @@ Troque el otro lado. peda balín. furris alipuz. niguas sangrón. como la chinga
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				Email		</title>
+		<title>Email</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/email/</link>
 		<pubDate>Sun, 29 Jul 2018 20:00:28 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/uncategorized/email/</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>17</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-29 20:00:28]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-29 20:00:28]]></wp:post_date_gmt>
@@ -1081,33 +1006,30 @@ Troque el otro lado. peda balín. furris alipuz. niguas sangrón. como la chinga
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[http://mailto:me@me.org]]></wp:meta_value>
+		<wp:meta_value><![CDATA[mailto:me@me.org?subject=Greetings%20From%20Dimension]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				Me? I Got Badges		</title>
+		<title>Me? I Got Badges</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/me-i-have-some-stinking-badges/</link>
 		<pubDate>Sun, 24 Sep 2017 05:09:52 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://connectedcourses.stateu.org/seeds/dimension/?p=19</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[Kind of self-explanatory, eh? 
+		<content:encoded><![CDATA[Kind of self-explanatory, eh?
 
 Use the first box to provide a introduction to your big, open self. You can chose to have a brief intro here and link elsewhere. The link from the button below can go to another web site (like a more extensive bio) or even a Wordpress Page in this site.
 
-The featured image is added to the top and will link to whatever site you want to. These images are hard cropped to be 480 x 200 pixels, so pick a good image where the good stuff is in the middle.  
+The featured image is added to the top and will link to whatever site you want to. These images are hard cropped to be 480 x 200 pixels, so pick a good image where the good stuff is in the middle.
 
 Like <a href="https://en.wikipedia.org/wiki/The_Treasure_of_the_Sierra_Madre_(film)">Goldhat</a>, there, isn't he worth a stinking badge?
 
 https://www.youtube.com/watch?v=VqomZQMZQCQ
 
-You might choose to keep these content pieces short and link out for longer pieces, but you can also use the Wordpress Page in this theme as a button link target. 
+You might choose to keep these content pieces short and link out for longer pieces, but you can also use the Wordpress Page in this theme as a button link target.
 
-Just try this button.]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+Just try this button. I mean it.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>19</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 05:09:52]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 05:09:52]]></wp:post_date_gmt>
@@ -1153,17 +1075,23 @@ Just try this button.]]>		</content:encoded>
 		<wp:meta_key><![CDATA[_oembed_time_4820caea4fea857e15e6f27058375919]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1539451857]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_f28ad0d6d662a6444f285d3c1037feb8]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<iframe title="We don&#039;t need no stinking badges!" width="580" height="435" src="https://www.youtube.com/embed/VqomZQMZQCQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_time_f28ad0d6d662a6444f285d3c1037feb8]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1565210019]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				My Wild Western Skills		</title>
+		<title>My Wild Western Skills</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/my-wild-western-skills/</link>
 		<pubDate>Sun, 24 Sep 2017 05:28:15 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://connectedcourses.stateu.org/seeds/dimension/?p=23</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[A second part of a site might be a resume, or an overview of works created, projects, some hint at the awesomeness of my skill set.
+		<content:encoded><![CDATA[A second part of a site might be a resume, or an overview of works created, projects, some hint at the awesomeness of my skill set.
 
 You can completely gut this to customize it (please do not leave it as is), or delete this post and create a new one.
 
@@ -1220,9 +1148,8 @@ Even embedded videos! Yee hah!
 
 https://www.youtube.com/watch?v=czGIrp_GsTE
 
-]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>23</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 05:28:15]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 05:28:15]]></wp:post_date_gmt>
@@ -1242,11 +1169,11 @@ https://www.youtube.com/watch?v=czGIrp_GsTE
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_oembed_5726d62e48f01788d3f2a309a6e5d7cd]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<iframe width="500" height="281" src="https://www.youtube.com/embed/czGIrp_GsTE?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>]]></wp:meta_value>
+		<wp:meta_value><![CDATA[<iframe title="Real cowboys real calf roping [HD]" width="500" height="281" src="https://www.youtube.com/embed/czGIrp_GsTE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_oembed_time_5726d62e48f01788d3f2a309a6e5d7cd]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1539461872]]></wp:meta_value>
+		<wp:meta_value><![CDATA[1582764523]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
@@ -1268,51 +1195,56 @@ https://www.youtube.com/watch?v=czGIrp_GsTE
 		<wp:meta_key><![CDATA[_link_fa_icon]]></wp:meta_key>
 		<wp:meta_value><![CDATA[fa-share]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_a8de42dcc7420c351194936db186e379]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<iframe title="Real cowboys real calf roping [HD]" width="580" height="326" src="https://www.youtube.com/embed/czGIrp_GsTE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_oembed_time_a8de42dcc7420c351194936db186e379]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1582764525]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				Cowboys Write Too		</title>
+		<title>Cowboys Write Too</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/cowboys-write-too/</link>
 		<pubDate>Sun, 24 Sep 2017 05:34:24 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://connectedcourses.stateu.org/seeds/dimension/?p=28</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[While out on the trail I still manage to do my esoteric research and paper writing. Here are a few of my recent publications.
+		<content:encoded><![CDATA[While out on the trail I still manage to do my esoteric research and paper writing. Here are a few of my recent publications.
 
 &nbsp;
 
-Adams, Andy. <em>The Log of a Cowboy: A Narrative of the Old Trail Days. </em>Lincoln and London: University of Nebraska Press, 1964.
+Adams, Andy.&nbsp;<em>The Log of a Cowboy: A Narrative of the Old Trail Days.&nbsp;</em>Lincoln and London: University of Nebraska Press, 1964.
 
-Adams, Ramon Frederick. <em>Cowboy Lingo</em>. Boston: Houghton Mifflin Company, 1936.
+Adams, Ramon Frederick.&nbsp;<em>Cowboy Lingo</em>. Boston: Houghton Mifflin Company, 1936.
 
-----------. <em>Western Words: A Dictionary of the Range, Cow Camp and Trail</em>. Norman: University of Oklahoma Press, 1946.
+----------.&nbsp;<em>Western Words: A Dictionary of the Range, Cow Camp and Trail</em>. Norman: University of Oklahoma Press, 1946.
 
-----------. <em>Come an' Get It: The Story of the Old Cowboy Cook</em>. Norman: University of Oklahoma Press, 1952.
+----------.&nbsp;<em>Come an' Get It: The Story of the Old Cowboy Cook</em>. Norman: University of Oklahoma Press, 1952.
 
-Carpenter, Will Tom. <em>Lucky 7: A Cowman's Autobiography</em>. Austin: University of Texas Press, 1957.
+Carpenter, Will Tom.&nbsp;<em>Lucky 7: A Cowman's Autobiography</em>. Austin: University of Texas Press, 1957.
 
-Dale, Edward Everett. <em>Cow Country</em>. (1942; reprint, Norman: University of Oklahoma Press, 1965).
+Dale, Edward Everett.&nbsp;<em>Cow Country</em>. (1942; reprint, Norman: University of Oklahoma Press, 1965).
 
-Dillman, Bruce. <em>The Cowboy Handbook</em>. Lincoln, Nebr.: Lone Prairie Publishing, 1994.
+Dillman, Bruce.&nbsp;<em>The Cowboy Handbook</em>. Lincoln, Nebr.: Lone Prairie Publishing, 1994.
 
-Duncan, Dayton. <em>People of the West</em>. Boston: Little, Brown and Company, 1996.
+Duncan, Dayton.&nbsp;<em>People of the West</em>. Boston: Little, Brown and Company, 1996.
 
-----------. <em>The West: An Illustrated History for Children</em>. Boston: Little, Brown and Company, 1996.
+----------.&nbsp;<em>The West: An Illustrated History for Children</em>. Boston: Little, Brown and Company, 1996.
 
-Erickson, John R. <em>The Modern Cowboy</em>. Lincoln and London: University of Nebraska Press, 1981.
+Erickson, John R.&nbsp;<em>The Modern Cowboy</em>. Lincoln and London: University of Nebraska Press, 1981.
 
-Garst, Shannon, and Warren Garst. <em>Cowboys and Cattle Trails</em>. Chicago: Wheeler Publishing Co., 1948.
+Garst, Shannon, and Warren Garst.&nbsp;<em>Cowboys and Cattle Trails</em>. Chicago: Wheeler Publishing Co., 1948.
 
-Haley, J. Evetts. <em>Life on the Texas Range</em>. (1952; reprint, Austin: University of Texas Press, 1994).
+Haley, J. Evetts.&nbsp;<em>Life on the Texas Range</em>. (1952; reprint, Austin: University of Texas Press, 1994).
 
-Pattullo, George. <em>A Good Rooster Crows Everywhere</em>. 1939.
+Pattullo, George.&nbsp;<em>A Good Rooster Crows Everywhere</em>. 1939.
 
-Price, Byron. <em><a href="http://www.cartermuseum.org/publications_set.html#openrange" target="new">Imagining the Open Range: Erwin E. Smith, Cowboy Photographer</a></em>. Fort Worth: Amon Carter Museum, 1998.
+Price, Byron.&nbsp;<em><a href="http://www.cartermuseum.org/publications_set.html#openrange" target="new" rel="noopener noreferrer">Imagining the Open Range: Erwin E. Smith, Cowboy Photographer</a></em>. Fort Worth: Amon Carter Museum, 1998.
 
-Taylor, Lonn , and Ingrid Maar. <em>The American Cowboy</em>. New York: Harper &amp; Row, 1983.]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+Taylor, Lonn , and Ingrid Maar.&nbsp;<em>The American Cowboy</em>. New York: Harper &amp; Row, 1983.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>28</wp:post_id>
 		<wp:post_date><![CDATA[2017-09-24 05:34:24]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2017-09-24 05:34:24]]></wp:post_date_gmt>
@@ -1350,21 +1282,22 @@ Taylor, Lonn , and Ingrid Maar. <em>The American Cowboy</em>. New York: Harper 
 		<wp:meta_key><![CDATA[_link_fa_icon]]></wp:meta_key>
 		<wp:meta_value><![CDATA[fa-book]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				Yell Loudly to Find Me		</title>
+		<title>Yell Loudly to Find Me</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/yell/</link>
 		<pubDate>Mon, 30 Jul 2018 02:59:38 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/?p=42</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[I'm busy out there in the wild web, but am also eager to hear what kind of tales you spin or offers you may send my way.
+		<content:encoded><![CDATA[I'm busy out there in the wild web, but am also eager to hear what kind of tales you spin or offers you may send my way.
 
-You might find me at one of those little pretty icons there on the page, but also feel free to give me a yell over on my contact page.]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+You might find me at one of those little pretty icons there on the page, but also feel free to give me a yell over on my contact page.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>42</wp:post_id>
 		<wp:post_date><![CDATA[2018-07-30 02:59:38]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2018-07-30 02:59:38]]></wp:post_date_gmt>
@@ -1404,17 +1337,14 @@ You might find me at one of those little pretty icons there on the page, but als
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>
-				Mastodon		</title>
+		<title>Mastodon</title>
 		<link>http://lab.cogdogblog.com/dimension/uncategorized/mastodon/</link>
 		<pubDate>Thu, 03 Jan 2019 14:15:49 +0000</pubDate>
 		<dc:creator><![CDATA[oikoed]]></dc:creator>
 		<guid isPermaLink="false">http://lab.cogdogblog.com/dimension/?p=66</guid>
 		<description></description>
-		<content:encoded>
-				<![CDATA[]]>		</content:encoded>
-		<excerpt:encoded>
-				<![CDATA[]]>		</excerpt:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>66</wp:post_id>
 		<wp:post_date><![CDATA[2019-01-03 14:15:49]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2019-01-03 14:15:49]]></wp:post_date_gmt>
