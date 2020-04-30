@@ -37,7 +37,7 @@ Editing options in the posts/front pages provide the means to add a button and l
 * Davie Quinn http://eduquinn.com/
 * Debby Tran http://staff.washington.edu/detran/
 * Discover WISR: The Western Institute for Social Research  https://discover.wisr.faberglas.com/blog/
-* DOOO Admin Landing Page https://stateu.org/dooo-admin/
+* Domain of One's Own Admin Landing Page https://stateu.org/dooo-admin/
 * Extend Labs Mad Scientists https://extendlabs.ca/
 * Jean Ramirez https://socioworld.openlcc.net/
 * Jeff Jaxon http://www.jeffjaxon.com/
