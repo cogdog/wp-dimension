@@ -58,6 +58,7 @@ Editing options in the posts/front pages provide the means to add a button and l
 * Origin: Coventry University Art and Design Research Hub  http://origin.coventry.domains/
 * PT Becca http://www.ptbecca.co.uk/
 * Retrospect Prints http://www.retrospectprints.com/
+* Roland J. Kushner https://rjkushner.com/
 * Sarah Lieselotte Helga https://sarahlieselotte.com/
 * Science in the Learning Gardens http://learning-gardens.org/
 * Simon Thompson http://about.digis.im/
