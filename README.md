@@ -64,6 +64,7 @@ Editing options in the posts/front pages provide the means to add a button and l
 * Simon Thompson http://about.digis.im/
 * SPLOT presentation "A Shotgun Marriage" http://splot.ca/domains2017/
 * Spring History Symposium, University of Hong Kong https://shs.history.hku.hk/
+* Studio Bruit D'Avril https://bruitdavril.fr/
 * Suzanne Thompson https://thompssw.sites.wfu.edu/
 * Svea Hernandez http://www.stsci.edu/~sveash/
 * Tom Fullerton http://tomfullerton.ca/
@@ -210,7 +211,7 @@ Where:
 
 * **url**is the address to send a visitor to when they click the button.
 * **text** the label for the button
-* **icon** is the [Font Awesome 4.7 name for an optional icon](https://fontawesome.com/v4.7.0/icons/) to include on the button.
+* **icon** is the [Font Awesome 5.x name for an optional Free Solid icon](https://fontawesome.com/icons?d=gallery&p=2&s=solid&m=free) to include on the button.
 
 
 ## Note on Featured images
@@ -232,7 +233,7 @@ The featured images displayed for each post will be scaled down to fit a size wi
 
 ## Features / History
 
-
+* v2.2 (Oct 2, 2021) Updated to match changes in CSS/JS of the original HTML5UP Dimension theme, including use of Font Awesome 5 icons
 * v2.0 (Feb 25, 2020) Better CSS for a responsive and even sized navigation menu.
 * v1.8 (Oct 12, 2018) Nag notices added to encourage use of FontAwesome 5 plugin, CSS tweak to fix mobile menus, segment base CSS from WordPress
 * v1.7 (Oct 12, 2018) Rebranded WordPress posts internally as "Front Boxes" to better reflect their purpose. A new template for single entries shows a Front Box opened on the home page.

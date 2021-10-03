@@ -8,7 +8,7 @@
 					<?php if ( get_theme_mod( 'dimension_logo' ) ) : ?>
 						<img src="<?php echo esc_url( get_theme_mod( 'dimension_logo' ) ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
 					<?php else : ?>
-						<span class="icon fa-cogs"></span>
+						<span class="icon fa-sun"></span>
 					<?php endif; ?>
 
 					</div>
@@ -113,7 +113,7 @@
 
 									$go_button_name = ( !empty( get_post_meta( get_the_ID(), '_go_button_name', true ) ) ) ? get_post_meta( get_the_ID(), '_go_button_name', true ) : 'Go';
 
-									echo '<p class="align-center"><a href="' . $the_link . '" class="button icon ' . $fa_icon . '">' . $go_button_name .  '</a></p>';
+									echo '<p class="align-center"><a href="' . $the_link . '" class="button icon solid ' . $fa_icon . '">' . $go_button_name .  '</a></p>';
 								}
 
 

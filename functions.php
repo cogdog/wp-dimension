@@ -1,8 +1,8 @@
 <?php
 /* Functions and stuff for the WP-Dimension theme
-   
+
    Based on HTML5up html5up.net
-   
+
    mods by and blame go to http://cog.dog
 */
 
@@ -13,12 +13,12 @@ add_action( 'after_setup_theme', 'dimension_setup' );
 // better title support https://make.wordpress.org/core/2014/10/29/title-tags-in-4-1/
 function dimension_setup() {
    add_theme_support( 'title-tag' );
-   
+
    // give us thumbnails and righteous sizes
-	add_theme_support( 'post-thumbnails' ); 
+	add_theme_support( 'post-thumbnails' );
 	set_post_thumbnail_size( 480, 200, true );
 	add_image_size( 'page-thumb', 960, 400, true );
-	
+
 	// give us custom headers (that we will sneakily use as background
 	$defaults = array(
 		'default-image'          => '',
@@ -131,10 +131,10 @@ add_action('manage_posts_custom_column',  'dimension_columns_show_columns');
 
 
 function custom_post_order($query){
-    /* 
+    /*
         Set post types.
-        _builtin => true returns WordPress default post types. 
-        _builtin => false returns custom registered post types. 
+        _builtin => true returns WordPress default post types.
+        _builtin => false returns custom registered post types.
     */
     $post_types = get_post_types(array('_builtin' => true), 'names');
     /* The current post type. */
@@ -164,16 +164,16 @@ add_filter('manage_posts_columns', 'dimension_columns');
 
 function dimension_columns($columns) {
 
-	$dimension_columns = array(); 
+	$dimension_columns = array();
 
-	foreach( $columns as $key => $value) { 
-		
-		if ( $key != 'date' and $key != 'categories' ) $dimension_columns[$key] = $value; 
-		if ( $key== 'title' ) { 
+	foreach( $columns as $key => $value) {
+
+		if ( $key != 'date' and $key != 'categories' ) $dimension_columns[$key] = $value;
+		if ( $key== 'title' ) {
 			$dimension_columns['order'] = ' Box Order';
-		} 
+		}
 	}
-	
+
     return $dimension_columns;
 }
 
@@ -187,26 +187,30 @@ function dimension_scripts() {
 	// dimension CSS
 	wp_register_style( 'dimension-style', get_stylesheet_directory_uri() . '/assets/css/main.css' );
 	wp_enqueue_style( 'dimension-style' );
-	
+
 	// dimension no script CSS
 	wp_register_style( 'dimension-scriptless-style', get_stylesheet_directory_uri() . '/assets/css/noscript.css' );
 	wp_enqueue_style( 'dimension-scriptless-style' );
 
 	// dimension base CSS
 	wp_register_style( 'dimension-style-wp', get_stylesheet_directory_uri() . '/style.css' );
-	wp_enqueue_style( 'dimension-style-wp' );	
-		
+	wp_enqueue_style( 'dimension-style-wp' );
+
 	// custom jquery down in the footer you go
-	wp_register_script( 'dimension-skel' , get_stylesheet_directory_uri() . '/assets/js/skel.min.js', array( 'jquery' ), false, true );
-	wp_enqueue_script( 'dimension-skel' );
-	
+	wp_register_script( 'dimension-browser' , get_stylesheet_directory_uri() . '/assets/js/browser.min.js', array( 'jquery' ), false, true );
+	wp_enqueue_script( 'dimension-browser' );
+
+	wp_register_script( 'dimension-breakpoints' , get_stylesheet_directory_uri() . '/assets/js/breakpoints.min.js', array( 'jquery' ), false, true );
+	wp_enqueue_script( 'dimension-breakpoints' );
+
+
 	wp_register_script( 'dimension-util' , get_stylesheet_directory_uri() . '/assets/js/util.js', array( 'jquery' ), false, true );
 	wp_enqueue_script( 'dimension-util' );
 
 
 	wp_register_script( 'dimension-main' , get_stylesheet_directory_uri() . '/assets/js/main.js', array( 'jquery' ), false, true );
 	wp_enqueue_script( 'dimension-main' );
-	
+
 }
 
 
@@ -273,7 +277,7 @@ function dimension_register_theme_customizer( $wp_customize ) {
 		    )
 	    )
 	);
-	
+
 	// add section for custom logo
 	// ----- h/t https://kwight.ca/2012/12/02/adding-a-logo-uploader-to-your-wordpress-site-with-the-theme-customizer/
 	$wp_customize->add_section( 'dimension_logo_section' , array(
@@ -284,7 +288,7 @@ function dimension_register_theme_customizer( $wp_customize ) {
 
 	// add setting for logo
 	$wp_customize->add_setting( 'dimension_logo' );
-	
+
 	// add controller for logo
 	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'dimension_logo', array(
 		'label'    => __( 'Logo', 'dimension' ),
@@ -311,7 +315,7 @@ function dimension_footer_text() {
 function dimension_quote_text() {
 	 if ( get_theme_mod( 'quote_text_block') != "" ) {
 	 	echo '<p>' . get_theme_mod( 'quote_text_block') . '</p>';
-	 }	
+	 }
 }
 
 /**
@@ -320,48 +324,48 @@ function dimension_quote_text() {
  * plugin found here... https://wordpress.org/plugins/customizer-export-import/
  * h/t - https://gist.github.com/fastlinemedia/9a8070b9a636e38b510f
  */
- 
+
  add_action( 'after_switch_theme', 'splot_import_customizer_settings' );
- 
+
 function splot_import_customizer_settings()
 {
 	// Check to see if the settings have already been imported.
 	$template = get_template();
 	$imported = get_option( $template . '_customizer_import', false );
-	
+
 	// Bail if already imported.
 	if ( $imported ) {
 		return;
 	}
-	
+
 	// Get the path to the customizer export file.
 	$path = trailingslashit( get_stylesheet_directory() ) . 'data/customizer.dat';
-	
+
 	// Return if the file doesn't exist.
 	if ( ! file_exists( $path ) ) {
 		return;
 	}
-	
+
 	// Get the settings data.
 	$data = @unserialize( file_get_contents( $path ) );
-	
+
 	// Return if something is wrong with the data.
 	if ( 'array' != gettype( $data ) || ! isset( $data['mods'] ) ) {
 		return;
 	}
-	
+
 	// Import options.
 	if ( isset( $data['options'] ) ) {
 		foreach ( $data['options'] as $option_key => $option_value ) {
 			update_option( $option_key, $option_value );
 		}
 	}
-	
+
 	// Import mods.
 	foreach ( $data['mods'] as $key => $val ) {
 		set_theme_mod( $key, $val );
 	}
-	
+
 	// Set the option so we know these have already been imported.
 	update_option( $template . '_customizer_import', true );
 }
@@ -373,7 +377,7 @@ function splot_import_customizer_settings()
 
 /* add editor boxes for the post/front box labels and vuttons
 	https://codex.wordpress.org/Plugin_API/Action_Reference/add_meta_boxes
-	
+
 	One is for the optional short name for front page didsplay, the second for building bottom buttons
 */
 
@@ -385,7 +389,7 @@ function dimension_add_meta_boxes( $post ) {
 add_action( 'add_meta_boxes', 'dimension_add_meta_boxes' );
 
 function dimension_build_meta_box( $post ){
-	
+
 	wp_nonce_field( basename( __FILE__ ), 'dimension_meta_box_nonce' );
 
 
@@ -397,34 +401,34 @@ function dimension_build_meta_box( $post ){
 
 	// retrieve the _dimension_link current value
 	$current_link = get_post_meta( $post->ID, '_dimension_link', true );
-	
+
 	// retrieve the _link_fa_icon current value
 	$current_link_icon = get_post_meta( $post->ID, '_link_fa_icon', true );
 	if ( empty( $current_link_icon ) ) $current_link_icon = 'fa-share';
-	
+
 	?>
-	
+
 			<p>
 			<label for="button_label" style="font-weight:bold">Front Box Label</label><br />
 			This is the short name to fit in the box links on the front of the site, if empty it will use the post title.<br />
 			<input type="text" name="button_label" value="<?php echo $button_label; ?>" style="width:100%" />
-			</p>	
+			</p>
 
 
 			<p>
 			<label for="go_button_name" style="font-weight:bold">Go Button Label</label><br />
 			<input type="text" name="go_button_name" value="<?php echo $go_button_name; ?>" style="width:100%" />
 			</p>
-				
+
 			<p>
 			<label for="dimension_link" style="font-weight:bold">Go Button Destination URL</label><br />
 			<input type="text" name="dimension_link" value="<?php echo $current_link; ?>" style="width:100%" />
 			</p>
-			
+
 			<p>
 			<label for="link_fa_icon"  style="font-weight:bold">Font Awesome Button Icon</label><br />
-			Use a <a href="http://fontawesome.io/icons/" target="_blank">Font Awesome icon</a> on the link button, enter class name e.g. <em>fa-car</em> or <em>fa-share</em><br />
-			<input type="text" name="link_fa_icon" value="<?php echo $current_link_icon; ?>" /> 
+			Use a <a href="https://fontawesome.com/cons?d=gallery&p=2&s=solid&m=free" target="_blank">Font Awesome Solid icon</a> on the link button, enter class name e.g. <em>fa-car</em> or <em>fa-share</em><br />
+			<input type="text" name="link_fa_icon" value="<?php echo $current_link_icon; ?>" />
 			</p>
 
 <?php
@@ -435,13 +439,13 @@ function dimension_save_meta_boxes_data( $post_id ) {
     // Checks save status
     $is_autosave = wp_is_post_autosave( $post_id );
     $is_revision = wp_is_post_revision( $post_id );
-    
-    // got nonce?    
+
+    // got nonce?
     $is_valid_nonce = ( isset( $_POST[ 'dimension_meta_box_nonce' ] ) && wp_verify_nonce( $_POST[ 'dimension_meta_box_nonce' ], basename( __FILE__ ) ) ) ? 'true' : 'false';
- 
-    // Exits if faux save status 
+
+    // Exits if faux save status
     if ( $is_autosave || $is_revision || !$is_valid_nonce ) return;
-	
+
 	// editors only
 	if ( ! current_user_can( 'edit_post', $post_id ) ) return;
 
@@ -454,17 +458,17 @@ function dimension_save_meta_boxes_data( $post_id ) {
 	if ( isset( $_REQUEST['go_button_name'] ) ) {
 		update_post_meta( $post_id, '_go_button_name', sanitize_text_field( $_POST['go_button_name'] ) );
 	}
-		
+
 	// update link meta data
 	if ( isset( $_REQUEST['dimension_link'] ) ) {
 		update_post_meta( $post_id, '_dimension_link', sanitize_text_field( $_POST['dimension_link'] ) );
 	}
-	
+
 	// update icon meta data
 	if ( isset( $_REQUEST['link_fa_icon'] ) ) {
 		update_post_meta( $post_id, '_link_fa_icon', sanitize_text_field( $_POST['link_fa_icon'] ) );
 	}
-	
+
 }
 
 add_action( 'save_post', 'dimension_save_meta_boxes_data', 10, 2 );
@@ -473,17 +477,17 @@ add_action( 'save_post', 'dimension_save_meta_boxes_data', 10, 2 );
 
 
 // generate buttons as needed
-add_shortcode("linkbutton", "dimension_button");  
+add_shortcode("linkbutton", "dimension_button");
 
-function dimension_button( $atts ) {  
- 	
- 	// use the theme styles to insert a link button. 
- 	extract( shortcode_atts( array( "url" => "#", "text" => "Go", "special" => "", "icon" => ""), $atts ) );  
+function dimension_button( $atts ) {
+
+ 	// use the theme styles to insert a link button.
+ 	extract( shortcode_atts( array( "url" => "#", "text" => "Go", "special" => "", "icon" => ""), $atts ) );
 
 	$button_class = 'button';
 	if ( !empty( $special ) ) $button_class .= ' special';
 	if ( !empty( $icon ) ) $button_class .= ' icon ' . $icon;
-	
+
 	return ('<p class="align-center"><a href="' . $url . '" class="' . $button_class . '">' . $text . '</a></p>');
 
 }

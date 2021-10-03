@@ -3,7 +3,7 @@ Theme Name: WP-Dimension
 Theme URI: http://github.com/cogdog/wp-dimension
 Author: Alan Levine
 Author URI: https://cog.dog
-Version: 2.01
+Version: 2.2
 Description: Use this theme for a single screen, clean calling card site, based on the HTML5 UP theme Dimension template. Have up to 10 front page box links for short content (anything that fits into a post) with optional buttons that link to outside content or longer content on the Page Template. Add a social media icon theme with the Font Awesome 5 menus plugin.
 License: Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -61,6 +61,10 @@ span.fontawesome-text {
     display: none;
 }
 
+#menu-social-media {
+    justify-content: center;
+}
+
 
 ul.actions a {
     border: none;
@@ -74,10 +78,91 @@ h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
     width: unset;
 }
 
+
+.image.main img {
+	height: auto;
+}
+
+#bg:after {
+  background-image: none;
+}
+
+#header nav ul li a:hover, #header nav ul li a:active  {
+	background-color: none;
+}
+
+#pagemain {
+		-moz-flex-grow: 1;
+		-webkit-flex-grow: 1;
+		-ms-flex-grow: 1;
+		flex-grow: 1;
+		-moz-flex-shrink: 1;
+		-webkit-flex-shrink: 1;
+		-ms-flex-shrink: 1;
+		flex-shrink: 1;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		position: relative;
+		max-width: 100%;
+		z-index: 3;
+}
+
+ #pagemain #staticpage {
+	padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
+	position: relative;
+	width: 60rem;
+	max-width: 100%;
+	background-color: rgba(27, 31, 34, 0.85);
+	border-radius: 4px;
+	opacity: 0;
+
+ }
+
+
+#staticpage .image.main img.wp-post-image {
+	height: auto;
+}
+
+
+#pagemain #staticpage {
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+	opacity: 1;
+}
+
+
+@media screen and (max-width: 736px) {
+
+	#pagemain #staticpage {
+		padding: 3.5rem 2rem 0.5rem 2rem ;
+	}
+}
+
 @media screen and (max-width: 480px) {
 	ul.actions li:last-child {
 		padding-right:0;
 	}
+
+	#pagemain #staticpage {
+		padding: 3rem 1.5rem 0.5rem 1.5rem ;
+	}
+
 }
 
 
@@ -141,6 +226,4 @@ h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
     #header nav ul li a:hover {
       background-color: none;
     }
-
-
 }

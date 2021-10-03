@@ -5,14 +5,14 @@
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<?php wp_head(); ?>
+
 		<style>
 		#bg:after {background-image: url("<?php header_image(); ?>");}
 		</style>
-		
-		<?php wp_head(); ?>
+
 	</head>
-	<body>
+	<body ?php body_class( 'is-preload' ); ?>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
