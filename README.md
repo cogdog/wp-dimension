@@ -22,9 +22,9 @@ Editing options in the posts/front pages provide the means to add a button and l
 
 ## Examples
 
+* Adam J Engel https://adamjengel.com/
 * Alison Crump http://alisoncrump.ca/research/
 * Ancestors in the Archives http://ancestorsinthearchives.com/
-* Asako Yoshida https://aozora.ca/me
 * BC Academic Integrity Network https://bcain.trubox.ca/
 * Bild-Lida (Belonging, Identity, Language, Diversity Research Group (BILD) // Groupe de Recherche Langage, Identité, Diversité, Appartenance (LIDA)) http://bild-lida.ca/
 * Buffscreate Community http://possibility.buffscreate.net/
@@ -32,24 +32,18 @@ Editing options in the posts/front pages provide the means to add a button and l
 * CogDog (that's me!) https://cog.dog/
 * Coventry University Art and Design Skills Hub http://origin.coventry.domains/
 * Cowboy flavored demo http://lab.cogdogblog.com/dimension/
-* Dan Zuberbier http://dpzuberbier.com/
-* Daniel Villar-Onrubia http://daniel.coventry.domains/
 * Davie Quinn http://eduquinn.com/
 * Debby Tran http://staff.washington.edu/detran/
-* Discover WISR: The Western Institute for Social Research  https://discover.wisr.faberglas.com/blog/
 * Domain of One's Own Admin Landing Page https://stateu.org/dooo-admin/
 * Extend Labs Mad Scientists https://extendlabs.ca/
 * Jean Ramirez https://socioworld.openlcc.net/
 * Jeff Jaxon http://www.jeffjaxon.com/
-* Jon Rei https://jonrei.de/
 * JR Dingwall https://jrdingwall.ca/
-* Kate Thornhill https://notadigitalarchive.com/
 * Ken Bauer https://kenbauer.me/
 * Kim Jaxon http://www.kimjaxon.com/me/
-* Kursi Yoga https://kursi-yoga.be/
-* Kyle Storey http://kylona.com/
+* Kim Carter https://cupofteaching.ca/
 * Laura Killam http://nursekillam.com/
-* Lisa Katarina Zimmermann http://lisa-zimmermann-sopran.de/en/
+* Lisa Katarina Zimmermann http://lisa-zimmermann-sopran.de/ and http://lisa-zimmermann-sopran.de/en/
 * Mariana Funes http://marianafun.es/
 * Marie Yvette Lepage, M.S.W., R.S.W. https://www.mylepage.ca/
 * Matt Croslin https://mattcrosslin.com/
@@ -57,20 +51,16 @@ Editing options in the posts/front pages provide the means to add a button and l
 * Norm Wright http://nostorynorm.com/
 * Origin: Coventry University Art and Design Research Hub  http://origin.coventry.domains/
 * PT Becca http://www.ptbecca.co.uk/
-* Retrospect Prints http://www.retrospectprints.com/
 * Roland J. Kushner https://rjkushner.com/
 * Sarah Lieselotte Helga https://sarahlieselotte.com/
 * Science in the Learning Gardens http://learning-gardens.org/
 * Simon Thompson http://about.digis.im/
 * SPLOT presentation "A Shotgun Marriage" http://splot.ca/domains2017/
-* Spring History Symposium, University of Hong Kong https://shs.history.hku.hk/
 * Studio Bruit D'Avril https://bruitdavril.fr/
 * Suzanne Thompson https://thompssw.sites.wfu.edu/
 * Svea Hernandez http://www.stsci.edu/~sveash/
 * Tom Fullerton http://tomfullerton.ca/
 * Tech For Teaching (Conestoga College) http://techforteaching.ca/
-* Thunder Fairy http://thethunderfairy.com/
-* Tim Owens https://timowens.io
 
 
 [Search for other examples in The Google](https://www.google.com/search?q=%22WP+DIMENSION+BASED+ON+HTML5+UP%22)
