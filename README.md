@@ -86,6 +86,12 @@ It's sure elegant, right?
 
 [Search for other examples in The Google](https://www.google.com/search?q=%22WP+DIMENSION+BASED+ON+HTML5+UP%22)
 
+## More info
+
+* [Blog Posts About WP-Dimension](https://cogdogblog.com/tag/wp-dimension/) (CogDogBlog)
+* [Wordpress Calling Card Themes](https://cards.cog.dog/) (built with one of them!)
+* [Let's Go Small with WordPress Calling Card Themes](https://cog.dog/show/2022/03/25/pressedconf22/) (#PressEdConf 2022 presentation)
+
 ## Installing from Scratch
 
 Install this theme on any self hosted Wordpress site. You cannot do this on Wordpress.com, get a real web hosting package.
