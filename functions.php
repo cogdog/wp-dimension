@@ -226,15 +226,37 @@ function dimension_register_theme_customizer( $wp_customize ) {
 	$wp_customize->add_panel( 'text_blocks', array(
 		'priority'       => 500,
 		'theme_supports' => '',
-		'title'          => __( 'Dimension Front Text', 'dimension' ),
-		'description'    => __( 'Set editable text for front page content. Title and tagline are drawn from blog settings', 'dimension' ),
+		'title'          => __( 'WP-Dimension', 'dimension' ),
 	) );
+
+
+
+	// add section for custom logo
+	// ----- h/t https://kwight.ca/2012/12/02/adding-a-logo-uploader-to-your-wordpress-site-with-the-theme-customizer/
+	$wp_customize->add_section( 'dimension_logo_section' , array(
+		'title'       => __( 'Dimension Logo', 'dimension' ),
+		'panel'    => 'text_blocks',
+		'priority'    => 10,
+		'description' => 'Upload your own logo to replace the little gears',
+) );
+
+	// add setting for logo
+	$wp_customize->add_setting( 'dimension_logo' );
+
+	// add controller for logo
+	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'dimension_logo', array(
+		'label'    => __( 'Logo', 'dimension' ),
+		'section'  => 'dimension_logo_section',
+		'settings' => 'dimension_logo',
+) ) );
+
+
 
 	// Add section for quote
 	$wp_customize->add_section( 'custom_quote_text' , array(
 		'title'    => __('Edit Custom Quote','dimension'),
 		'panel'    => 'text_blocks',
-		'priority' => 10
+		'priority' => 15
 	) );
 	// Add setting for quote
 	$wp_customize->add_setting( 'quote_text_block', array(
@@ -277,24 +299,36 @@ function dimension_register_theme_customizer( $wp_customize ) {
 		    )
 	    )
 	);
+	
+	// Add section for other settings
+	$wp_customize->add_section( 'custom_other_settings' , array(
+		'title'    => __('Oher Settings','dimension'),
+		'panel'    => 'text_blocks',
+		'priority' => 25
+	) );
+	// Add setting for number of boxes
+	$wp_customize->add_setting( 'front_box_count', array(
+		 'default'           => 8,
+		 'sanitize_callback' => 'absint'
+	) );
+	// Add control for footer
+	$wp_customize->add_control( new WP_Customize_Control(
+	    $wp_customize,
+		'front_box_count',
+		    array(
+		        'label'    => __( 'Number of Boxes', 'dimension' ),
+		        'section'  => 'custom_other_settings',
+		        'settings' => 'front_box_count',
+		        'type'     => 'number',
+		        'input_attrs' => array(
+   					 'min' => 1,
+    				 'max' => 16
+				)
+		    )
+	    )
+	);	
+	
 
-	// add section for custom logo
-	// ----- h/t https://kwight.ca/2012/12/02/adding-a-logo-uploader-to-your-wordpress-site-with-the-theme-customizer/
-	$wp_customize->add_section( 'dimension_logo_section' , array(
-		'title'       => __( 'Dimension Logo', 'dimension' ),
-		'priority'    => 510,
-		'description' => 'Upload your own logo to replace the little gears',
-) );
-
-	// add setting for logo
-	$wp_customize->add_setting( 'dimension_logo' );
-
-	// add controller for logo
-	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'dimension_logo', array(
-		'label'    => __( 'Logo', 'dimension' ),
-		'section'  => 'dimension_logo_section',
-		'settings' => 'dimension_logo',
-) ) );
 
  	// Sanitize text
 	function sanitize_text( $text ) {
@@ -317,6 +351,12 @@ function dimension_quote_text() {
 	 	echo '<p>' . get_theme_mod( 'quote_text_block') . '</p>';
 	 }
 }
+
+// return max box count
+function dimension_get_box_max() {
+	 return get_theme_mod( 'front_box_count');
+}
+
 
 /**
  * This function assumes you have a Customizer export file in your theme directory
@@ -494,4 +534,5 @@ function dimension_button( $atts ) {
 
 // Load plugin requirements file to display admin notices.
 require get_stylesheet_directory() . '/includes/splot-plugins.php';
+
 ?>

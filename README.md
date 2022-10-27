@@ -113,6 +113,7 @@ See the documentation of WP-Dimension, how to customize your site, and other Wor
 
 ## Features / History
 
+* v2.5 (Oct 27, 2022) Customizer panels reorganized, a new setting to allow for more than 8 boxes on front page (or fewer)
 * v2.4 (Sep 7, 2022) Include Font Awesome 6.2, update the documentation and make use of Docsify This to display it all pretty like
 * v2.2 (Oct 2, 2021) Updated to match changes in CSS/JS of the original HTML5UP Dimension theme, including use of Font Awesome 5 icons
 * v2.0 (Feb 25, 2020) Better CSS for a responsive and even sized navigation menu.

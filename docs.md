@@ -19,18 +19,28 @@ Under `Header Image` upload an image (recommended size 1568 x 1024 px or bigger)
 
 The reason we use Header image controller, is you can upload more than one image, and use the option to randomize each time.
 
-
-### Front Quote and Footer
-Under `Dimension Front Text` edit fields to add an optional quote (appears below tagline) and custom footer text
-
-![](images/customizer-front-text.jpg "Front Text")
-
-Any Footer text added will be placed before the current credits line at the bottom.
+The other theme specific options are now under a **WP-Dimension** panel at the bottom of the Customizer
 
 ### Front Icon
 Under `Dimension Logo` upload your own image. Amazing!
 
 ![](images/customizer-logo.jpg "Custom Logo")
+
+
+### Edit Front Quote and Footer
+Under `Dimension Front Text` edit fields to add an optional quote (appears below tagline) and custom footer text (each it;s own panel now)
+
+![](images/customizer-front-text.jpg "Front Text")
+
+Any Footer text added will be placed before the current credits line at the bottom.
+
+
+### Other Settings
+
+Use this to limit the maximum number of boxes that appear on the front, from 1 to 16 allowed now.
+
+![](images/customizer-front-boxes.jpg "Front Box Max")
+
 
 ### Social Media Icons
 
@@ -61,8 +71,6 @@ To work in his plugin, we convert this to:
 ```
 fab fa-twitter
 ```
-
-
 
 Here are class names to render the icon for typical social media sites (these should be all lower case):
 

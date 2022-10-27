@@ -48,7 +48,7 @@
 						'post__not_in' => $exclude_hello_world,
 						'orderby' => 'menu_order',
 						'order' => 'ASC',
-						'posts_per_page' => 8,
+						'posts_per_page' => dimension_get_box_max(),
 					) );
 
 					// First Loop for the nav
