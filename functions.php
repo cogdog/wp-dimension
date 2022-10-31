@@ -223,41 +223,26 @@ add_action( 'customize_register', 'dimension_register_theme_customizer' );
 
 function dimension_register_theme_customizer( $wp_customize ) {
 	// Create custom panel.
-	$wp_customize->add_panel( 'text_blocks', array(
-		'priority'       => 500,
+	$wp_customize->add_section( 'dimension_stuff', array(
+		'priority'       => 10,
 		'theme_supports' => '',
 		'title'          => __( 'WP-Dimension', 'dimension' ),
+		'description' =>  __( 'Customize the main entry for your Dimension calling card site', 'dimension' ),
 	) );
 
 
-
-	// add section for custom logo
-	// ----- h/t https://kwight.ca/2012/12/02/adding-a-logo-uploader-to-your-wordpress-site-with-the-theme-customizer/
-	$wp_customize->add_section( 'dimension_logo_section' , array(
-		'title'       => __( 'Dimension Logo', 'dimension' ),
-		'panel'    => 'text_blocks',
-		'priority'    => 10,
-		'description' => 'Upload your own logo to replace the little gears',
-) );
 
 	// add setting for logo
 	$wp_customize->add_setting( 'dimension_logo' );
 
 	// add controller for logo
 	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'dimension_logo', array(
-		'label'    => __( 'Logo', 'dimension' ),
-		'section'  => 'dimension_logo_section',
+		'label'    => __( 'Top Logo', 'dimension' ),
+		'description' =>  __( 'Image to use for top logo (in circle)', 'dimension' ),
+		'section'  => 'dimension_stuff',
 		'settings' => 'dimension_logo',
 ) ) );
 
-
-
-	// Add section for quote
-	$wp_customize->add_section( 'custom_quote_text' , array(
-		'title'    => __('Edit Custom Quote','dimension'),
-		'panel'    => 'text_blocks',
-		'priority' => 15
-	) );
 	// Add setting for quote
 	$wp_customize->add_setting( 'quote_text_block', array(
 		 'default'           => __( '', 'dimension' ),
@@ -269,19 +254,15 @@ function dimension_register_theme_customizer( $wp_customize ) {
 		'quote_text_block',
 		    array(
 		        'label'    => __( 'Quote Text', 'dimension' ),
-		        'section'  => 'custom_quote_text',
+		        'description' =>  __( 'Optional quote or text below the title and site tagline', 'dimension' ),
+		        'section'  => 'dimension_stuff',
 		        'settings' => 'quote_text_block',
 		        'type'     => 'textarea'
 		    )
 	    )
 	);
 
-	// Add section for custom footer
-	$wp_customize->add_section( 'custom_footer_text' , array(
-		'title'    => __('Change Footer Text','dimension'),
-		'panel'    => 'text_blocks',
-		'priority' => 20
-	) );
+
 	// Add setting for footer
 	$wp_customize->add_setting( 'footer_text_block', array(
 		 'default'           => __( '', 'dimension' ),
@@ -293,19 +274,15 @@ function dimension_register_theme_customizer( $wp_customize ) {
 		'custom_footer_text',
 		    array(
 		        'label'    => __( 'Footer Text', 'dimension' ),
-		        'section'  => 'custom_footer_text',
+		        'description' =>  __( 'Text for leftmost part of footer', 'dimension' ),
+		        'section'  => 'dimension_stuff',
 		        'settings' => 'footer_text_block',
 		        'type'     => 'text'
 		    )
 	    )
 	);
 	
-	// Add section for other settings
-	$wp_customize->add_section( 'custom_other_settings' , array(
-		'title'    => __('Oher Settings','dimension'),
-		'panel'    => 'text_blocks',
-		'priority' => 25
-	) );
+
 	// Add setting for number of boxes
 	$wp_customize->add_setting( 'front_box_count', array(
 		 'default'           => 8,
@@ -317,7 +294,8 @@ function dimension_register_theme_customizer( $wp_customize ) {
 		'front_box_count',
 		    array(
 		        'label'    => __( 'Number of Boxes', 'dimension' ),
-		        'section'  => 'custom_other_settings',
+		         'description' =>  __( 'Set maximum number of front boxes to show (between 1 and 16)', 'dimension' ),
+		        'section'  => 'dimension_stuff',
 		        'settings' => 'front_box_count',
 		        'type'     => 'number',
 		        'input_attrs' => array(
