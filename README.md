@@ -48,6 +48,7 @@ It's sure elegant, right?
 * Dr Derritt Mason https://derrittmason.com/
 * Debby Tran http://staff.washington.edu/detran/
 * Domain of One's Own Admin Landing Page https://stateu.org/dooo-admin/
+* Jacob Gowell http://gowellja.com/
 * Jean Ramirez https://socioworld.openlcc.net/
 * Jeff Jaxon http://www.jeffjaxon.com/
 * Jonathan Mack https://jonathanmacklofi.com/
@@ -113,6 +114,7 @@ See the documentation of WP-Dimension, how to customize your site, and other Wor
 
 ## Features / History
 
+* v2.51 (Oct 30, 2022) CSS fix for social media menus (thanks Jacob G)
 * v2.5 (Oct 27, 2022) Customizer panels reorganized, a new setting to allow for more than 8 boxes on front page (or fewer)
 * v2.4 (Sep 7, 2022) Include Font Awesome 6.2, update the documentation and make use of Docsify This to display it all pretty like
 * v2.2 (Oct 2, 2021) Updated to match changes in CSS/JS of the original HTML5UP Dimension theme, including use of Font Awesome 5 icons
