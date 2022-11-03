@@ -1,11 +1,9 @@
 # HTML5up Dimension Theme for Wordpress
 
------
-*If this kind of stuff has any value to you, please consider supporting me so I can do more!*
 
-[![Support me on Patreon](http://cogdog.github.io/images/badge-patreon.png)](https://patreon.com/cogdog) [![Support me on via PayPal](http://cogdog.github.io/images/badge-paypal.png)](https://paypal.me/cogdog)
+[![Wordpress version badge](https://img.shields.io/badge/version-2.5.1-green.svg)](https://github.com/cogdog/truwriter/blob/master/style.css)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
------ 
 
 A configurable Wordpress Theme version of [HTML5up Dimension Theme](https://html5up.net/dimension) made for the internet by [@cogdog](http://cog.dog) (that link uses this theme!). WP-Dimension creates a simple, elegant calling card site you can host on your own domain, not park it in some ad-tracking About site.
 
@@ -87,6 +85,14 @@ It's sure elegant, right?
 
 [Search for other examples in The Google](https://www.google.com/search?q=%22WP+DIMENSION+BASED+ON+HTML5+UP%22)
 
+-----
+*If this kind of stuff has any value to you, please consider supporting me so I can do more!*
+
+[![Support me on Patreon](http://cogdog.github.io/images/badge-patreon.png)](https://patreon.com/cogdog) [![Support me on via PayPal](http://cogdog.github.io/images/badge-paypal.png)](https://paypal.me/cogdog)
+
+----- 
+
+
 ## More info
 
 * [Blog Posts About WP-Dimension](https://cogdogblog.com/tag/wp-dimension/) (CogDogBlog)
@@ -113,6 +119,7 @@ See the documentation of WP-Dimension, how to customize your site, and other Wor
 
 
 ## Features / History
+
 
 * v2.51 (Oct 30, 2022) CSS fix for social media menus (thanks Jacob G)
 * v2.5 (Oct 27, 2022) Customizer panels reorganized, a new setting to allow for more than 8 boxes on front page (or fewer)
