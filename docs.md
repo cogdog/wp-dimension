@@ -19,7 +19,7 @@ Under `Header Image` upload an image (recommended size 1568 x 1024 px or bigger)
 
 The reason we use Header image controller, is you can upload more than one image, and use the option to randomize each time.
 
-The other theme specific options are now under a **WP-Dimension** panel at the bottom of the Customizer
+The other theme specific options are now under a **WP-Dimension** panel listed in Customizer
 
 ### Front Icon
 Under `Dimension Logo` upload your own image. Amazing!
@@ -27,19 +27,15 @@ Under `Dimension Logo` upload your own image. Amazing!
 ![](images/customizer-logo.jpg "Custom Logo")
 
 
-### Edit Front Quote and Footer
-Under `Dimension Front Text` edit fields to add an optional quote (appears below tagline) and custom footer text (each it;s own panel now)
+### Edit Front Quote and Footer Tr=ex
+Under `Quote` edit fields to add an optional quote that appears below tagline. Use `Footer Text` to modify the left portion of footer text
 
-![](images/customizer-front-text.jpg "Front Text")
-
-Any Footer text added will be placed before the current credits line at the bottom.
+![](images/customizer-front.jpg "Front Text")
 
 
-### Other Settings
+### Number of Boxes
 
 Use this to limit the maximum number of boxes that appear on the front, from 1 to 16 allowed now.
-
-![](images/customizer-front-boxes.jpg "Front Box Max")
 
 
 ### Social Media Icons
@@ -75,6 +71,7 @@ fab fa-twitter
 Here are class names to render the icon for typical social media sites (these should be all lower case):
 
 * fab fa-twitter
+* fab fa-mastodon
 * fab fa-facebook
 * fab fa-youtube
 * fab fa-linkedin
@@ -96,12 +93,12 @@ In addition, if you want to provide a tool tip hover for the icons, look again u
 
 This provides a tool tip like
 
-![](images/filckr-tip.jpg "")
+![](images/flickr-tip.jpg "")
 
 
 ## Buttons! On the Bottom!
 
-The content for the lower row of buttons is driven by plain old posts; inside of WordPress they are named "Front Boxes". You can have up to 8, but 4 or 6 look better.
+The content for the lower row of buttons is driven by plain old posts; inside of WordPress they are named "Front Boxes". You can have up to 16, but 4 or 6 look better.
 
 For each create a new Front Box. You can use long titles.
 
@@ -156,8 +153,7 @@ The featured images displayed for each post will be scaled down to fit a size wi
 
 ## Suggested Plugins
 
-* [Iconic Awesome Fonts For Menus](https://github.com/cogdog/font-awesome-5-menus) used to add the icons to the social media links below the tag line (also made by me)
-* [Fluid Video Embeds](https://wordpress.org/plugins/fluid-video-embeds/) will make sure your auto embedded videos (and other content wordpress can embed by URL) are responsive sized to fill the column width
+* [Iconic Fonts For Menus](https://github.com/cogdog/font-awesome-5-menus) used to add the icons to the social media links below the tag line (also made by me)
 * [JetPack](https://wordpress.org/plugins/jetpack/) can add a number of capabilities, such as adding a contact form. If you do [create a contact form](https://jetpack.com/support/contact-form/), make sure you also add and activate [Akismet](http://akismet.com/) because *you will get spam*
 * [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/) If you change to this theme from another one, you should run this plug to re-generate previously uploaded images in the specific sizes used by the theme.
 
