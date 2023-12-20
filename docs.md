@@ -159,7 +159,7 @@ The featured images displayed for each post will be scaled down to fit a size wi
 
 ## Updating the WP-Dimension theme
 
-Current version [![Wordpress version badge](https://img.shields.io/badge/version-2.5-green.svg)](https://github.com/cogdog/wp-dimension/blob/master/style.css)
+Current version [![Wordpress version badge](https://img.shields.io/badge/version-2.5.1-green.svg)](https://github.com/cogdog/wp-dimension/blob/master/style.css)
 
 Compare this to the version of WP-Dimension reported in your list of themes. Note that WordPress's reporting of themes being up to date does **not** reflect custom themes such as this one.  If what you see is less than the version above, here is how to update your copy of this theme. 
 
