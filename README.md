@@ -1,15 +1,23 @@
 # HTML5up Dimension Theme for Wordpress
 
-
 [![Wordpress version badge](https://img.shields.io/badge/version-2.5.1-green.svg)](https://github.com/cogdog/truwriter/blob/master/style.css)
+![PHP Tested](https://img.shields.io/badge/PHP_tested-8.2.8-yellow.svg)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 
-A configurable Wordpress Theme version of [HTML5up Dimension Theme](https://html5up.net/dimension) made for the internet by [@cogdog](http://cog.dog) (that link uses this theme!). WP-Dimension creates a simple, elegant calling card site you can host on your own domain, not park it in some ad-tracking About site.
+A configurable Wordpress Theme version of [HTML5up Dimension Theme](https://html5up.net/dimension) made for the internet by [@cogdog](http://cog.dog) (that link uses this theme!). WP-Dimension creates a simple, elegant but super flexible calling card site you can host on your own domain, not park it in some ad-tracking About site.
+
+:house: WP-Dimension |
+[:mag: Examples](examples.md) | 
+[:rocket: Installing](install.md) | 
+[:book: Documentation](docs.md) | 
+[:speech_balloon: Discussions](https://github.com/cogdog/wp-dimension/discussions)
 
 WP-Dimension creates a site that looks like
 
 ![Screenshot of Theme](screenshot.png "Screenshot of Dimension Theme")
+
+Almost every thing beyond the boxes and menus, including the top icon and the background image can me modified with the WordPress Customizer. The optional social menu icon menu is enabled by installing the [Iconic Font Menus plugin](https://github.com/cogdog/font-awesome-5-menus) (another one made by moi).
 
 The box links below the headings each open content overlays, each a Wordpress post, internally on the site renamed "Front Boxes": 
 
@@ -21,77 +29,9 @@ Editing options in the posts/front pages provide the means to add a button and l
 
 It's sure elegant, right?
 
-## Examples
+## So You are Interested in Using WP-Dimension?
 
-* Adam J Engel https://adamjengel.com/
-* Alison Crump http://alisoncrump.ca/research/
-* Allen Means https://allenmeans.com/
-* Alyssa V. Loera https://alyssavloera.com/
-* Anne Cong-Huyen https://anitaconchita.org/
-* Ancestors in the Archives http://ancestorsinthearchives.com/
-* Ariel Fullerton https://arielfullerton.ca/
-* BC Academic Integrity Network https://bcain.trubox.ca/
-* Bild-Lida (Belonging, Identity, Language, Diversity Research Group (BILD) // Groupe de Recherche Langage, Identité, Diversité, Appartenance (LIDA)) http://bild-lida.ca/
-* Buffscreate Community http://possibility.buffscreate.net/
-* Carolinas Regional Phi Alpha Theta Conference http://pat-2022.history.dhlbac.net/
-* Casey W. Patterson http://caseywpatterson.com/
-* Chris Lott https://chrislott.org/
-* Chrissy's Blog https://chrissylynn.opened.ca/
-* Chu Media UK https://chumedia.uk/
-* Coffee Walkee http://coffeewalkee.com/
-* CogDog (that's me!) https://cog.dog/
-* Coventry University Art and Design Skills Hub http://origin.coventry.domains/
-* Cowboy flavored demo http://lab.cogdogblog.com/dimension/
-* Davie Quinn http://eduquinn.com/
-* Dr Derritt Mason https://derrittmason.com/
-* Debby Tran http://staff.washington.edu/detran/
-* Domain of One's Own Admin Landing Page https://stateu.org/dooo-admin/
-* Jacob Gowell http://gowellja.com/
-* Jean Ramirez https://socioworld.openlcc.net/
-* Jeff Jaxon http://www.jeffjaxon.com/
-* Jonathan Mack https://jonathanmacklofi.com/
-* JR Dingwall https://jrdingwall.ca/
-* Dr. Kari A. B. Chew https://ithana.org/
-* Ken Bauer https://kenbauer.me/
-* Kim Jaxon http://www.kimjaxon.com/me/
-* Kim Carter https://cupofteaching.ca/
-* Kyle Denlinger https://kyledenlinger.com/
-* Laura Killam http://nursekillam.com/
-* Lisa Katarina Zimmermann http://lisa-zimmermann-sopran.de/ and http://lisa-zimmermann-sopran.de/en/
-* Mariana Funes http://marianafun.es/
-* Marie Yvette Lepage, M.S.W., R.S.W. https://www.mylepage.ca/
-* Matt Croslin https://mattcrosslin.com/
-* Micheal J Altman https://michaeljaltman.com/
-* Norm Wright http://nostorynorm.com/
-* Origin: Coventry University Art and Design Research Hub  http://origin.coventry.domains/
-* PT Becca http://www.ptbecca.co.uk/
-* Roland J. Kushner https://rjkushner.com/
-* Sam Holley-Kline https://samholleykline.com/
-* Sarah Lieselotte Helga https://sarahlieselotte.com/
-* Science in the Learning Gardens http://learning-gardens.org/
-* Shyanne Michael http://shyannemichael.com/
-* Simon Thompson http://about.digis.im/
-* SPLOT presentation "A Shotgun Marriage" http://splot.ca/domains2017/
-* Stacey Greenwell https://staceygreenwell.createuky.net/
-* Studio Bruit D'Avril https://bruitdavril.fr/
-* Suzanne Thompson https://thompssw.sites.wfu.edu/
-* Svea Hernandez http://www.stsci.edu/~sveash/
-* T. Wallimann https://ihr-gartenpfleger.ch/wp/
-* Tom Fullerton http://tomfullerton.ca/
-* Dr. Torben Haghfelt https://haghfelt.dk/
-* Tech For Teaching (Conestoga College) http://techforteaching.ca/
-* Vert'altitude https://vertaltitude.org/
-* Whale Racks http://www.whaleracks.com/
-
-[Search for other examples in The Google](https://www.google.com/search?q=%22WP+DIMENSION+BASED+ON+HTML5+UP%22)
-
------
-*If this kind of stuff has any value to you, please consider supporting me so I can do more!*
-
-[![Support me on Patreon](http://cogdog.github.io/images/badge-patreon.png)](https://patreon.com/cogdog) [![Support me on via PayPal](http://cogdog.github.io/images/badge-paypal.png)](https://paypal.me/cogdog)
-
------ 
-
+For inspiration I offer [a collection of other sites](examples.md) using this theme, then provide  [details on how to install it](install.md), and once set up, the [documentation](docs.md) for customizing it in WordPress (plus details on how to update). The  documentation is available in a more readable format - [see the Docs!](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/cogdog/wp-dimension/master&homepage=docs.md&sidebar=true#/) (thanks to [Docsify This](https://docsify-this.net/)).
 
 ## More info
 
@@ -99,27 +39,8 @@ It's sure elegant, right?
 * [Wordpress Calling Card Themes](https://cards.cog.dog/) (built with one of them!)
 * [Let's Go Small with WordPress Calling Card Themes](https://cog.dog/show/2022/03/25/pressedconf22/) (#PressEdConf 2022 presentation)
 
-## Installing from Scratch
-
-Install this theme on any self hosted Wordpress site. You cannot do this on Wordpress.com, get a real web hosting package.
-
-You can download a ZIP file of this theme via the green **Code*" button above (use the Download Zip option). 
-
-The zip can be uploaded directly to your site via **Themes** in the Wordpress dashboard, then **Add Theme** and finally **Upload Theme**. If you run into size upload limits or just prefer going old school like me, unzip the package and ftp the entire folder into your `wp-content/themes` directory.
-
-## Updating the Theme
-
-As of WordPress version 5.5 themes uploaded as .ZIP files can now be updated the same way you installed it; just download the newest version, and update it  via **Themes** in the Wordpress dashboard, then **Add Theme** and finally **Upload Theme**. You will be asked to confirm updating the theme with the newer version.  
-
-If you have ftp/sftp access to your site (or this can be done in a cpanel file manager), simply upload the new theme files to the `wp-content/themes` directory that includes the older version theme. 
-
-## We Got Your Docs Right Here
-
-See the documentation of WP-Dimension, how to customize your site, and other WordPress features included in the theme [now separated as it's own link here](https://github.com/cogdog/wp-dimension/blob/master/docs.md) but can also be viewed in a more readable format - [see the Docs!](https://docsify-this.net/?basePath=https://raw.githubusercontent.com/cogdog/wp-dimension/master&homepage=docs.md&sidebar=true#/) (thanks to [Docsify This](https://docsify-this.net/)).
-
 
 ## Features / History
-
 
 * v2.51 (Oct 30, 2022) CSS fix for social media menus (thanks Jacob G)
 * v2.5 (Oct 27, 2022) Customizer panels reorganized, a new setting to allow for more than 8 boxes on front page (or fewer)
@@ -136,5 +57,4 @@ See the documentation of WP-Dimension, how to customize your site, and other Wor
 
 ### Requests
 
-* *you tell me* Fork and edit to suggest features or [toss them into the Issues bin](https://github.com/cogdog/wp-dimension/issues)
-* Please make use of the [Discussion space on GitHub](https://github.com/cogdog/wp-dimension/discussions/)! Talk to me there.
+* *you tell me* Fork and edit to suggest features or [toss them into the Issues bin](https://github.com/cogdog/wp-dimension/issues) or just talk to me there.

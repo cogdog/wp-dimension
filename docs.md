@@ -161,6 +161,25 @@ The featured images displayed for each post will be scaled down to fit a size wi
 * [JetPack](https://wordpress.org/plugins/jetpack/) can add a number of capabilities, such as adding a contact form. If you do [create a contact form](https://jetpack.com/support/contact-form/), make sure you also add and activate [Akismet](http://akismet.com/) because *you will get spam*
 * [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/) If you change to this theme from another one, you should run this plug to re-generate previously uploaded images in the specific sizes used by the theme.
 
+## Updating the WP-Dimension theme
+
+Current version [![Wordpress version badge](https://img.shields.io/badge/version-2.5-green.svg)](https://github.com/cogdog/wp-dimension/blob/master/style.css)
+
+Compare this to the version of WP-Dimension reported in your list of themes. Note that WordPress's reporting of themes being up to date does **not** reflect custom themes such as this one.  If what you see is less than the version above, here is how to update your copy of this theme. 
+
+If you [installed WP-Dimension using the WP-Pusher plugin](https://github.com/cogdog/wp-dimension/blob/master/install.md#installing-wp-dimension-in-one-click-with-wp-pusher-get-automatic-updates), updates can be made automatic or done in one click!
+
+Otherwise, if you installed manually, updates are not too hard to do.
+
+
+*This applies if you are running WordPress on your own web hosting platform where you have the ability to install themes and plugins. If you are on a shared/multisite WordPress server, please contact your friendly technical admins and request that they update WP-Dimension.*
+
+Custom (a.k.a unique!) WordPress themes like WP-Dimension are installed by uploading a `.zip` file. They can now be updated the same way you installed it. It's that easy! 
+
+Just [download the newest version of WP-Dimension as a .zip ](https://github.com/cogdog/wp-dimension/archive/refs/heads/master.zip). Now in your WordPress Dashboard, go to **Themes**, then **Add Theme** and finally **Upload Theme**. You will be asked to confirm updating the theme with the newer version.  
+
+When done, your site should report this current version as active.
+
 
 ## Got Questions?
 
