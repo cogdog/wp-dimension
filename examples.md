@@ -72,6 +72,7 @@ If you are wondering what a WP-Dimension calling card site can do, explore this 
 * Veracity Lab https://veracity.wgtn.ac.nz/
 * Vert'altitude https://vertaltitude.org/
 * Whale Racks http://www.whaleracks.com/
+* Zi Wang https://ziwang.opened.ca/
 
 [Search for other examples in The Google](https://www.google.com/search?q=%22WP+DIMENSION+BASED+ON+HTML5+UP%22)
 
