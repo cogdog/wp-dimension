@@ -32,6 +32,7 @@ If you are wondering what a WP-Dimension calling card site can do, explore this 
 * Debby Tran http://staff.washington.edu/detran/
 * Domain of One's Own Admin Landing Page (Reclaim Hosting) https://stateu.org/dooo-admin/
 * Domain of One's Own Admin Landing Page (University of Nebraska Omaha) https://unomaha.community/dooo-admin/
+* Easton Smith APRD 3103 Portfolio https://aprd3103.eastonsmith.buffscreate.net/
 * Jacob Gowell http://gowellja.com/
 * Jean Ramirez https://socioworld.openlcc.net/
 * Jeff Jaxon http://www.jeffjaxon.com/
