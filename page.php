@@ -19,13 +19,13 @@
 									<?php the_content(); ?>
 
 
-									<p class="align-center"><a href="<?php echo site_url(); ?>" class="button special icon  fa-hand-o-left">return</a></p>
+									<p class="align-center"><a href="<?php echo home_url( '/' ); ?>" class="button special icon  fa-hand-o-left">return</a></p>
 
 								</div>
 
 					<?php endwhile; else: ?>
 
-			<p><?php _e("We couldn't find any boxes that matched your query. Please try again.", "dimension"); ?></p>
+			<p><?php _e("We couldn't find any pages that matched your query. Please try again.", "dimension"); ?></p>
 
 	<?php endif; ?>
 
